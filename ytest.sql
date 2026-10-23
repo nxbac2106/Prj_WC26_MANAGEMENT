@@ -52,6 +52,7 @@ SELECT player_id, 'Scored a goal' AS action FROM match_events WHERE event_type =
 UNION
 -- Lấy người nhận thẻ đỏ
 SELECT player_id, 'Received Red Card' AS action FROM match_events WHERE event_type = 'Red Card';
+
 --  intersect
 -- Cầu thủ ghi bàn
 SELECT player_id FROM match_events WHERE event_type = 'Goal'
@@ -134,20 +135,3 @@ GROUP BY
 HAVING SUM(ml.minutes_played) >= 180
 ORDER BY total_starting_minutes DESC;
 
--- Các đội đã đá vòng knockout
-SELECT DISTINCT t.team_id, t.team_name
-FROM matches m
-INNER JOIN tournament_stages ts ON m.stage_id = ts.stage_id
-INNER JOIN teams t ON t.team_id IN (m.home_team_id, m.away_team_id)
-WHERE ts.is_knockout = 1
-
-EXCEPT
-
--- Các đội đã từng thắng ít nhất 1 trận
-SELECT DISTINCT winner.team_id, winner.team_name
-FROM (
-    SELECT home_team_id AS team_id FROM matches WHERE home_score > away_score
-    UNION
-    SELECT away_team_id FROM matches WHERE away_score > home_score
-) w
-INNER JOIN teams winner ON w.team_id = winner.team_id;
