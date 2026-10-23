@@ -36,16 +36,6 @@ WHERE mtl.is_starting = 1
 ORDER BY t.team_name, mtl.tactical_position;
 
 
--- 4. Thong ke cac loai su kien
-SELECT
-    event_type,
-    COUNT(*) AS total_events
-FROM match_events
-GROUP BY event_type
-ORDER BY total_events DESC;
-
-
-
 -- union
 -- Lấy người ghi bàn
 SELECT player_id, 'Scored a goal' AS action FROM match_events WHERE event_type = 'Goal'
@@ -81,7 +71,7 @@ WHERE ps.player_id IN (
     SELECT player_id FROM match_events WHERE event_type = 'Assist'
 );
 
--- 
+-- ca ghi ban ca kien tao
 SELECT 
     ps.player_name,
     t.team_name,
@@ -107,31 +97,4 @@ WHERE me.event_type = 'Assist'
 GROUP BY ps.player_name, t.team_name
 ORDER BY role, so_lan DESC;
 
--- 6.
--- Tất cả cầu thủ
-SELECT player_id, player_name FROM player_squads
-EXCEPT
--- Những cầu thủ đã ghi bàn
-SELECT p.player_id, p.player_name 
-FROM player_squads p
-INNER JOIN match_events me ON p.player_id = me.player_id
-WHERE me.event_type = 'Goal';
-
--- 6. Thong ke so phut thi dau cua cac cau thu da chinh
-SELECT
-    p.player_name,
-    t.team_name,
-    SUM(ml.minutes_played) AS total_starting_minutes
-FROM match_team_lineups AS ml
-JOIN player_squads AS p
-    ON ml.player_id = p.player_id
-JOIN teams AS t
-    ON ml.team_id = t.team_id
-WHERE ml.is_starting = 1
-GROUP BY
-    p.player_id,
-    p.player_name,
-    t.team_name
-HAVING SUM(ml.minutes_played) >= 180
-ORDER BY total_starting_minutes DESC;
 
