@@ -158,7 +158,7 @@ create table match_team_statistics (
     team_id int not null,
     possession_pct int,
     total_shots int default 0,
-    shows_on_target int default 0,
+    shots_on_target int default 0,
     corners int default 0,
     fouls int default 0,
     offsides int default 0,
@@ -169,11 +169,11 @@ create table match_team_statistics (
     foreign key (match_id) references matches(match_id),
     foreign key (team_id) references teams(team_id)
 );
-
+go
 
 -- INSERT DU LIEU
 bulk insert referees
-from 'D:\btl_hqt\datasets\referees.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\referees.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -183,7 +183,7 @@ with (
 );
 
 bulk insert stadiums
-from 'D:\btl_hqt\datasets\stadiums.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\stadiums.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -193,7 +193,7 @@ with (
 );
 
 bulk insert tournament_stages
-from 'D:\btl_hqt\datasets\tournament_stages.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\tournament_stages.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -203,7 +203,7 @@ with (
 );
 
 bulk insert teams
-from 'D:\btl_hqt\datasets\teams.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\teams.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -213,7 +213,7 @@ with (
 );
 
 bulk insert player_squads
-from 'D:\btl_hqt\datasets\player_squads.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\player_squads.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -223,7 +223,7 @@ with (
 );
 
 bulk insert player_tournament_statistics
-from 'D:\btl_hqt\datasets\player_tournament_statistics.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\player_tournament_statistics.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -233,7 +233,7 @@ with (
 );
 
 bulk insert matches
-from 'D:\btl_hqt\datasets\matches.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\matches.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -243,7 +243,7 @@ with (
 );
 
 bulk insert matches_detailed
-from 'D:\btl_hqt\datasets\matches_detailed.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\matches_detailed.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -253,7 +253,7 @@ with (
 );
 
 bulk insert match_events
-from 'D:\btl_hqt\datasets\match_events.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\match_events.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -263,7 +263,7 @@ with (
 );
 
 bulk insert match_team_lineups
-from 'D:\btl_hqt\datasets\match_team_lineups.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\match_team_lineups.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -273,7 +273,7 @@ with (
 );
 
 bulk insert match_team_statistics
-from 'D:\btl_hqt\datasets\match_team_statistics.csv' 
+from 'D:\Prj_WC26_MANAGEMENT\datasets\match_team_statistics.csv' 
 with (
     format = 'CSV',
     firstrow = 2,           
@@ -282,12 +282,14 @@ with (
     codepage = '65001'
 );
 
+go
+
 select * from referees
 select * from stadiums
 select * from tournament_stages
 select * from teams
 select * from player_squads
-select * from player_tournament_statistics
+select * from player_tournament_statistics 
 select * from matches
 select * from matches_detailed
 select * from match_events

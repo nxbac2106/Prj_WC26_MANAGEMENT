@@ -118,6 +118,7 @@ from player_tournament_statistics
 join teams on player_tournament_statistics.team_id = teams.team_id
 order by minutes_played desc
 
+-- 4.4 Cầu thủ ghi bàn bằng pen nhiều nhất
 select player_squads.player_name, teams.team_name, player_squads.position, count(match_events.event_type) as total_pen_goals
 from player_squads
 join teams on player_squads.team_id = teams.team_id
@@ -125,4 +126,7 @@ join match_events on player_squads.player_id = match_events.player_id
 where match_events.event_type = 'Penalty Shootout Goal'
 group by player_squads.player_name, teams.team_name, player_squads.position
 order by total_pen_goals desc
+
+go
+
 

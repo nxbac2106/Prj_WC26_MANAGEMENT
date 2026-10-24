@@ -9,7 +9,7 @@ sofascore_data1 = {
     # --- TOP 1 - 120 ---
     "Lionel Andrés Messi": 8.79,
     "Lawrence Ati Zigi": 8.45,
-    "Kylian Mbappé": 8.24,
+    "Kylian Mbappe": 8.24,
     "Mateo Chavez": 8.10,
     "José Vinicius": 8.00,                    # Vinícius Júnior
     "Masour Ousmane Dembele": 7.91,           # Ousmane Dembélé
