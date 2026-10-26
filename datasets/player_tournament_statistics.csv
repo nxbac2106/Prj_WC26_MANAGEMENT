@@ -1,1249 +1,1249 @@
-﻿player_id,player_name,team_id,position,matches_played,matches_started,minutes_played,goals,assists,shots,shots_on_target,yellow_cards,red_cards,penalty_goals,own_goals,clean_sheets,saves,avg_rating
-1,José Raúl Rangel,1,GK,5,5,438,0,0,,,0,0,0,0,4.0,7.0,7.2
-2,Jorge Eduardo Sanchez,1,DEF,5,5,439,0,1,,,0,0,0,0,,,6.68
-3,César Jasib Montes,1,DEF,3,2,165,0,0,,,0,1,0,0,,,7.05
-4,Edson Omar Alvarez,1,DEF,2,0,75,0,0,,,1,0,0,0,,,7.08
-5,Johan Felipe Vasquez,1,DEF,2,2,180,0,0,,,0,0,0,0,,,7.08
-6,Erik Antonio Lira,1,MID,5,5,450,0,1,,,1,0,0,0,,,7.03
-7,Luis Francisco Romo,1,MID,4,2,194,1,1,,,0,0,0,0,,,6.9
-8,Álvaro Fidalgo,1,MID,2,0,41,1,0,,,0,0,0,0,,,7.3
-9,Raúl Alonso Jimenez,1,FWD,3,2,193,3,0,,,0,0,0,0,,,7.2
-10,Ernesto Alexis Vega,1,FWD,0,0,0,0,0,,,0,0,0,0,,,
-11,Santiago Tomás Gimenez,1,FWD,5,3,316,0,0,,,0,0,0,0,,,
-12,Carlos Acevedo,1,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-13,Francisco Guillermo Ochoa,1,GK,1,0,12,0,0,,,0,0,0,0,0.0,0.0,
-14,Armando Gonzalez,1,FWD,0,0,0,0,0,,,0,0,0,0,,,
-15,Israel Reyes,1,DEF,4,3,280,0,0,,,0,0,0,0,,,7.03
-16,Julián Andrés Quinones,1,FWD,4,2,221,4,1,,,0,0,0,0,,,7.72
-17,Orbelín Pineda,1,MID,4,3,280,0,0,,,0,0,0,0,,,
-18,Obed Goméz Vargas,1,MID,1,0,17,0,0,,,0,0,0,0,,,6.67
-19,Gilberto Rafael Mora,1,MID,5,5,390,0,0,,,0,0,0,0,,,
-20,Mateo Chavez,1,DEF,3,3,270,1,0,,,0,0,0,0,,,8.1
-21,César Saúl Huerta,1,FWD,0,0,0,0,0,,,0,0,0,0,,,
-22,Guillermo Martinez,1,FWD,4,3,279,0,0,,,0,0,0,0,,,
-23,Jesús Daniel Gallardo,1,DEF,5,5,450,0,0,,,0,0,0,0,,,6.72
-24,Luis Gerardo Chavez,1,MID,3,3,270,0,0,,,0,0,0,0,,,6.8
-25,Roberto Carlos Alvarado,1,FWD,4,2,230,0,3,,,0,0,0,0,,,7.34
-26,Brian Gutierrez,1,MID,2,0,60,0,0,,,0,0,0,0,,,6.9
-27,Ronwen Hayden Williams,2,GK,4,4,360,0,0,,,0,0,0,0,1.0,17.0,7.15
-28,Tholo Thabang Matuludi,2,DEF,0,0,0,0,0,,,0,0,0,0,,,
-29,Khulumani Ndamane,2,DEF,0,0,0,0,0,,,0,0,0,0,,,
-30,Teboho Mokoena,2,MID,3,3,270,1,0,,,1,0,0,0,,,7.07
-31,Thalente Wandile Mbatha,2,MID,4,2,258,0,0,,,1,0,0,0,,,
-32,Aubrey Maphosa Modiba,2,DEF,4,4,346,0,0,,,0,0,0,0,,,7.08
-33,Oswin Reagan Appollis,2,FWD,4,3,256,0,0,,,0,0,0,0,,,6.68
-34,Tshepang Moremi,2,FWD,2,0,32,0,1,,,0,0,0,0,,,6.9
-35,Lyle Brent Foster,2,FWD,1,1,56,0,0,,,0,0,0,0,,,
-36,Relebohile Mofokeng,2,FWD,3,2,170,0,0,,,0,0,0,0,,,6.77
-37,Themba Zwane,2,MID,1,0,29,0,0,,,0,1,0,0,,,
-38,Thapelo Maseko,2,FWD,3,3,245,1,0,,,0,0,0,0,,,7.0
-39,Sphephelo S'miso Sithole,2,MID,3,3,270,0,0,,,0,1,0,0,,,
-40,Mbekezeli Mfanufikile Mbokazi,2,DEF,4,4,360,0,0,,,0,0,0,0,,,6.9
-41,Iqraam Rayners,2,FWD,4,2,161,0,0,,,0,0,0,0,,,
-42,Sipho Justin Chaine,2,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-43,Sekotori Evidence Makgopa,2,FWD,4,2,214,0,0,,,0,0,0,0,,,6.68
-44,Samukele Alucious Kabini,2,DEF,0,0,0,0,0,,,0,0,0,0,,,
-45,Nkosinathi Emmanuel Sibisi,2,DEF,1,1,90,0,0,,,0,0,0,0,,,
-46,Khuliso Johnson Mudau,2,DEF,4,4,360,0,0,,,0,0,0,0,,,6.81
-47,Ime Daniel Okon,2,DEF,4,4,360,0,0,,,0,0,0,0,,,6.8
-48,Stuart Ricardo Goss,2,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-49,Jayden Oswin Adams,2,MID,3,2,117,0,0,,,0,0,0,0,,,
-50,Olwethu Mpilwenhle Makhanya,2,DEF,0,0,0,0,0,,,0,0,0,0,,,
-51,Kamogelo Michael Sebelebele,2,FWD,1,0,6,0,0,,,0,0,0,0,,,
-52,Bradley Paul Cross,2,DEF,0,0,0,0,0,,,0,0,0,0,,,
-53,Seunggyu Kim,3,GK,3,3,270,0,0,,,0,0,0,0,0.0,8.0,6.77
-54,Hanbeom Lee,3,DEF,3,3,270,0,0,,,0,0,0,0,,,6.73
-55,Gihyuk Lee,3,MID,3,3,270,0,0,,,0,0,0,0,,,7.13
-56,Minjae Kim,3,DEF,3,3,245,0,0,,,1,0,0,0,,,6.87
-57,Taehyeon Kim,3,DEF,0,0,0,0,0,,,0,0,0,0,,,
-58,Inbeom Hwang,3,MID,3,3,264,1,1,,,0,0,0,0,,,7.47
-59,Heung Min Son,3,FWD,3,2,170,0,0,,,0,0,0,0,,,6.7
-60,Seungho Paik,3,MID,3,3,207,0,0,,,0,0,0,0,,,6.67
-61,Guesung Cho,3,FWD,2,0,29,0,0,,,0,0,0,0,,,
-62,Jae Sung Lee,3,MID,2,2,119,0,0,,,0,0,0,0,,,6.8
-63,Hee Chan Hwang,3,MID,3,1,107,0,0,,,0,0,0,0,,,
-64,Bumkeun Song,3,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-65,Taeseok Lee,3,DEF,2,2,115,0,0,,,0,0,0,0,,,7.1
-66,Wije Cho,3,DEF,0,0,0,0,0,,,0,0,0,0,,,
-67,Moonhwan Kim,3,DEF,1,1,71,0,0,,,0,0,0,0,,,
-68,Jinseob Park,3,DEF,2,0,31,0,0,,,0,0,0,0,,,6.8
-69,Junho Bae,3,MID,0,0,0,0,0,,,0,0,0,0,,,
-70,Hyeongyu Oh,3,FWD,3,1,128,1,0,,,0,0,0,0,,,6.71
-71,Kangin Lee,3,MID,3,3,270,0,1,,,0,0,0,0,,,7.27
-72,Hyunjun Yang,3,MID,1,0,19,0,0,,,0,0,0,0,,,6.7
-73,Hyeonwoo Jo,3,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-74,Youngwoo Seol,3,DEF,3,3,251,0,0,,,0,0,0,0,,,6.7
-75,Jens Castrop,3,DEF,1,0,44,0,0,,,0,0,0,0,,,
-76,Jingyu Kim,3,MID,2,0,50,0,0,,,0,0,0,0,,,6.85
-77,Jisung Eom,3,MID,2,0,40,0,0,,,0,0,0,0,,,7.25
-78,Donggyeong Lee,3,MID,0,0,0,0,0,,,0,0,0,0,,,
-79,Mat ě j Kovar,4,GK,3,3,270,0,0,,,0,0,0,0,0.0,9.0,6.63
-80,David Zima,4,DEF,1,0,12,0,0,,,0,0,0,0,,,
-81,Tomáš Holes,4,DEF,2,2,154,0,0,,,0,0,0,0,,,
-82,Robin Hranac,4,DEF,3,3,270,0,0,,,0,0,0,0,,,
-83,Vladimír Coufal,4,DEF,3,3,270,0,1,,,0,0,0,0,,,6.67
-84,ě pán Chaloupek,4,DEF,1,1,90,0,0,,,0,0,0,0,,,
-85,Ladislav Krejci,4,DEF,3,3,270,1,0,,,1,0,0,0,,,6.9
-86,Vladimír Darida,4,MID,1,1,55,0,0,,,0,0,0,0,,,6.9
-87,Adam Hlozek,4,FWD,3,2,158,0,0,,,0,0,0,0,,,6.67
-88,Patrik Schick,4,FWD,3,2,179,0,0,,,0,0,0,0,,,
-89,Jan Kuchta,4,FWD,0,0,0,0,0,,,0,0,0,0,,,
-90,Lukáš Cerv,4,MID,2,2,165,0,0,,,0,0,0,0,,,6.8
-91,Mojmír Chytil,4,FWD,1,0,6,0,0,,,0,0,0,0,,,
-92,David Jurasek,4,DEF,0,0,0,0,0,,,0,0,0,0,,,
-93,Pavel Sulc,4,FWD,3,2,188,0,0,,,0,0,0,0,,,6.67
-94,Jind ř ich Stanek,4,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-95,Lukáš Provod,4,MID,3,1,120,0,0,,,0,0,0,0,,,6.67
-96,Michal Sadilek,4,MID,3,2,184,1,0,,,0,0,0,0,,,6.93
-97,Tomáš Chory,4,FWD,2,0,30,0,0,,,0,0,0,0,,,
-98,Jaroslav Zeleny,4,DEF,2,1,125,0,0,,,0,0,0,0,,,6.65
-99,David Doudera,4,DEF,1,1,90,0,0,,,0,0,0,0,,,
-100,Tomáš Soucek,4,MID,3,1,136,0,0,,,0,0,0,0,,,
-101,Lukáš Hornicek,4,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-102,Alexandr Sojka,4,MID,3,2,142,0,1,,,0,0,0,0,,,6.78
-103,Hugo Sochurek,4,MID,0,0,0,0,0,,,0,0,0,0,,,
-104,Denis Visinsky,4,FWD,1,1,56,0,0,,,0,0,0,0,,,6.7
-105,Dayne Tristan St. Clair,5,GK,1,0,30,0,0,,,0,0,0,0,0.0,0.0,
-106,Alistair William Johnston,5,DEF,5,5,450,0,0,,,0,0,0,0,,,7.02
-107,Alfie Charles Jones,5,DEF,1,1,90,0,0,,,0,0,0,0,,,
-108,Luc De Fougerolles,5,DEF,4,3,282,0,0,,,0,0,0,0,,,6.7
-109,Joel Robert Waterman,5,DEF,0,0,0,0,0,,,0,0,0,0,,,
-110,Mathieu Choiniere,5,MID,1,1,58,0,0,,,0,0,0,0,,,6.8
-111,Stephen Eustaquio,5,MID,5,4,392,1,0,,,0,0,0,0,,,7.7
-112,Ismaël Kenneth Jordan Kone,5,MID,3,3,236,0,0,,,1,0,0,0,,,6.8
-113,Cyle Christopher Larin,5,FWD,3,2,162,2,0,,,0,0,0,0,,,6.75
-114,Jonathan Christian David,5,FWD,5,5,421,3,0,,,0,0,0,0,,,6.84
-115,Liam Alan Millar,5,MID,3,2,163,0,0,,,0,0,0,0,,,
-116,Tanitoluwa Oluwatimilehin Oluwaseyi,5,FWD,4,2,197,0,0,,,0,0,0,0,,,6.68
-117,Derek Austin Cornelius,5,DEF,4,4,316,0,0,,,0,0,0,0,,,
-118,Jacob Everett Shaffelburg,5,MID,5,1,165,0,0,,,0,0,0,0,,,6.62
-119,Moïse Bombito Bombito,5,DEF,3,2,193,0,0,,,0,0,0,0,,,
-120,Maxime Crepeau,5,GK,5,5,450,0,0,,,0,0,0,0,2.0,7.0,
-121,Tajon Trevor Buchanan,5,FWD,4,4,293,0,0,,,0,0,0,0,,,
-122,Owen Olamidayo Goodman,5,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-123,Alphonso Boyle Davies,5,DEF,2,1,105,0,0,,,0,0,0,0,,,
-124,Ali Ahmed,5,FWD,3,2,158,0,0,,,0,0,0,0,,,6.93
-125,Jonathan Osorio,5,MID,1,0,1,0,0,,,0,0,0,0,,,
-126,Richmond Mamah Laryea,5,DEF,4,4,353,0,0,,,0,0,0,0,,,7.3
-127,Niko Kristian Sigur,5,DEF,2,0,38,0,0,,,0,0,0,0,,,6.67
-128,Promise Oluwatobi Emmanuel David,5,FWD,4,1,155,1,1,,,0,0,0,0,,,6.75
-129,Nathan-Dylan Saliba,5,MID,4,3,273,1,2,,,0,0,0,0,,,7.6
-130,Jayden Nelson,5,FWD,0,0,0,0,0,,,0,0,0,0,,,6.7
-131,Nikola Vasilj,6,GK,4,4,360,0,0,,,0,0,0,0,0.0,12.0,
-132,Nihad Mujakic,6,DEF,0,0,0,0,0,,,0,0,0,0,,,
-133,Dennis Hadzikadunic,6,DEF,1,0,27,0,1,,,0,0,0,0,,,7.1
-134,Tarik Muharemovic,6,DEF,3,3,270,0,0,,,0,1,0,0,,,6.87
-135,Sead Kolasinac,6,DEF,4,4,338,0,1,,,0,0,0,0,,,6.63
-136,Benjamin Tahirovic,6,MID,4,2,236,0,0,,,0,0,0,0,,,
-137,Amar Dedic,6,DEF,3,3,270,0,0,,,0,0,0,0,,,
-138,Armin Gigovic,6,MID,2,1,79,0,0,,,0,0,0,0,,,6.7
-139,Samed Bazdar,6,FWD,1,0,28,0,0,,,0,0,0,0,,,
-140,Ermedin Demirovic,6,FWD,4,4,355,0,0,,,0,0,0,0,,,
-141,Edin Dzeko,6,FWD,3,3,177,0,0,,,0,0,0,0,,,
-142,Mladen Jurkas,6,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-143,Ivan Basic,6,MID,3,2,179,0,1,,,0,0,0,0,,,7.2
-144,Ivan Sunjic,6,MID,4,3,198,0,0,,,0,0,0,0,,,
-145,Amar Memic,6,MID,4,2,223,0,0,,,0,0,0,0,,,
-146,Amir Hadziahmetovic,6,MID,1,0,5,0,0,,,1,0,0,0,,,
-147,Dzenis Burnic,6,MID,2,0,15,0,0,,,0,0,0,0,,,6.65
-148,Nikola Katic,6,DEF,4,4,318,0,0,,,0,0,0,0,,,6.85
-149,Kerim Alajbegovic,6,FWD,4,3,278,1,0,,,0,0,0,0,,,6.63
-150,Esmir Bajraktarevic,6,FWD,4,2,230,0,0,,,0,0,0,0,,,
-151,Stjepan Radeljic,6,DEF,2,2,180,0,0,,,0,0,0,0,,,6.7
-152,Martin Zlomislic,6,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-153,Haris Tabakovic,6,FWD,1,0,15,0,0,,,0,0,0,0,,,
-154,Arjan Malic,6,DEF,1,1,46,0,0,,,0,0,0,0,,,
-155,Jovo Lukic,6,FWD,2,1,67,1,0,,,0,0,0,0,,,6.95
-156,Ermin Mahmic,6,MID,3,0,67,2,0,,,0,0,0,0,,,7.03
-157,Ibrahim Mahmoud Abunada,7,GK,3,3,270,0,0,,,0,0,0,1,0.0,16.0,
-158,Miguel Pedro,7,DEF,3,3,270,0,0,,,0,0,0,0,,,
-159,Michel Lucas,7,DEF,1,0,3,0,0,,,0,0,0,0,,,
-160,Gueye Issa Laye,7,DEF,3,3,270,0,0,,,0,0,0,0,,,6.73
-161,Gaber Jassem,7,DEF,3,3,152,0,0,,,0,0,0,0,,,
-162,Hatim Abdulaziz Hatem,7,MID,1,0,44,0,0,,,0,0,0,0,,,
-163,Alaaeldin Ahmed,7,FWD,2,0,41,0,0,,,0,0,0,0,,,
-164,Junior Edmilson,7,FWD,3,3,213,0,1,,,0,0,0,0,,,
-165,Mohammed Mohammed Muntari,7,FWD,0,0,0,0,0,,,0,0,0,0,,,
-166,Khalid Hassan Alhaydos,7,FWD,2,1,57,1,0,,,0,0,0,0,,,7.0
-167,Hassan Akram,7,FWD,3,3,239,0,0,,,0,0,0,0,,,
-168,Karim Karim Boudiaf,7,MID,3,1,132,0,0,,,1,0,0,0,,,6.9
-169,Mohamed Ayoub Aloui,7,DEF,2,2,150,0,0,,,0,0,0,0,,,
-170,Elamin Homam,7,DEF,2,2,180,0,0,,,0,1,0,0,,,
-171,Abdurisag Yusuf Abdurisag,7,FWD,2,2,100,0,0,,,0,0,0,0,,,6.73
-172,KHOUKHIBoualem Boualem,7,DEF,3,3,270,0,0,,,0,0,0,0,,,
-173,Mohamed Ahmed Alganehi,7,MID,1,0,35,0,0,,,0,0,0,0,,,
-174,Hussain Sultan,7,DEF,2,1,140,0,0,,,0,0,0,0,,,
-175,Ali Zainelabdeen Almoez,7,FWD,1,0,18,0,0,,,0,0,0,0,,,
-176,Fathy Ahmed Fathy,7,MID,3,1,150,0,0,,,0,0,0,0,,,
-177,Zakaria Salah Zakaria,7,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-178,Aissa Meshaal Barsham,7,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-179,Omer Assim Madibo,7,MID,2,2,169,0,0,,,0,1,0,0,,,
-180,Mohammad Tahsin,7,FWD,0,0,0,0,0,,,0,0,0,0,,,
-181,Alhussein Alhashmi,7,DEF,1,0,31,0,0,,,0,0,0,0,,,
-182,Naceur Mohamed Manai,7,FWD,3,0,66,0,0,,,0,0,0,1,,,
-183,Gregor Kobel,8,GK,6,6,540,0,0,,,0,0,0,0,2.0,19.0,7.52
-184,Miro Max Maria Muheim,8,DEF,1,0,1,0,0,,,0,0,0,1,,,
-185,Silvan Dominic Widmer,8,DEF,3,1,105,0,0,,,0,0,0,0,,,
-186,Nico Elvedi,8,DEF,4,4,360,0,0,,,0,0,0,0,,,7.03
-187,Manuel Obafemi Akanji,8,DEF,6,6,540,0,0,,,0,0,0,0,,,7.07
-188,Denis Lemi Zakaria,8,MID,4,4,357,0,0,,,0,0,0,0,,,6.7
-189,Breel Donald Embolo,8,FWD,4,4,347,2,2,,,0,0,0,0,,,6.85
-190,Remo Marco Freuler,8,MID,4,4,340,0,0,,,0,0,0,0,,,6.8
-191,Johan Kula Manzambi,8,MID,6,4,378,3,2,,,0,0,0,0,,,7.6
-192,Granit Xhaka,8,MID,4,4,360,1,1,,,1,0,0,0,,,7.52
-193,Dan Ndoye,8,FWD,6,5,415,2,0,,,0,0,0,0,,,7.03
-194,Yvon Landry Mvogo,8,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-195,Ricardo Ivan Rodriguez,8,DEF,6,6,539,0,1,,,0,0,0,0,,,7.02
-196,Ardon Jashari,8,MID,3,2,181,0,0,,,0,0,0,0,,,
-197,Djibril Ibrahima Sow,8,MID,5,3,291,0,0,,,0,0,0,0,,,6.63
-198,Christian Andreas Fassnacht,8,FWD,1,0,5,0,0,,,0,0,0,0,,,
-199,Ruben Estephan Vargas,8,FWD,4,3,248,2,2,,,0,0,0,0,,,7.37
-200,Eray Ervin Coemert,8,DEF,0,0,0,0,0,,,0,0,0,0,,,
-201,Noah Arinzechukwu Okafor,8,FWD,3,2,199,0,0,,,0,0,0,0,,,6.9
-202,Michel Aebischer,8,MID,4,2,157,0,0,,,0,0,0,0,,,6.78
-203,Marvin Keller,8,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-204,Fabian Rieder,8,MID,3,1,115,0,0,,,0,0,0,0,,,
-205,Mohamed Zeki Amdouni,8,FWD,2,0,18,0,0,,,0,0,0,0,,,6.63
-206,Aurèle Florian Amenda,8,DEF,2,2,180,0,0,,,0,0,0,0,,,
-207,Luca Antony Jaquez,8,DEF,4,3,258,0,0,,,0,0,0,0,,,
-208,Cedric Jan Itten,8,FWD,2,0,6,0,0,,,0,0,0,0,,,6.7
-209,Ramsés Alisson,9,GK,5,5,450,0,0,,,0,0,0,0,2.0,9.0,
-210,José Ederson Silva,9,MID,2,0,20,0,0,,,0,0,0,0,,,
-211,Gabriel Gabriel Magalhaes,9,DEF,5,5,450,0,1,,,0,0,0,0,,,7.36
-212,MARQUINHOSMarcos,9,DEF,5,5,450,0,0,,,0,0,0,0,,,7.32
-213,Henrique,9,MID,5,5,382,1,0,,,0,0,0,0,,,
-214,Sandro Alex,9,DEF,1,0,8,0,0,,,0,0,0,0,,,
-215,José Vinicius,9,FWD,5,5,441,4,1,,,0,0,0,0,,,8.0
-216,GUIMARAESBruno Bruno,9,MID,5,5,420,0,4,,,0,0,0,0,,,7.12
-217,Matheus Matheus Cunha,9,FWD,5,4,293,3,0,,,0,0,0,0,,,7.36
-218,Neymar Neymar Jr,9,FWD,2,0,37,1,0,,,0,0,0,0,,,
-219,Raphael Raphinha,9,FWD,2,2,130,0,0,,,0,0,0,0,,,
-220,Weverton Weverton,9,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-221,Luiz Danilo,9,DEF,5,4,404,0,0,,,0,0,0,0,,,
-222,Bremer Bremer,9,DEF,0,0,0,0,0,,,0,0,0,0,,,
-223,PEREIRALeonardo Leo,9,DEF,0,0,0,0,0,,,0,0,0,0,,,
-224,Douglas Douglas Santos,9,DEF,5,5,442,0,0,,,1,0,0,0,,,6.96
-225,Henrique Fabinho,9,MID,3,0,69,0,0,,,0,0,0,0,,,6.7
-226,Danilo Danilo Santos,9,MID,4,0,43,0,0,,,0,0,0,0,,,6.67
-227,Felipe Endrick,9,FWD,4,0,110,0,0,,,0,0,0,0,,,
-228,Lucas Lucas Paqueta,9,MID,4,4,237,0,1,,,0,0,0,0,,,7.08
-229,Henrique André Luiz,9,FWD,1,0,29,0,0,,,0,0,0,0,,,
-230,MARTINELLIGabriel Gabriel,9,FWD,4,1,141,1,0,,,0,0,0,0,,,7.08
-231,Ederson Ederson,9,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-232,IBANEZRoger Roger,9,DEF,1,1,46,0,0,,,0,0,0,0,,,
-233,Thiago Igor Thiago,9,FWD,1,1,61,0,0,,,0,0,0,0,,,
-234,Vitor Rayan,9,FWD,4,3,289,0,1,,,0,0,0,0,,,7.18
-235,Yassine Bounou,10,GK,6,6,570,0,0,,,0,0,0,1,2.0,17.0,6.95
-236,Achraf Hakimi,10,DEF,6,6,570,1,1,,,0,0,0,0,,,7.0
-237,Noussair Mazraoui,10,DEF,6,5,477,0,0,,,0,0,0,0,,,7.08
-238,Sofyan Amrabat,10,MID,1,1,90,0,0,,,0,0,0,0,,,
-239,Marwane Saadane,10,DEF,0,0,0,0,0,,,0,0,0,0,,,6.9
-240,Ayyoub Bouaddi,10,MID,5,5,439,0,0,,,0,0,0,0,,,6.68
-241,Chemsdine Talbi,10,MID,5,2,246,0,1,,,0,0,0,0,,,6.7
-242,Azz-Eddine Ounahi,10,MID,5,3,290,2,0,,,0,0,0,0,,,7.15
-243,Soufiane Rahimi,10,FWD,5,0,91,2,0,,,0,0,0,0,,,7.02
-244,Brahim Diaz,10,FWD,6,6,477,0,4,,,0,0,0,0,,,6.8
-245,Ismael Saibari,10,MID,6,6,543,3,0,,,0,0,0,0,,,7.16
-246,Monir El Kajoui,10,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-247,Zakaria El Ouahdi,10,DEF,2,2,180,0,0,,,0,0,0,0,,,6.7
-248,Issa Laye Lucas Jean Diop,10,DEF,3,3,300,1,0,,,0,0,0,0,,,6.96
-249,Samir El Mourabet,10,MID,4,0,75,0,0,,,0,0,0,0,,,6.73
-250,Gessime Ben Youssef Mustapha Yassine,10,MID,2,0,61,1,0,,,0,0,0,0,,,6.93
-251,Mohamed Amine Sbai,10,FWD,0,0,0,0,0,,,0,0,0,0,,,
-252,Chadi Riad,10,DEF,6,6,525,0,0,,,0,0,0,0,,,6.73
-253,Youssef Belammari,10,DEF,0,0,0,0,0,,,0,0,0,0,,,
-254,Ayoub El Kaabi,10,FWD,1,1,70,0,0,,,0,0,0,0,,,
-255,Ayoube Amaimouni,10,FWD,4,2,196,0,0,,,0,0,0,0,,,
-256,Ahmed Reda Tagnaouti,10,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-257,Bilal El Khannouss,10,MID,6,6,520,0,0,,,0,0,0,0,,,6.88
-258,Neil Yoni El Aynaoui,10,MID,4,4,383,0,0,,,0,0,0,0,,,6.8
-259,Redouane Halhal,10,DEF,1,1,90,0,0,,,0,0,0,0,,,6.7
-260,Anass Salah Eddine,10,DEF,3,1,138,0,0,,,0,0,0,0,,,
-261,Johny Placide,11,GK,3,3,270,0,0,,,0,0,0,0,0.0,14.0,6.8
-262,Carlens Jean Fedlaire Ruby Arcus,11,DEF,3,2,146,0,0,,,1,0,0,0,,,
-263,Keeto Thermoncy,11,DEF,0,0,0,0,0,,,0,0,0,0,,,
-264,Ricardo Ade,11,DEF,3,3,270,0,0,,,0,0,0,0,,,
-265,Hannes Piterson Delcroix,11,DEF,3,3,270,0,0,,,0,0,0,0,,,
-266,Carl Fred Sainte,11,MID,0,0,0,0,0,,,0,0,0,0,,,
-267,Derrick Burckley Etienne,11,FWD,1,0,9,0,0,,,0,0,0,0,,,
-268,Martin Yves Roberns Didier Experience,11,DEF,3,3,270,0,0,,,0,0,0,0,,,
-269,Duckens Nazon,11,FWD,1,0,23,0,0,,,0,0,0,0,,,
-270,Jean Ricner Bellegarde,11,MID,3,3,261,0,0,,,0,0,0,0,,,6.77
-271,Don Deedson Deedson,11,FWD,3,1,111,0,0,,,0,0,0,0,,,
-272,Alexandre Jr Pierre,11,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-273,Markhus Lacroix,11,DEF,0,0,0,0,0,,,0,0,0,0,,,
-274,Garven-Michee Metusala,11,DEF,0,0,0,0,0,,,0,0,0,0,,,
-275,Ruben Fritzner Providence,11,FWD,3,3,223,0,0,,,0,0,0,0,,,6.67
-276,Lenny Alvin Pico Joseph,11,FWD,3,1,117,0,0,,,0,0,0,0,,,
-277,Danley Jean Jacques,11,MID,3,3,260,0,0,,,1,0,0,0,,,6.8
-278,Wilson Isidor,11,FWD,3,2,186,1,0,,,0,0,0,0,,,6.78
-279,Yassin Enzo Fortune,11,FWD,1,0,5,0,0,,,0,0,0,0,,,
-280,Frantzdy Pierrot,11,FWD,3,2,143,0,0,,,1,0,0,0,,,
-281,Josue Jeremie Casimir,11,FWD,3,2,182,0,0,,,0,0,0,0,,,
-282,Jean-Kévin Duverne,11,DEF,2,2,170,0,0,,,0,0,0,0,,,
-283,Josue Duverger,11,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-284,Wilguens Raphael Polynice Paugain,11,DEF,0,0,0,0,0,,,0,0,0,0,,,
-285,Dominique Celidor Simon,11,MID,2,0,54,0,0,,,0,0,0,0,,,6.65
-286,Olivier Woodensky Pierre,11,MID,0,0,0,0,0,,,0,0,0,0,,,
-287,Angus Fraser James Gunn,12,GK,3,3,270,0,0,,,0,0,0,0,1.0,10.0,7.43
-288,Aaron Buchanan Hickey,12,DEF,1,1,75,0,0,,,0,0,0,0,,,7.0
-289,Andrew Henry Robertson,12,DEF,3,3,226,0,0,,,0,0,0,0,,,
-290,Mc,12,MID,3,3,270,1,0,,,0,0,0,0,,,
-291,Grant Campbell Hanley,12,DEF,2,2,180,0,0,,,0,0,0,0,,,7.3
-292,Kieran Tierney,12,DEF,2,1,104,0,0,,,0,0,0,0,,,6.9
-293,Mc,12,MID,3,3,261,0,0,,,0,0,0,0,,,
-294,Tyler Robert Fletcher,12,MID,0,0,0,0,0,,,0,0,0,0,,,
-295,Lyndon John Dykes,12,FWD,2,0,34,0,0,,,0,0,0,0,,,
-296,Che Sac Everton Fred Adams,12,FWD,3,2,147,0,0,,,0,0,0,0,,,
-297,Ryan Christie,12,MID,3,1,96,0,0,,,0,0,0,0,,,
-298,Liam Patrick Kelly,12,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-299,Jack William Hendry,12,DEF,3,3,270,0,0,,,0,0,0,0,,,6.93
-300,Ross Cameron Stewart,12,FWD,1,0,1,0,0,,,0,0,0,0,,,
-301,John Francis Souttar,12,DEF,0,0,0,0,0,,,0,0,0,0,,,
-302,Dominic John Hyam,12,DEF,0,0,0,0,0,,,0,0,0,0,,,
-303,Ben Gannon Gannon-Doak,12,FWD,3,2,186,0,0,,,0,0,0,0,,,
-304,George David Eric Hirst,12,FWD,0,0,0,0,0,,,0,0,0,0,,,
-305,Lewis Ferguson,12,MID,3,3,270,0,0,,,0,0,0,0,,,7.67
-306,Lawrence Shankland,12,FWD,2,2,172,0,0,,,0,0,0,0,,,
-307,Craig Sinclair Gordon,12,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-308,Nathan Kenneth Patterson,12,DEF,3,2,185,0,0,,,0,0,0,0,,,
-309,Mc,12,MID,3,1,116,0,0,,,0,0,0,0,,,
-310,Anthony Ralston,12,DEF,2,0,10,0,0,,,0,0,0,0,,,6.8
-311,Findlay Kenneth Curtis,12,FWD,2,0,9,0,0,,,0,0,0,0,,,
-312,Mc,12,DEF,1,1,90,0,0,,,0,0,0,0,,,
-313,Matthew Charles Turner,13,GK,4,2,240,0,0,,,0,0,0,0,0.0,7.0,
-314,Sergiño Gianni Dest,13,DEF,5,4,343,0,1,,,0,0,0,0,,,6.76
-315,Christopher Jeffrey Richards,13,DEF,4,4,360,0,0,,,1,0,0,0,,,6.95
-316,Tyler Shaan Adams,13,MID,4,4,360,0,0,,,0,0,0,0,,,6.88
-317,Antonee Robinson,13,DEF,4,4,350,0,0,,,1,0,0,0,,,7.05
-318,Auston Levi-Jesaiah Trusty,13,DEF,2,1,100,1,0,,,0,0,0,0,,,7.0
-319,Giovanni Alejandro Reyna,13,MID,4,1,86,1,0,,,0,0,0,0,,,6.9
-320,Mc,13,MID,5,5,446,0,0,,,0,0,0,0,,,
-321,Ricardo Daniel Pepi,13,FWD,4,2,185,0,0,,,0,0,0,0,,,
-322,Christian Mate Pulisic,13,FWD,4,3,255,0,1,,,0,0,0,0,,,6.93
-323,Brenden Russell Aaronson,13,FWD,1,1,76,0,0,,,0,0,0,0,,,
-324,Miles Gordon Robinson,13,DEF,1,1,90,0,0,,,0,0,0,0,,,
-325,Timothy Michael Ream,13,DEF,3,3,270,0,0,,,0,0,0,0,,,6.85
-326,Sebastian Matthew Berhalter,13,MID,5,2,243,1,1,,,0,0,0,0,,,7.1
-327,Cristian Roldan,13,MID,0,0,0,0,0,,,0,0,0,0,,,
-328,Alexander Michael Freeman,13,DEF,4,3,284,1,1,,,0,0,0,0,,,7.3
-329,Malik Leon Tillman,13,MID,5,4,356,2,2,,,0,0,0,0,,,7.28
-330,Maximilian Michael Arfsten,13,DEF,0,0,0,0,0,,,0,0,0,0,,,
-331,Haji Amir Wright,13,FWD,1,0,1,0,0,,,0,0,0,0,,,
-332,Folarin Jolaoluwa Balogun,13,FWD,4,4,316,3,0,,,1,1,0,0,,,6.98
-333,Timothy Tarpeh Weah,13,FWD,2,1,76,0,0,,,0,0,0,0,,,
-334,Mc,13,DEF,2,2,180,0,0,,,0,0,0,0,,,
-335,Joseph Michael Scally,13,DEF,2,1,86,0,0,,,0,0,0,0,,,
-336,Matthew Andrew Geary Freese,13,GK,3,3,270,0,0,,,0,0,0,0,2.0,5.0,
-337,Christopher Keith Brady,13,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-338,Alejandro Zendejas,13,FWD,1,0,14,0,0,,,0,0,0,0,,,
-339,Roberto Junior Fernandez,14,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-340,Victor Gustavo Velazquez,14,DEF,4,1,153,0,0,,,0,0,0,0,,,6.72
-341,Omar Federico Alderete,14,DEF,4,4,354,0,0,,,0,0,0,0,,,6.7
-342,Juan Jose Caceres,14,DEF,5,5,439,0,0,,,0,0,0,0,,,6.92
-343,Fabián Cornelio Balbuena,14,DEF,1,0,1,0,0,,,0,0,0,0,,,
-344,Júnior Osmar Ignacio Alonso,14,DEF,4,3,301,0,0,,,0,0,0,0,,,
-345,Ramón Sosa,14,MID,2,1,101,0,0,,,0,0,0,0,,,
-346,Diego Alexander Gomez,14,MID,3,3,236,0,0,,,1,0,0,0,,,
-347,Arnaldo Antonio Sanabria,14,FWD,2,1,83,0,0,,,0,0,0,0,,,
-348,Miguel Angel Almiron,14,MID,4,4,350,0,0,,,0,1,0,0,,,
-349,Mauricio Mauricio,14,MID,3,0,151,1,0,,,0,0,0,0,,,7.1
-350,Orlando Daniel Gill,14,GK,5,5,480,0,0,,,0,0,0,0,2.0,29.0,7.88
-351,Jose Maria Canale,14,DEF,4,2,217,0,0,,,0,0,0,0,,,6.97
-352,Adrián Andrés Cubas,14,MID,4,4,390,0,0,,,0,0,0,0,,,7.02
-353,Gustavo Raul Gomez,14,DEF,4,4,390,0,0,,,0,0,0,0,,,6.76
-354,Damián Josue Bobadilla,14,MID,4,2,190,0,0,,,0,0,0,1,,,
-355,Alejandro Sebastian Romero Gamarra,14,FWD,1,0,11,0,0,,,0,0,0,0,,,
-356,Alex Adrian Arce,14,FWD,3,1,141,0,0,,,0,0,0,0,,,
-357,Julio Cesar Enciso,14,FWD,4,4,327,1,2,,,0,0,0,0,,,6.96
-358,Braian Oscar Ojeda,14,MID,1,0,21,0,0,,,0,0,0,0,,,
-359,Gabriel Avalos,14,FWD,3,2,123,0,0,,,0,0,0,0,,,
-360,Gastón Hernán Olveira,14,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-361,Matias Galarza,14,MID,4,4,390,1,1,,,0,0,0,0,,,7.1
-362,Gustavo Ruben Caballero,14,MID,2,1,155,0,0,,,0,0,0,0,,,6.7
-363,Isidro Miguel Pitta,14,FWD,2,2,136,0,0,,,0,0,0,0,,,
-364,Alexandro Maidana,14,DEF,3,2,145,0,0,,,0,0,0,0,,,6.65
-365,Mathew David Ryan,15,GK,1,0,1,0,0,,,0,0,0,0,0.0,0.0,
-366,Milos Degenek,15,DEF,0,0,0,0,0,,,0,0,0,0,,,
-367,Alessandro Circati,15,DEF,4,4,390,0,0,,,1,0,0,0,,,7.48
-368,Jacob Michael Italiano,15,DEF,2,2,164,0,0,,,1,0,0,0,,,
-369,Jordan Jacob Bos,15,DEF,4,4,309,0,0,,,1,0,0,0,,,6.73
-370,Jason Kato Geria,15,DEF,2,0,60,0,0,,,0,0,0,0,,,6.73
-371,Mathew Allan Leckie,15,FWD,1,1,61,0,0,,,0,0,0,0,,,
-372,Connor Isaac Metcalfe,15,MID,4,3,315,1,0,,,0,0,0,0,,,6.78
-373,Mohamed Toure,15,FWD,3,2,166,0,0,,,0,0,0,0,,,
-374,Ajdin Hrustic,15,FWD,2,0,78,0,0,,,0,0,0,0,,,6.8
-375,Awer Bul Mabil,15,FWD,1,0,29,0,0,,,0,0,0,0,,,7.2
-376,Paul David Izzo,15,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-377,Aiden Connor Oneill,15,MID,4,4,361,0,0,,,0,0,0,0,,,6.95
-378,Cameron Peter Devlin,15,MID,0,0,0,0,0,,,0,0,0,0,,,
-379,Kai Clifton Trewin,15,DEF,1,0,74,0,0,,,0,0,0,0,,,
-380,Aziz Behich,15,DEF,3,2,217,0,0,,,0,0,0,0,,,6.63
-381,Nestory Irankunda,15,FWD,4,3,263,1,0,,,0,0,0,0,,,6.78
-382,Patrick Thomas Beach,15,GK,4,4,389,0,0,,,0,0,0,0,2.0,11.0,7.45
-383,Harry James Souttar,15,DEF,4,4,390,0,0,,,1,0,0,0,,,7.0
-384,Cristian Volpato,15,FWD,3,2,161,0,0,,,0,0,0,0,,,6.63
-385,Cameron Robert Burgess,15,DEF,2,2,136,0,0,,,0,0,0,1,,,
-386,Jackson Alexander Irvine,15,MID,4,2,223,0,0,,,1,0,0,0,,,7.0
-387,Nishan Matthew Velupillay,15,FWD,2,1,75,0,0,,,0,0,0,0,,,
-388,Paul Michael Junior Okon-Engstler,15,MID,4,2,196,0,1,,,0,0,0,0,,,6.9
-389,Lucas Herrington,15,DEF,2,2,210,0,0,,,0,0,0,0,,,
-390,Tete Owen Yengi,15,FWD,2,0,22,0,0,,,0,0,0,0,,,
-391,Fehmi Mert Gunok,16,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-392,Mehmet Zeki Celik,16,DEF,2,2,164,0,0,,,0,0,0,0,,,6.9
-393,Merih Demiral,16,DEF,2,2,180,0,0,,,0,0,0,0,,,6.7
-394,Ça ğ lar Soyuncu,16,DEF,1,0,6,0,0,,,0,0,0,0,,,6.9
-395,Salih Ozcan,16,MID,2,1,100,0,0,,,0,0,0,0,,,7.0
-396,Orkun Kokcu,16,MID,3,2,154,1,0,,,0,0,0,0,,,
-397,Muhammed Kerem Akturkoglu,16,FWD,2,2,131,0,0,,,0,0,0,0,,,
-398,Arda Guler,16,FWD,3,3,270,1,0,,,0,0,0,0,,,7.6
-399,Deniz Daniel Gul,16,FWD,2,0,35,0,0,,,0,0,0,0,,,
-400,Hakan Calhanoglu,16,MID,2,2,180,0,0,,,0,0,0,0,,,7.4
-401,Kenan Yildiz,16,FWD,3,2,218,0,0,,,0,0,0,0,,,7.1
-402,Altay Bayindir,16,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-403,Evren Eren Elmali,16,DEF,2,1,110,0,1,,,0,0,0,0,,,7.1
-404,Abdülker Bardakci,16,DEF,3,3,266,0,0,,,0,0,0,0,,,7.17
-405,Ozan Muhammed Kabak,16,DEF,1,1,90,0,0,,,0,0,0,0,,,7.1
-406,Ismailİsma Yuksek,16,MID,2,2,140,0,0,,,0,0,0,0,,,7.2
-407,Can İrfan Kahveci,16,FWD,3,1,101,0,0,,,0,0,0,0,,,
-408,Mert Muldur,16,DEF,0,0,0,0,0,,,0,0,0,0,,,6.73
-409,Yunus Akgun,16,FWD,2,1,88,0,0,,,0,0,0,0,,,
-410,Ferdi Erenay Kadioglu,16,DEF,2,2,160,0,0,,,0,0,0,0,,,6.65
-411,Barı ş Alper Yilmaz,16,FWD,3,2,180,0,0,,,0,0,0,0,,,6.77
-412,Kaan Ayhan,16,MID,1,0,2,1,0,,,0,0,0,0,,,7.6
-413,Ugurcan Cakir,16,GK,3,3,270,0,0,,,0,0,0,0,0.0,7.0,
-414,Oguz Aydin,16,FWD,1,1,90,0,0,,,0,0,0,0,,,7.0
-415,Samet Akaydin,16,DEF,0,0,0,0,0,,,0,0,0,0,,,
-416,Can Yılmaz Uzun,16,FWD,2,0,36,0,1,,,0,0,0,0,,,6.73
-417,Manuel Peter Neuer,17,GK,4,4,390,0,0,,,0,0,0,0,0.0,8.0,6.95
-418,Antonio Ruediger,17,DEF,4,2,262,0,0,,,0,0,0,0,,,6.88
-419,Waldemar Anton,17,DEF,2,0,48,0,0,,,0,0,0,0,,,6.9
-420,Jonathan Glao Tah,17,DEF,4,4,372,0,0,,,0,0,0,0,,,6.93
-421,Aleksandar Pavlovic,17,MID,4,4,275,0,0,,,0,0,0,0,,,6.73
-422,Joshua Walter Kimmich,17,DEF,4,4,353,0,2,,,0,0,0,0,,,7.55
-423,Kai Lukas Havertz,17,FWD,4,4,355,3,0,,,0,0,0,0,,,7.35
-424,Leon Christoph Goretzka,17,MID,3,0,97,0,0,,,0,0,0,0,,,6.77
-425,Jamie Jaleel Jeremy Leweling,17,MID,1,0,30,0,0,,,0,0,0,0,,,
-426,Jamal Musiala,17,MID,4,3,271,1,0,,,0,0,0,0,,,7.18
-427,Nick Woltemade,17,FWD,1,0,32,0,0,,,0,0,0,0,,,
-428,Oliver Baumann,17,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-429,Pascal Alexander GROß GROß Gross,17,MID,1,0,17,0,0,,,0,0,0,0,,,
-430,Maximilian Beier,17,FWD,1,0,26,0,0,,,0,0,0,0,,,
-431,Nico Cédric Schlotterbeck,17,DEF,2,2,136,1,0,,,0,0,0,0,,,7.5
-432,Angelo Nicolas Stiller,17,MID,1,0,44,0,0,,,0,0,0,0,,,6.8
-433,Florian Richard Wirtz,17,MID,4,4,363,0,3,,,0,0,0,0,,,7.63
-434,Nathaniel Christopher Brown,17,DEF,3,3,282,1,1,,,0,0,0,0,,,7.3
-435,Leroy Aziz Sane,17,MID,4,4,328,1,0,,,0,0,0,0,,,6.63
-436,Nadiem Amiri,17,MID,2,0,40,0,1,,,0,0,0,0,,,7.1
-437,Alexander Nuebel,17,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-438,David Raum,17,DEF,2,1,108,0,0,,,0,0,0,0,,,6.73
-439,Felix Kalu Nmecha,17,MID,4,4,272,1,1,,,0,0,0,0,,,7.05
-440,Malick Thiaw,17,DEF,2,0,40,0,0,,,0,0,0,0,,,6.65
-441,Forzan Assan Ouedraogo,17,MID,0,0,0,0,0,,,0,0,0,0,,,
-442,Deniz Undav,17,FWD,4,1,149,3,2,,,0,0,0,0,,,7.43
-443,Eloy Victor Room,18,GK,3,3,270,0,0,,,0,0,0,0,1.0,25.0,7.2
-444,Shurandy Ruggerio Sambo,18,DEF,1,0,1,0,0,,,0,0,0,0,,,
-445,Juriën Godfried Juan Gaari,18,DEF,2,2,167,0,0,,,0,0,0,0,,,
-446,Róshón Felix Romar Jordan Van Eijma,18,DEF,1,0,15,0,0,,,0,0,0,0,,,6.9
-447,Sherel Constancio Floranus,18,DEF,3,3,270,0,0,,,0,0,0,0,,,
-448,Godfried Roemeratoe,18,MID,1,0,7,0,0,,,0,0,0,0,,,6.7
-449,Juninho Gracielo Bacuna,18,MID,3,3,255,0,0,,,0,0,0,0,,,
-450,Livano Shyron Liomar Comenencia,18,MID,3,3,234,1,0,,,0,0,0,0,,,6.9
-451,Jürgen Leonardo Locadia,18,FWD,3,3,238,0,0,,,0,0,0,0,,,
-452,Leandro Jones Johan Bacuna,18,MID,3,3,270,0,0,,,0,0,0,0,,,6.63
-453,Jeremy Cornelis Jacobus Antonisse,18,FWD,2,0,73,0,0,,,0,0,0,0,,,6.85
-454,Juniffer Naigelino Hansen,18,FWD,1,1,46,0,0,,,0,0,0,0,,,
-455,Tyrese Yurvencey Noslin,18,FWD,1,0,13,0,0,,,0,0,0,0,,,6.8
-456,Kenji Joël Gorre,18,FWD,1,0,15,0,0,,,0,0,0,0,,,
-457,Jainel Archenir Martha,18,MID,0,0,0,0,0,,,0,0,0,0,,,
-458,Jearl Erwin Margaritha,18,FWD,2,0,40,0,0,,,0,0,0,0,,,
-459,Brandley Mack-Olien Kuwas,18,FWD,1,0,1,0,0,,,0,0,0,0,,,
-460,Armando Maria Obispo,18,DEF,3,3,270,0,0,,,0,0,0,0,,,
-461,Gervane Zjandric Adonnis Kastaneer,18,FWD,3,0,28,0,0,,,1,0,0,0,,,
-462,Joshua Benjamin Brenet,18,DEF,2,2,180,0,0,,,0,0,0,0,,,6.85
-463,Tahith Jose Girigorio Djorkaef Chong,18,MID,3,3,247,0,0,,,0,0,0,0,,,6.63
-464,Kevin Antonio Felida,18,MID,0,0,0,0,0,,,0,0,0,0,,,
-465,Riechedly Guillermo Bazoer,18,DEF,1,1,90,0,0,,,0,0,0,0,,,
-466,Deveron Lenny Fonville,18,DEF,3,3,242,0,0,,,0,0,0,0,,,
-467,Tyrick Jeremy Bodak,18,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-468,Trevor Irving Doornbusch,18,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-469,Yahia Fofana,19,GK,4,4,360,0,0,,,0,0,0,0,2.0,12.0,7.15
-470,Ousmane Diomande,19,DEF,1,1,90,0,0,,,0,0,0,0,,,7.3
-471,N'clomande Ghislain Konan,19,DEF,3,3,270,0,0,,,0,0,0,0,,,6.8
-472,Jean Michael Seri,19,MID,1,0,13,0,0,,,0,0,0,0,,,6.8
-473,Wilfried Stephane Singo,19,DEF,2,2,172,0,1,,,0,0,0,0,,,7.15
-474,Seko Mohamed Fofana,19,MID,2,1,92,0,0,,,0,0,0,0,,,
-475,Odilon Dorgeless Kossounou,19,DEF,4,3,271,0,0,,,0,0,0,0,,,6.73
-476,Franck Yannick Kessie,19,MID,4,4,347,1,0,,,0,0,0,0,,,6.83
-477,Ange-Yoan Laurent Bonny,19,FWD,4,3,236,0,0,,,0,0,0,0,,,
-478,Simon Adingra,19,FWD,1,0,15,0,0,,,0,0,0,0,,,
-479,Yan Diomande,19,FWD,4,4,332,0,1,,,0,0,0,0,,,7.53
-480,Elye Delmas Wahi,19,FWD,3,1,109,0,0,,,0,0,0,0,,,
-481,Christopher Tea Domoraud Operi,19,DEF,1,1,90,0,0,,,0,0,0,0,,,7.0
-482,Oumar Diakite,19,FWD,2,0,26,0,0,,,0,0,0,0,,,
-483,Amad Diallo,19,FWD,4,2,185,2,0,,,0,0,0,0,,,7.78
-484,Mohamed Kone,19,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-485,Guela Maho-Lewis Doue,19,DEF,4,3,277,0,0,,,0,0,0,0,,,6.9
-486,Ibrahim Sangare,19,MID,4,3,268,0,0,,,0,0,0,0,,,7.4
-487,Nicolas Pepe,19,FWD,4,3,236,2,0,,,0,0,0,0,,,7.08
-488,Emmanuel Elysee Djedje Agbadou,19,DEF,3,3,270,0,0,,,0,0,0,0,,,6.93
-489,Obite Evan Ndicka,19,DEF,0,0,0,0,0,,,0,0,0,0,,,
-490,Evann Ludovic Vidjannagni Guessand,19,FWD,2,0,16,0,0,,,0,0,0,0,,,
-491,Alban-Marc Lafont,19,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-492,Bazoumana Toure,19,FWD,3,1,80,0,0,,,0,0,0,0,,,
-493,Parfait Guiagon,19,MID,0,0,0,0,0,,,0,0,0,0,,,
-494,Christ Ravynel Inao Oulai,19,MID,4,2,207,0,0,,,0,0,0,0,,,7.08
-495,Hernán Ismael Galindez,20,GK,4,4,360,0,0,,,0,0,0,0,1.0,25.0,7.13
-496,Félix Eduardo Torres,20,DEF,1,0,5,0,0,,,0,0,0,0,,,6.7
-497,Piero Martin Hincapie,20,DEF,4,4,341,0,0,,,0,1,0,0,,,6.63
-498,Joel Leandro Ordonez,20,DEF,3,3,226,0,0,,,0,0,0,0,,,
-499,Jordy Jose Alcivar,20,MID,1,1,46,0,0,,,0,0,0,0,,,
-500,Willian Joel Pacho,20,DEF,4,4,360,0,0,,,0,0,0,0,,,6.85
-501,Pervis Josue Estupinan,20,DEF,2,1,90,0,0,,,0,0,0,0,,,6.7
-502,Anthony Lenin Valencia,20,MID,0,0,0,0,0,,,0,0,0,0,,,
-503,John Yeboah,20,FWD,4,4,315,0,0,,,0,0,0,0,,,7.03
-504,Ray Kendry Paez,20,MID,1,0,11,0,0,,,0,0,0,0,,,6.8
-505,Kevin Jose Rodriguez,20,FWD,4,0,114,0,0,,,0,0,0,0,,,6.6
-506,Wellington Moisés Ramirez,20,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-507,Enner Remberto Valencia,20,FWD,4,4,290,0,0,,,0,0,0,0,,,
-508,Alan Steve Minda,20,MID,1,1,56,0,0,,,0,0,0,0,,,
-509,Pedro Jeampierre Vite,20,MID,4,4,360,0,1,,,0,0,0,0,,,7.43
-510,Jordy Josue Caicedo,20,FWD,3,0,17,0,0,,,0,0,0,0,,,
-511,Ángelo Smit Preciado,20,DEF,4,0,105,0,0,,,0,0,0,0,,,
-512,Denil Daniel Castillo,20,MID,0,0,0,0,0,,,0,0,0,0,,,
-513,Gonzalo Jordy Plata,20,FWD,4,4,360,1,0,,,0,0,0,0,,,6.83
-514,Nilson David Angulo,20,FWD,4,2,217,1,0,,,0,0,0,0,,,6.93
-515,Alan Steven Franco,20,MID,4,4,255,0,0,,,0,0,0,0,,,6.73
-516,Gonzalo Roberto Valle,20,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-517,Moisés Isaac Caicedo,20,MID,4,4,360,0,1,,,0,0,0,0,,,7.5
-518,Jeremy Alberto Arevalo,20,FWD,0,0,0,0,0,,,0,0,0,0,,,
-519,Jackson Gabriel Porozo,20,DEF,1,0,28,0,0,,,0,0,0,0,,,
-520,Yaimar Abel Medina,20,DEF,1,0,44,0,0,,,0,0,0,0,,,
-521,Bart Verbruggen,21,GK,4,4,390,0,0,,,0,0,0,0,0.0,12.0,7.28
-522,Lutsharel Emiliano Geertruida,21,DEF,0,0,0,0,0,,,0,0,0,0,,,
-523,Marten Elco De Roon,21,MID,1,0,10,0,0,,,0,0,0,0,,,
-524,Virgil Van Dijk,21,DEF,4,4,390,1,0,,,0,0,0,0,,,7.45
-525,Nathan Benjamin Ake,21,DEF,3,2,170,0,0,,,0,0,0,0,,,
-526,Paul Jan-Paul Van Hecke,21,DEF,4,4,390,1,0,,,0,0,0,0,,,7.65
-527,Justin Dean Kluivert,21,MID,2,0,25,0,0,,,0,0,0,0,,,
-528,Ryan Jiro Gravenberch,21,MID,4,4,347,0,2,,,0,0,0,0,,,6.78
-529,Wout François Maria Weghorst,21,FWD,1,0,49,0,0,,,0,0,0,0,,,7.5
-530,Memphis Depay,21,FWD,3,0,51,0,1,,,0,0,0,0,,,
-531,Cody Mathès Gakpo,21,FWD,4,4,372,3,1,,,0,0,0,0,,,7.55
-532,Mats Henrik Berne Wieffer,21,DEF,0,0,0,0,0,,,0,0,0,0,,,
-533,Robin Gerardus Petrus Roefs,21,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-534,Tijjani Martinus Jan Reijnders,21,MID,3,3,201,0,0,,,0,0,0,0,,,6.63
-535,Micky Van De Ven,21,DEF,3,3,266,0,0,,,0,0,0,0,,,
-536,Guus Berend Til,21,MID,1,0,31,0,0,,,0,0,0,0,,,
-537,Noa Noëll Lang,21,FWD,2,0,7,0,0,,,0,0,0,0,,,
-538,Donyell Malen,21,FWD,3,3,188,0,0,,,0,0,0,0,,,6.67
-539,Brian Ebenezer Adjei Brobbey,21,FWD,4,3,225,3,0,,,0,0,0,0,,,7.23
-540,Teun Koopmeiners,21,MID,4,0,118,0,0,,,0,0,0,0,,,6.78
-541,Frenkie De Jong,21,MID,4,4,331,0,0,,,0,0,0,0,,,7.13
-542,Denzel Justus Morris Dumfries,21,DEF,4,4,390,0,2,,,0,0,0,0,,,7.0
-543,Mark Maria Hubertus Flekken,21,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-544,Crysencio Jilbert Sylverio Cir Summerville,21,FWD,4,2,252,2,2,,,0,0,0,0,,,7.48
-545,Jorrel Evan Hato,21,DEF,1,0,34,0,0,,,0,0,0,0,,,
-546,Quinten Ryan Crispito Timber,21,MID,2,0,54,0,0,,,0,0,0,0,,,
-547,Zion Suzuki,22,GK,4,4,360,0,0,,,0,0,0,0,1.0,11.0,7.2
-548,Yukinari Sugawara,22,DEF,4,1,145,0,0,,,0,0,0,0,,,6.68
-549,Shogo Taniguchi,22,DEF,3,2,231,0,0,,,0,0,0,0,,,6.63
-550,Kou Itakura,22,DEF,2,2,129,0,0,,,0,0,0,0,,,7.45
-551,Yuto Nagatomo,22,DEF,1,0,15,0,0,,,0,0,0,0,,,6.9
-552,Shuto Machino,22,FWD,1,0,12,0,0,,,0,0,0,0,,,
-553,Ao Tanaka,22,MID,3,2,192,0,0,,,0,0,0,0,,,6.93
-554,Takefusa Kubo,22,MID,1,1,75,0,1,,,0,0,0,0,,,6.7
-555,Keisuke Goto,22,FWD,1,0,6,0,0,,,0,0,0,0,,,6.8
-556,Ritsu Doan,22,MID,4,4,281,0,0,,,0,0,0,0,,,
-557,Daizen Maeda,22,MID,3,3,246,1,0,,,0,0,0,0,,,7.0
-558,Keisuke Osako,22,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-559,Keito Nakamura,22,MID,4,4,309,1,2,,,0,0,0,0,,,7.2
-560,Junya Ito,22,MID,4,2,216,1,0,,,0,0,0,0,,,6.75
-561,Daichi Kamada,22,MID,4,4,332,2,0,,,0,0,0,0,,,6.78
-562,Tsuyoshi Watanabe,22,DEF,2,1,90,0,0,,,0,0,0,0,,,6.65
-563,Yuito Suzuki,22,MID,1,0,12,0,0,,,0,0,0,0,,,
-564,Ayase Ueda,22,FWD,4,4,324,2,1,,,0,0,0,0,,,7.15
-565,Koki Ogawa,22,FWD,3,0,40,0,1,,,0,0,0,0,,,
-566,Ayumu Seko,22,DEF,2,1,87,0,0,,,0,0,0,0,,,
-567,Hiroki Ito,22,DEF,4,4,360,0,0,,,0,0,0,0,,,6.7
-568,Takehiro Tomiyasu,22,DEF,3,2,183,0,0,,,0,0,0,0,,,7.27
-569,Tomoki Hayakawa,22,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-570,Kaishu Sano,22,MID,3,3,270,1,1,,,0,0,0,0,,,7.2
-571,Junnosuke Suzuki,22,DEF,2,0,40,0,0,,,0,0,0,0,,,
-572,Kento Shiogai,22,FWD,1,0,6,0,0,,,0,0,0,0,,,
-573,Jacob Mikael Widell Zetterstrom,23,GK,2,2,180,0,0,,,0,0,0,0,0.0,13.0,7.65
-574,Gustaf Johan Lagerbielke,23,DEF,4,4,360,0,0,,,0,0,0,0,,,
-575,Victor Jörgen Lindelof,23,DEF,4,4,357,0,0,,,0,0,0,0,,,
-576,Isak Malcolm Kwaku Hien,23,DEF,3,3,217,0,0,,,0,0,0,0,,,
-577,Gabriel Johan Gudmundsson,23,DEF,4,4,332,0,0,,,0,0,0,0,,,6.73
-578,Herman Nils Johansson,23,DEF,0,0,0,0,0,,,0,0,0,0,,,
-579,Lucas Erik Holger Bergvall,23,MID,4,1,179,0,1,,,0,0,0,0,,,
-580,Daniel Jonathan Svensson,23,DEF,3,1,98,0,0,,,0,0,0,0,,,
-581,Alexander Isak,23,FWD,4,4,359,1,3,,,0,0,0,0,,,6.95
-582,Erik Benjamin Nygren,23,MID,4,2,131,0,0,,,0,0,0,0,,,
-583,Anthony David Junior Elanga,23,FWD,4,2,216,2,0,,,0,0,0,0,,,7.3
-584,Tobias Viktor Johansson,23,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-585,Ken Sema,23,MID,1,0,15,0,0,,,0,0,0,0,,,6.7
-586,Hjalmar Ekdal,23,DEF,0,0,0,0,0,,,0,0,0,0,,,
-587,Carl Anders Theodor Starfelt,23,DEF,1,0,3,0,0,,,0,0,0,0,,,6.7
-588,Jesper Kewe Karlstrom,23,MID,2,2,139,0,0,,,0,0,0,0,,,
-589,Viktor Einar Gyokeres,23,FWD,4,4,360,1,1,,,0,0,0,0,,,6.95
-590,Yasin Ayari,23,MID,4,4,341,2,0,,,0,0,0,0,,,7.18
-591,Mattias Olof Svanberg,23,MID,2,0,14,1,0,,,0,0,0,0,,,7.2
-592,Eric Anders Smith,23,DEF,0,0,0,0,0,,,0,0,0,0,,,
-593,Alexander Olof Bernhardsson,23,DEF,3,3,220,0,0,,,0,0,0,0,,,
-594,Besfort Zeneli,23,MID,2,0,59,0,0,,,0,0,0,0,,,
-595,Bo Kristoffer Nordfeldt,23,GK,2,2,180,0,0,,,0,0,0,0,0.0,8.0,
-596,Elliot Karl Stroud,23,DEF,4,2,167,0,0,,,0,0,0,0,,,6.63
-597,Håkan Gustaf Nilsson,23,FWD,1,0,1,0,0,,,0,0,0,0,,,
-598,Taha Abdi Ali,23,FWD,2,0,35,0,0,,,0,0,0,0,,,
-599,Abdelmouhib Chamakh,24,GK,1,1,90,0,0,,,0,0,0,0,0.0,6.0,
-600,Ali Abdi,24,DEF,3,3,270,0,0,,,0,0,0,0,,,
-601,Montassar Omar Talbi,24,DEF,3,3,270,0,0,,,0,0,0,0,,,
-602,Omar Rekik,24,DEF,2,2,180,1,0,,,0,0,0,0,,,
-603,Adam Arous,24,DEF,0,0,0,0,0,,,0,0,0,0,,,
-604,Dylan Daniel Mahmoud Bronn,24,DEF,1,1,46,0,0,,,0,0,0,0,,,
-605,Mohamed Elyes Achouri,24,FWD,3,0,42,0,0,,,0,0,0,0,,,
-606,Elias Saad,24,FWD,2,2,118,0,0,,,0,0,0,0,,,
-607,Hazem Mastouri,24,FWD,1,1,90,1,0,,,0,0,0,0,,,7.9
-608,Hannibal Mejbri,24,MID,3,3,270,0,1,,,0,0,0,0,,,7.0
-609,Ismael Seifallah Gharbi,24,MID,3,1,125,0,0,,,0,0,0,0,,,
-610,Ahmed Mortadha Ben Ouanes,24,DEF,1,0,23,0,0,,,0,0,0,0,,,6.7
-611,Rani Khedira,24,MID,3,2,152,0,0,,,0,0,0,0,,,
-612,Khalil Ayari,24,MID,0,0,0,0,0,,,0,0,0,0,,,
-613,Mohamed Hadj Mahmoud,24,MID,2,0,41,0,0,,,0,0,0,0,,,
-614,Aymen Dahmen,24,GK,2,2,180,0,0,,,0,0,0,0,0.0,7.0,
-615,Ellyes Joris Skhiri,24,MID,3,3,252,0,0,,,0,0,0,1,,,
-616,Rayan Elloumi,24,FWD,0,0,0,0,0,,,0,0,0,0,,,
-617,Firas Chaouat,24,FWD,3,0,47,0,0,,,0,0,0,0,,,
-618,Yan Valery,24,DEF,3,3,252,0,0,,,0,0,0,0,,,
-619,Mohamed Amine Ben Hmida,24,DEF,3,2,201,0,0,,,0,0,0,0,,,
-620,Sabri Ben Hessen,24,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-621,Moutaz Neffati,24,DEF,0,0,0,0,0,,,0,0,0,0,,,
-622,Raed Chikhaoui,24,DEF,0,0,0,0,0,,,0,0,0,0,,,
-623,Anis Slimane,24,MID,3,3,241,0,0,,,0,0,0,0,,,
-624,Sebastian Tounekti,24,MID,3,1,83,0,0,,,0,0,0,0,,,
-625,Thibaut Nicolas Courtois,25,GK,6,6,570,0,1,,,0,0,0,0,1.0,15.0,7.07
-626,Zeno Koen Debast,25,DEF,2,2,180,0,0,,,0,0,0,0,,,
-627,Arthur Nicolas Theate,25,DEF,5,4,407,0,0,,,0,0,0,0,,,6.87
-628,Brandon Erik Mechele,25,DEF,4,4,390,0,0,,,0,0,0,0,,,6.97
-629,Maxim Peter De Cuyper,25,DEF,4,3,292,0,0,,,0,0,0,0,,,6.72
-630,Axel Laurent Witsel,25,MID,2,2,180,0,0,,,0,0,0,0,,,
-631,Kevin De Bruyne,25,MID,4,4,301,1,0,,,0,0,0,0,,,7.22
-632,Youri Marion Tielemans,25,MID,4,4,385,2,0,,,0,0,0,0,,,7.44
-633,Romelu Lukaku,25,FWD,5,1,206,3,0,,,1,0,0,0,,,6.8
-634,Leandro Trossard,25,FWD,5,4,391,2,2,,,0,0,0,0,,,7.52
-635,Jeremy Baffour Doku,25,FWD,5,5,378,0,0,,,0,0,0,0,,,6.8
-636,Senne Lammens,25,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-637,Mike Louis Penders,25,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-638,Dodi Lukebakio,25,FWD,2,0,96,0,0,,,0,0,0,0,,,6.83
-639,Thomas Andre Meunier,25,DEF,5,4,370,0,1,,,0,0,0,0,,,6.7
-640,Koni De Winter,25,DEF,0,0,0,0,0,,,0,0,0,0,,,
-641,Charles Marc De Ketelaere,25,FWD,5,3,257,3,0,,,0,0,0,0,,,7.12
-642,Joaquin Ronny Seys,25,DEF,0,0,0,0,0,,,0,0,0,0,,,
-643,Diego Manuel Moreira,25,MID,1,0,57,0,0,,,0,0,0,0,,,6.9
-644,Hans Vanaken,25,MID,5,2,219,1,0,,,0,0,0,0,,,6.83
-645,Timothy Castagne,25,DEF,4,3,298,0,0,,,0,0,0,0,,,6.97
-646,Alexis Jesse Saelemaekers,25,MID,4,3,256,1,0,,,0,0,0,0,,,7.03
-647,Nicolas Thierry Raskin,25,MID,6,3,341,0,1,,,0,0,0,0,,,7.17
-648,Amadou Ba Onana,25,MID,5,3,265,0,0,,,0,0,0,0,,,6.73
-649,Nathan Ngoy,25,DEF,4,4,360,0,0,,,0,1,0,0,,,6.81
-650,Matias Fernandez-Pardo,25,FWD,5,2,221,0,0,,,0,0,0,0,,,
-651,Elsayed Mohamed Mohamed Elshenawy,26,GK,1,1,90,0,0,,,0,0,0,0,0.0,4.0,
-652,Ahmed Ibrahim Yasser,26,DEF,5,3,406,1,0,,,0,0,0,0,,,
-653,Hany Gamal Mohamed Hany,26,DEF,5,5,480,0,1,,,0,0,0,2,,,
-654,Abdelmegeed Abdelsalam Hossam Abdelmaguid,26,DEF,2,0,59,0,0,,,0,0,0,0,,,7.25
-655,Abdelaziz Moustafa Ramy Rabia,26,DEF,5,3,368,0,0,,,0,0,0,0,,,7.1
-656,Abdelmoneim Elsayed Mohamed,26,DEF,3,2,105,0,0,,,0,0,0,0,,,
-657,Ahmed Ibrahim Trezeguet,26,FWD,3,1,144,1,0,,,0,0,0,0,,,6.68
-658,Ashour Metwaly Emam,26,MID,4,4,321,2,0,,,0,0,0,0,,,7.0
-659,Mohamed Abdelkarim Hamza,26,FWD,5,1,146,0,0,,,0,0,0,0,,,
-660,Hamed Mahrous Mohamed Salah,26,FWD,5,5,427,1,3,,,0,0,0,0,,,
-661,Mohamed Zaky Mostafa Zico,26,MID,5,5,385,2,1,,,0,0,0,0,,,
-662,Yousry Fouad Haissem Hassan,26,FWD,2,0,83,0,1,,,0,0,0,0,,,6.9
-663,Mohamed Aboelfetouh Ahmed Fatouh,26,DEF,4,4,358,0,0,,,0,0,0,0,,,6.8
-664,Fathy Abdelhalim Hamdy Fathy,26,MID,4,4,286,0,0,,,0,0,0,0,,,6.73
-665,Hafez Ramadan Karim Hafez,26,DEF,2,1,82,0,0,,,0,0,0,0,,,6.65
-666,Mohamed Soliman Mahdy Soliman,26,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-667,Mostafa Ahmed Mohanad Lashin,26,MID,3,3,270,0,0,,,0,0,0,0,,,6.9
-668,Aly Elmahdy Nabil,26,MID,1,1,90,0,0,,,0,0,0,0,,,
-669,Attia Fahim Marawan Attia,26,MID,4,3,343,0,0,,,0,0,0,0,,,7.12
-670,Adel Aly Mohamed Ibrahim,26,FWD,1,0,2,0,0,,,0,0,0,0,,,
-671,Saber Abdelmohsen Mahmoud,26,MID,3,2,137,1,0,,,0,0,0,0,,,
-672,Mohamed Abdelsalam Omar,26,FWD,4,3,316,0,0,,,0,0,0,0,,,
-673,Abdelaziz Mohame Mostafa,26,GK,4,4,390,0,0,,,0,0,0,0,0.0,9.0,
-674,Abdelghaffar Abdel Tarek Alaa,26,DEF,0,0,0,0,0,,,0,0,0,0,,,
-675,Mostafa Mohamed Zizo,26,FWD,3,0,53,0,0,,,0,0,0,0,,,6.63
-676,Alaaeldin Soliman Mohamed Alaa,26,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-677,Ali Reza Beiranvand,27,GK,3,3,270,0,0,,,0,0,0,0,1.0,16.0,7.63
-678,Saleh Hardani,27,DEF,2,1,90,0,0,,,0,0,0,0,,,7.05
-679,Ehsan Hajisafi,27,DEF,2,1,91,0,0,,,0,0,0,0,,,6.7
-680,Shojae Khalilzadeh,27,DEF,3,3,270,0,0,,,0,0,0,0,,,7.07
-681,Milad Mohammadi,27,DEF,3,2,204,0,0,,,0,0,0,0,,,
-682,Saeid Ezatolahi,27,MID,3,3,265,0,0,,,0,0,0,0,,,6.93
-683,Alireza Jahanbakhsh,27,MID,2,0,45,0,0,,,0,0,0,0,,,6.7
-684,Mohammad Mohebbi,27,MID,3,3,246,1,0,,,0,0,0,0,,,6.83
-685,Mehdi Taremi,27,FWD,3,3,260,0,0,,,0,0,0,0,,,6.67
-686,Mehdi Ghayedi,27,FWD,1,0,45,0,0,,,0,0,0,0,,,
-687,Ali Alipour,27,FWD,1,0,37,0,0,,,0,0,0,0,,,
-688,Seyedpayam Niazmand,27,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-689,Mohammadhossein Kanani,27,DEF,2,2,136,0,0,,,0,0,0,0,,,6.8
-690,Seyed Saman Ghoddos,27,MID,3,3,211,0,0,,,0,0,0,0,,,6.67
-691,Roozbeh Cheshmi,27,MID,0,0,0,0,0,,,0,0,0,0,,,
-692,Mahdi Torabi,27,MID,1,0,24,0,0,,,0,0,0,0,,,6.7
-693,Arya Yousefi,27,DEF,1,1,45,0,0,,,0,0,0,0,,,6.8
-694,Amirhossein Hosseinzadeh,27,FWD,2,0,15,0,0,,,0,0,0,0,,,
-695,Ali Nemati,27,DEF,3,3,270,0,0,,,0,0,0,0,,,6.77
-696,Shahriyar Moghanloo,27,FWD,3,1,87,0,0,,,0,0,0,0,,,6.7
-697,Mohammad Ghorbani,27,MID,1,1,90,0,0,,,0,0,0,0,,,
-698,Seyedhossein Hosseini,27,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-699,Ramin Rezaeian,27,DEF,3,3,270,2,1,,,0,0,0,0,,,7.57
-700,Dennis Dargahi,27,FWD,0,0,0,0,0,,,0,0,0,0,,,
-701,Danial Iri,27,DEF,0,0,0,0,0,,,0,0,0,0,,,
-702,Amirmohammad Razaghinia,27,MID,0,0,0,0,0,,,0,0,0,0,,,
-703,Maxime Teremoana Crocombe,28,GK,3,3,270,0,0,,,0,0,0,0,0.0,18.0,
-704,Timothy John Payne,28,DEF,3,3,227,0,1,,,0,0,0,0,,,
-705,Francis De Vries,28,DEF,2,0,16,0,0,,,0,0,0,0,,,
-706,Tyler Grant Bindon,28,DEF,3,1,96,0,0,,,0,0,0,0,,,
-707,Michael Joseph Boxall,28,DEF,3,2,206,0,0,,,0,0,0,0,,,
-708,Joe Zen Robert Bell,28,MID,3,3,244,0,0,,,0,0,0,0,,,
-709,Logan Tipene Rogerson,28,FWD,0,0,0,0,0,,,0,0,0,0,,,
-710,Marko Seufatu Nikola Stamenic,28,MID,3,3,270,0,0,,,0,0,0,0,,,6.83
-711,Christopher Grant Wood,28,FWD,3,3,270,0,2,,,0,0,0,0,,,
-712,Sarpreet Singh,28,MID,3,3,212,0,0,,,0,0,0,0,,,
-713,Elijah Henry Just,28,MID,3,3,265,3,0,,,0,0,0,0,,,7.83
-714,Alexander Noah Paulsen,28,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-715,Liberato Gianpaolo Cacace,28,DEF,3,3,223,0,0,,,0,0,0,0,,,
-716,Alex Arthur Rufer,28,MID,0,0,0,0,0,,,0,0,0,0,,,
-717,Nando Zen Pijnaker,28,DEF,0,0,0,0,0,,,0,0,0,0,,,
-718,Finn Surman,28,DEF,3,3,270,1,0,,,0,0,0,0,,,6.78
-719,Kosta Barbarouses,28,FWD,0,0,0,0,0,,,0,0,0,0,,,
-720,Benjamin Peter Waine,28,FWD,0,0,0,0,0,,,0,0,0,0,,,
-721,Benjamin Craig Old,28,MID,3,0,90,0,0,,,0,0,0,0,,,
-722,Mc,28,MID,3,2,160,0,0,,,0,0,0,0,,,
-723,Jesse Carmichael Randall,28,FWD,3,0,59,0,0,,,0,0,0,0,,,
-724,Michael Cornelis Woud,28,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-725,Ryan Jared Thomas,28,MID,3,1,82,0,0,,,0,0,0,0,,,
-726,Callan Rennie Elliot,28,DEF,1,0,12,0,0,,,0,0,0,0,,,7.0
-727,Lachlan Ryan Bayliss,28,MID,0,0,0,0,0,,,0,0,0,0,,,
-728,Thomas Jefferson Smith,28,DEF,0,0,0,0,0,,,0,0,0,0,,,
-729,David Raya,29,GK,4,3,300,0,0,,,0,0,0,0,2.0,8.0,
-730,Marc Pubill,29,DEF,1,0,1,0,0,,,0,0,0,0,,,
-731,Alejandro Grimaldo,29,DEF,3,3,270,0,0,,,0,0,0,0,,,
-732,Eric Garcia,29,DEF,4,3,291,0,0,,,0,0,0,0,,,6.7
-733,Marcos Llorente,29,DEF,2,2,180,0,1,,,0,0,0,0,,,7.27
-734,Mikel Merino,29,MID,8,4,442,1,0,,,0,0,0,0,,,6.88
-735,Ferran Torres,29,FWD,6,1,246,1,1,,,0,0,0,0,,,
-736,Fabian Ruiz,29,MID,5,2,184,0,0,,,0,0,0,0,,,6.91
-737,Pablo Gavi,29,MID,2,1,76,0,0,,,0,0,0,0,,,6.65
-738,Daniel Olmo,29,FWD,8,6,516,1,2,,,0,0,0,0,,,7.01
-739,Yeremy Jesús Pino,29,FWD,2,0,68,0,0,,,0,0,0,0,,,
-740,Pedro Antonio Porro,29,DEF,6,6,570,2,0,,,0,0,0,0,,,7.45
-741,Joan Garcia,29,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-742,Aymeric Laporte,29,DEF,5,5,459,0,1,,,0,0,0,0,,,7.4
-743,Alejandro Baena,29,MID,7,7,543,1,1,,,0,0,0,0,,,7.04
-744,Rodrigo Rodri,29,MID,5,5,477,0,0,,,0,0,0,0,,,7.76
-745,Nicholas Williams,29,FWD,4,0,91,0,1,,,0,0,0,0,,,
-746,Martin Zubimendi,29,MID,3,3,270,0,0,,,0,0,0,0,,,7.0
-747,Lamine Yamal Yamal,29,FWD,8,7,616,2,0,,,0,0,0,0,,,7.16
-748,Pedro Pedri,29,MID,8,7,638,0,0,,,0,0,0,0,,,7.23
-749,Mikel Oyarzabal,29,FWD,6,5,394,5,1,,,0,0,0,0,,,7.14
-750,Pau Cubarsi,29,DEF,5,5,480,0,0,,,0,0,0,0,,,7.56
-751,Unai Simon,29,GK,5,5,480,0,0,,,0,0,0,0,5.0,13.0,6.95
-752,Marc Cucurella,29,DEF,8,8,750,0,2,,,0,0,0,0,,,7.09
-753,Victor Munoz,29,FWD,0,0,0,0,0,,,0,0,0,0,,,
-754,Borja Iglesias,29,FWD,0,0,0,0,0,,,0,0,0,0,,,
-755,José Vozinha,30,GK,4,4,390,0,0,,,0,0,0,0,2.0,23.0,7.88
-756,Ianique Stopira,30,DEF,0,0,0,0,0,,,0,0,0,0,,,
-757,Alberto Diney,30,DEF,4,4,390,0,0,,,0,0,0,1,,,
-758,Carlos Pico Lopes,30,DEF,4,4,390,0,0,,,0,0,0,0,,,7.25
-759,Evans Logan Costa,30,DEF,0,0,0,0,0,,,0,0,0,0,,,
-760,Lenini Kevin Pina,30,MID,4,4,350,1,0,,,0,0,0,0,,,7.05
-761,Eduardo Jovane,30,MID,2,2,141,0,0,,,0,0,0,0,,,6.65
-762,Paulo Joao Paulo,30,MID,2,1,104,0,0,,,0,0,0,0,,,7.1
-763,BENCHIMOLGilson Gilson,30,FWD,2,1,78,0,0,,,0,0,0,0,,,
-764,Gregory Jamiro Monteiro,30,MID,4,3,283,0,0,,,0,0,0,0,,,
-765,RODRIGUESGarry Garry,30,MID,2,1,77,0,0,,,0,0,0,0,,,
-766,Salomão Marcio,30,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-767,CABRALSidny Sidny Lopes,30,DEF,3,3,286,1,0,,,0,0,0,0,,,7.03
-768,Deroy Deroy Duarte,30,MID,4,2,263,1,0,,,0,0,0,0,,,7.03
-769,Michael Laros Duarte,30,MID,4,2,167,0,0,,,0,0,0,0,,,6.63
-770,SEMEDOJair Yannick,30,MID,2,0,30,0,0,,,0,0,0,0,,,6.8
-771,Johnson Willy,30,MID,3,1,130,0,0,,,0,0,0,0,,,
-772,Emanuel Telmo,30,MID,2,1,57,0,0,,,0,0,0,0,,,6.65
-773,Dailon Dailon Livramento,30,FWD,3,2,175,0,0,,,0,0,0,0,,,
-774,Isaac Ryan,30,FWD,4,4,331,0,0,,,0,0,0,0,,,
-775,Miguel Nuno Da Costa,30,MID,4,1,157,0,0,,,0,0,0,0,,,6.65
-776,MOREIRASteven Steven,30,DEF,4,3,301,0,0,,,0,0,0,0,,,
-777,Joaquim Cj Dos Santos,30,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-778,Fabricio Wagner Pina,30,DEF,1,1,90,0,0,,,1,0,0,0,,,6.9
-779,PIRESKelvin Kelvin,30,DEF,0,0,0,0,0,,,0,0,0,0,,,
-780,Sandro Helio Varela,30,MID,3,0,101,1,0,,,0,0,0,0,,,6.87
-781,Dhahi Nawaf Alaqidi,31,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-782,Hassan Ali Majrashi,31,DEF,0,0,0,0,0,,,0,0,0,0,,,
-783,Mohammed Ali Lajami,31,DEF,3,1,148,0,0,,,0,0,0,0,,,6.9
-784,Ali Abdulelah Alamri,31,DEF,3,3,240,1,0,,,0,0,0,0,,,6.93
-785,Mohammed Hassan Altambakti,31,DEF,3,3,213,0,0,,,0,0,0,1,,,
-786,Essa Nasser Aldawsari,31,MID,3,2,207,0,0,,,1,0,0,0,,,
-787,Fahad Musab Aljuwayr,31,MID,3,2,153,0,0,,,0,0,0,0,,,6.7
-788,Yahya Aiman Yahya,31,FWD,0,0,0,0,0,,,0,0,0,0,,,
-789,Tariq Feras,31,FWD,3,3,240,0,0,,,1,0,0,0,,,
-790,Mohammed Salem Aldawsari,31,FWD,3,3,245,0,0,,,0,0,0,0,,,
-791,Khalid Saleh,31,FWD,0,0,0,0,0,,,0,0,0,0,,,
-792,Abdullah Saud Abdulhamid,31,DEF,3,3,270,0,0,,,1,0,0,0,,,
-793,Meshari Nawaf Bu Washl,31,DEF,2,1,91,0,0,,,0,0,0,0,,,6.65
-794,Kadish Hassan,31,DEF,0,0,0,0,0,,,0,0,0,0,,,
-795,Mohammed Abdullah Alkhaibari,31,MID,3,3,182,0,0,,,0,0,0,0,,,
-796,Mubarak Ziyad Aljohani,31,MID,0,0,0,0,0,,,0,0,0,0,,,
-797,Essa Khalid Alghannam,31,FWD,1,0,1,0,0,,,0,0,0,0,,,
-798,Mohsen Ala Alhajji,31,MID,2,0,31,0,0,,,0,0,0,0,,,
-799,Abdulrahman Abdullah Alhamddan,31,FWD,3,0,70,0,0,,,0,0,0,0,,,
-800,Ahmed Sultan Mandash,31,FWD,1,1,65,0,0,,,0,0,0,0,,,7.1
-801,Khalil Mohammed Alowais,31,GK,3,3,270,0,0,,,0,0,0,0,1.0,18.0,
-802,Ali Ahmed,31,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.93
-803,Ibrahim Mohamed,31,MID,3,2,224,0,0,,,0,0,0,0,,,
-804,Saad Moteb Alharbi,31,DEF,3,2,188,0,0,,,0,0,0,0,,,
-805,Abdullatif Jehad Thikri,31,DEF,0,0,0,0,0,,,0,0,0,0,,,
-806,Waheeb Mohammed Abu Alshamat,31,DEF,3,1,136,0,0,,,0,0,0,0,,,
-807,Sergio Ramón Rochet,32,GK,1,0,44,0,0,,,0,0,0,0,0.0,0.0,
-808,José María Gimenez,32,DEF,0,0,0,0,0,,,0,0,0,0,,,
-809,Sebastián Enzo Caceres,32,DEF,3,3,270,0,0,,,0,0,0,0,,,
-810,Ronald Federico Araujo,32,DEF,0,0,0,0,0,,,0,0,0,0,,,
-811,Manuel Ugarte,32,MID,3,3,187,0,0,,,0,0,0,0,,,
-812,Rodrigo Bentancur,32,MID,3,3,270,0,0,,,0,0,0,0,,,6.93
-813,Diego Nicolás De La Cruz,32,MID,3,0,83,0,0,,,0,0,0,0,,,7.07
-814,Federico Santiago Valverde,32,MID,3,3,236,0,1,,,0,0,0,0,,,6.7
-815,Darwin Gabriel Nunez,32,FWD,3,2,156,0,0,,,0,0,0,0,,,
-816,Giorgian Daniel De Arrascaeta,32,MID,0,0,0,0,0,,,0,0,0,0,,,
-817,Facundo Pellistri,32,FWD,0,0,0,0,0,,,0,0,0,0,,,
-818,Santiago Andres Mele,32,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-819,Guillermo Varela,32,DEF,3,3,270,0,0,,,0,0,0,0,,,
-820,Agustin Canobbio,32,MID,3,2,224,1,0,,,0,0,0,0,,,6.83
-821,Emiliano Martinez,32,MID,0,0,0,0,0,,,0,0,0,0,,,
-822,Mathías Olivera,32,DEF,3,3,270,0,0,,,0,0,0,0,,,7.0
-823,Matías Nicolas Vina,32,DEF,1,1,46,0,0,,,0,0,0,0,,,
-824,Paul Brian Rodriguez,32,FWD,3,0,38,0,0,,,0,0,0,0,,,
-825,Rodrigo Sebastian Aguirre,32,FWD,1,0,1,0,0,,,0,0,0,0,,,
-826,Maximiliano Javier Araujo,32,MID,3,3,252,2,1,,,0,0,0,0,,,7.37
-827,Federico Sebastian Vinas,32,FWD,3,2,194,0,0,,,0,0,0,0,,,
-828,Joaquin Piquerez,32,MID,0,0,0,0,0,,,0,0,0,0,,,
-829,Nestor Fernando Muslera,32,GK,3,3,226,0,0,,,0,0,0,0,0.0,9.0,
-830,Santiago Ignacio Bueno,32,DEF,0,0,0,0,0,,,0,0,0,0,,,
-831,Juan Manuel Sanabria,32,MID,3,2,204,0,0,,,0,0,0,0,,,6.67
-832,Radrigo Zalazar,32,MID,0,0,0,0,0,,,0,0,0,0,,,
-833,Brice Lauriche Samba,33,GK,2,2,180,0,0,,,0,0,0,0,1.0,6.0,
-834,Malo Arthur Gusto,33,DEF,4,1,116,0,0,,,0,0,0,0,,,
-835,Lucas Digne,33,DEF,3,2,213,0,0,,,0,0,0,0,,,6.65
-836,Dayotchanculle Oswald Upamecano,33,DEF,8,7,661,0,1,,,0,0,0,0,,,7.21
-837,Jules Olivier Kounde,33,DEF,8,7,605,0,0,,,0,0,0,0,,,6.73
-838,Emmanuel Boris Kone,33,MID,5,5,450,0,0,,,0,0,0,0,,,6.86
-839,Masour Ousmane Dembele,33,FWD,6,4,363,5,2,,,0,0,0,0,,,7.91
-840,Aurélien Djani Tchouameni,33,MID,6,6,540,0,1,,,1,0,0,0,,,7.33
-841,Marcus Lilian Thuram,33,FWD,1,0,1,0,0,,,0,0,0,0,,,
-842,Kylian Mbappe,33,FWD,8,8,711,10,4,,,0,0,0,0,,,8.24
-843,Michael Akpovie Olise,33,FWD,8,8,668,0,8,,,0,0,0,0,,,7.33
-844,Bradley Jean-Manuel Essolisa Barcola,33,FWD,6,2,283,4,1,,,0,0,0,0,,,7.11
-845,N'golo Kante,33,MID,0,0,0,0,0,,,0,0,0,0,,,
-846,Adrien Thibault Marie Rabiot,33,MID,4,4,360,0,1,,,0,0,0,0,,,6.86
-847,Ibrahima Konate,33,DEF,2,1,59,0,0,,,0,0,0,0,,,
-848,Mike Peterson Maignan,33,GK,6,6,540,0,0,,,0,0,0,0,3.0,15.0,6.79
-849,William Alain André Gabriel Saliba,33,DEF,6,6,540,0,0,,,0,0,0,0,,,6.85
-850,Warren Marie Jean-Pierre Zaire-Emery,33,MID,4,4,360,0,0,,,0,0,0,0,,,
-851,Théo Bernard François Hernandez,33,DEF,4,3,237,0,0,,,0,0,0,0,,,
-852,Désiré Nonka-Maho Doue,33,FWD,5,3,259,1,0,,,0,0,0,0,,,6.88
-853,Lucas Francois Bernard Hernandez,33,DEF,0,0,0,0,0,,,0,0,0,0,,,
-854,Jean-Philippe Mateta,33,FWD,2,0,9,0,0,,,0,0,0,0,,,
-855,Robin François Philippe Risser,33,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-856,Mathis Rayan Cherki,33,MID,8,4,370,0,0,,,0,0,0,0,,,6.61
-857,Maghnes Akliouche,33,MID,1,0,7,0,0,,,0,0,0,0,,,
-858,Maxence Guy Lacroix,33,DEF,5,5,450,0,0,,,0,0,0,0,,,6.77
-859,Yehvann Djibril Victor Diouf,34,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-860,Mamadou Sarr,34,DEF,0,0,0,0,0,,,0,0,0,0,,,
-861,Kalidou Koulibaly,34,DEF,2,2,162,0,0,,,0,0,0,0,,,
-862,Abdoulaye Seck,34,DEF,1,1,58,0,1,,,1,0,0,0,,,6.9
-863,Idrissa Gana Gueye,34,MID,4,4,363,0,0,,,0,0,0,0,,,7.2
-864,Ismaila Pathe Ciss,34,MID,4,1,181,0,0,,,0,0,0,0,,,6.81
-865,Assane Diao,34,FWD,1,0,9,0,0,,,0,0,0,0,,,
-866,Lamine Camara,34,MID,4,3,248,0,1,,,0,0,0,0,,,6.63
-867,Ahmadou Bamba Mbacke Dieng,34,FWD,1,0,7,0,0,,,0,0,0,0,,,
-868,Sadio Mane,34,FWD,4,4,363,0,1,,,0,0,0,0,,,6.9
-869,Nicolas Jackson,34,FWD,4,2,234,0,1,,,0,0,0,0,,,
-870,Pape Cherif Ndiaye,34,FWD,0,0,0,0,0,,,0,0,0,0,,,
-871,Iliman Cheikh Baroy Ndiaye,34,FWD,3,1,114,1,2,,,0,0,0,0,,,7.37
-872,Ismail Joshua Jakobs,34,DEF,3,2,219,0,0,,,0,0,0,0,,,
-873,Krepin Diatta,34,DEF,4,4,390,0,0,,,0,0,0,0,,,6.81
-874,Edouard Osoque Mendy,34,GK,2,2,153,0,0,,,0,0,0,0,0.0,7.0,
-875,Pape Matar Sarr,34,MID,2,0,65,0,0,,,0,0,0,0,,,
-876,Ismaila Sarr,34,FWD,4,4,366,4,1,,,0,0,0,0,,,7.55
-877,Moussa Niakhate,34,DEF,4,4,390,0,1,,,0,0,0,0,,,7.08
-878,Ibrahim Mbaye,34,FWD,4,1,154,1,0,,,0,0,0,0,,,6.95
-879,Habib Mbacke Diarra,34,MID,3,2,144,2,0,,,0,0,0,0,,,7.0
-880,Bara Sapoko Ndiaye,34,MID,1,0,25,0,0,,,0,0,0,0,,,
-881,Mory Diaw,34,GK,3,2,237,0,0,,,0,0,0,0,1.0,3.0,6.63
-882,Antoine Alpha Mendy,34,DEF,0,0,0,0,0,,,0,0,0,0,,,
-883,El Hadji Malick Diouf,34,DEF,3,2,171,0,0,,,0,0,0,0,,,
-884,Pape Alassane Gueye,34,MID,4,3,237,2,1,,,1,0,0,0,,,7.33
-885,Talib Raheem Fahad Talib,35,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-886,Ghareeb Solaka Rebin Sulaka,35,DEF,2,1,120,0,0,,,0,1,0,0,,,
-887,Haydar Hussein Hussein,35,DEF,2,2,163,0,0,,,0,0,0,1,,,
-888,Tahseen Abd Zaid Zaid,35,DEF,2,2,150,0,0,,,0,0,0,0,,,
-889,Hashim Rahman Akam Hashim,35,DEF,3,3,270,0,0,,,0,0,0,0,,,
-890,Younus Hashim Munaf Younus,35,DEF,1,0,74,0,0,,,0,0,0,0,,,
-891,Wali Faeq Youssef Amyn,35,MID,1,0,30,0,0,,,0,0,0,0,,,
-892,Bayesh Kamil Ibrahim Bayesh,35,MID,3,3,236,0,0,,,0,0,0,0,,,
-893,Ibrahim Karim Ali Alhamadi,35,FWD,3,2,180,0,0,,,0,0,0,0,,,
-894,Ali Kadhim Mohanad Ali,35,FWD,1,0,12,0,0,,,0,0,0,0,,,
-895,Ihab Ahmed Ahmed,35,FWD,3,2,123,0,0,,,0,0,0,0,,,
-896,Hasan Hachim Jalal Hassan,35,GK,2,1,134,0,0,,,0,0,0,0,0.0,7.0,
-897,Yousif Hashim Ali Yousif,35,FWD,1,0,33,0,0,,,0,0,0,0,,,
-898,Aamar Iqbal Zidane,35,MID,3,2,188,0,0,,,0,0,0,0,,,
-899,Hasan Maknazi Ahmed Maknazi,35,DEF,1,0,33,0,0,,,0,0,0,0,,,
-900,Fouad Aboud Amir Alammari,35,MID,3,3,248,0,1,,,1,0,0,0,,,
-901,Jasim Elaibi Ali Jasim,35,FWD,2,2,130,0,0,,,0,0,0,0,,,
-902,Hussein Ghadhban Aymen,35,FWD,2,2,116,1,0,,,0,0,0,0,,,
-903,Yakob William Kevin Yakob,35,MID,1,0,23,0,0,,,0,0,0,0,,,
-904,Hazar Anwar Aimar,35,MID,1,0,22,0,0,,,0,0,0,0,,,
-905,Jabbar Hussein Marko Farji,35,FWD,2,0,53,0,0,,,0,0,0,0,,,6.7
-906,Basil Fadhil Ahmed,35,GK,2,2,136,0,0,,,0,0,0,0,0.0,9.0,
-907,Ghazi Salih Merchas,35,DEF,3,3,270,0,0,,,1,0,0,0,,,
-908,Ismael Khaleel Zaid Ismael,35,MID,2,2,119,0,0,,,0,0,0,0,,,6.65
-909,Saadoon Abbood Mustafa,35,DEF,1,0,17,0,0,,,0,0,0,0,,,
-910,Dhia Jirjis Frans,35,DEF,1,1,90,0,0,,,0,0,0,0,,,
-911,Ørjan Haskjold Nyland,36,GK,5,5,450,0,0,,,0,0,0,0,0.0,15.0,7.32
-912,Morten Thorsby,36,MID,1,0,44,0,0,,,0,0,0,0,,,
-913,Kristoffer Vassbakk Köpp Ajer,36,DEF,5,5,450,0,0,,,0,0,0,0,,,6.84
-914,Leo Skiri Ostigard,36,DEF,4,1,114,1,0,,,0,0,0,0,,,
-915,David Møller Moller Wolfe,36,DEF,4,4,343,0,1,,,0,0,0,0,,,6.76
-916,Patrick Berg,36,MID,5,3,323,0,2,,,1,0,0,0,,,6.92
-917,Alexander Sorloth,36,FWD,4,4,273,0,0,,,0,0,0,0,,,
-918,Sander Gard Bolin Berge,36,MID,5,5,450,0,0,,,0,0,0,0,,,6.9
-919,Erling Braut Haaland,36,FWD,5,5,450,7,0,,,0,0,0,0,,,7.9
-920,Martín Odegaard,36,MID,5,4,381,0,3,,,0,0,0,0,,,6.94
-921,Jørgen Strand Strand Larsen,36,FWD,1,1,90,0,0,,,0,0,0,0,,,
-922,Sander Tangvik,36,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-923,Egil Selvik,36,GK,1,1,90,0,0,,,0,0,0,0,0.0,4.0,6.7
-924,Fredrik Aursnes,36,MID,6,4,333,0,0,,,0,0,0,0,,,6.72
-925,Fredrik André Bjorkan,36,DEF,2,2,136,0,0,,,0,0,0,0,,,
-926,Marcus Holmgren Holmgren Pedersen,36,DEF,4,2,294,1,0,,,0,0,0,0,,,
-927,Torbjørn Lysaker Heggem,36,DEF,5,5,444,0,0,,,0,0,0,0,,,6.72
-928,Kristian Thorstvedt,36,MID,3,2,153,0,0,,,0,0,0,0,,,
-929,Thelonious Gerard Aasgaard,36,MID,1,1,90,1,0,,,0,0,0,0,,,7.9
-930,Antonio Eromonsele Nordby Nusa,36,FWD,6,5,357,1,0,,,0,0,0,0,,,6.62
-931,Andreas Rædergård Schjelderup,36,MID,6,1,213,1,2,,,0,0,0,0,,,7.07
-932,Oscar Bobb,36,MID,6,2,260,0,0,,,0,0,0,0,,,6.78
-933,Jens Petter Hauge,36,MID,1,0,7,0,0,,,0,0,0,0,,,
-934,Sondre Klingen Langas,36,DEF,1,0,24,0,0,,,0,0,0,0,,,
-935,Henrik Sælebakke Falchener,36,DEF,1,1,66,0,0,,,0,0,0,0,,,
-936,Julian Ryerson,36,FWD,3,3,166,0,0,,,0,0,0,0,,,6.88
-937,Juan Agustín Musso,37,GK,3,2,210,0,0,,,0,0,0,0,0.0,4.0,
-938,Marcos Nicolás Senesi,37,DEF,4,3,289,0,0,,,0,0,0,0,,,
-939,Nicolás Alejandro Tagliafico,37,DEF,5,3,334,0,0,,,0,0,0,0,,,6.66
-940,Gonzalo Ariel Montiel,37,DEF,4,2,137,0,0,,,0,0,0,0,,,6.62
-941,Leandro Daniel Paredes,37,MID,5,2,273,0,0,,,0,0,0,0,,,7.21
-942,Lisandro Martinez,37,DEF,7,7,595,1,0,,,0,0,0,0,,,7.29
-943,Rodrigo Javier De Paul,37,MID,5,4,343,0,1,,,0,0,0,0,,,6.97
-944,Valentin Barco,37,MID,3,2,199,0,0,,,0,0,0,0,,,6.8
-945,Julián Alvarez,37,FWD,8,5,571,2,0,,,0,0,0,0,,,
-946,Lionel Andrés Messi,37,FWD,8,5,590,8,4,,,0,0,0,0,,,8.79
-947,Giovani Lo Celso,37,MID,1,1,60,1,0,,,0,0,0,0,,,7.9
-948,Geronimo Rulli,37,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-949,Cristian Gabriel Romero,37,DEF,7,7,596,1,0,,,0,0,0,0,,,7.17
-950,Exequiel Alejandro Palacios,37,MID,3,3,270,0,0,,,0,0,0,0,,,6.8
-951,Nicolas Ivan Gonzalez,37,MID,5,1,189,0,1,,,0,0,0,0,,,6.79
-952,Thiago Ezequiel Almada,37,FWD,4,3,212,0,0,,,0,0,0,0,,,6.8
-953,Giuliano Simeone,37,FWD,3,2,194,0,0,,,0,0,0,0,,,
-954,Nicolas Paz,37,FWD,4,3,250,0,0,,,0,0,0,0,,,6.65
-955,Nicolas Hernan Gonzalo Otamendi,37,DEF,5,1,228,0,0,,,0,0,0,0,,,6.8
-956,Alexis Mac Allister,37,MID,8,7,720,1,1,,,0,0,0,0,,,6.72
-957,Jose Manuel Alberto Lopez,37,FWD,2,0,38,0,1,,,0,0,0,0,,,
-958,Lautaro Javier Martinez,37,FWD,6,4,281,3,0,,,0,0,0,0,,,6.76
-959,Damián Emiliano Martinez,37,GK,6,6,600,0,0,,,0,0,0,0,2.0,12.0,7.03
-960,Enzo Jeremías Fernandez,37,MID,7,7,663,1,0,,,0,0,0,0,,,7.01
-961,Facundo Axel Medina,37,DEF,4,3,308,0,1,,,0,0,0,0,,,6.93
-962,Nahuel Molina,37,DEF,7,5,553,0,0,,,0,0,0,0,,,
-963,Melvin Feycal Mastil,38,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-964,Aissa Mandi,38,DEF,4,4,360,0,0,,,0,0,0,0,,,6.65
-965,Achref Abada,38,DEF,0,0,0,0,0,,,0,0,0,0,,,
-966,Mohamed Amine Tougai,38,DEF,0,0,0,0,0,,,0,0,0,0,,,
-967,Zineddine Belaid,38,DEF,2,0,23,0,0,,,0,0,0,0,,,6.73
-968,Ramiz Larbi Zerrouki,38,MID,3,2,111,0,0,,,0,0,0,0,,,
-969,Riyad Karim Mahrez,38,FWD,4,3,282,2,2,,,0,0,0,0,,,7.28
-970,Houssem-Eddine Chaabane Aouar,38,MID,3,2,174,0,2,,,0,0,0,0,,,6.87
-971,Amine Ferid Gouiri,38,FWD,4,3,253,1,0,,,0,0,0,0,,,6.68
-972,Fares Chaibi,38,MID,4,4,360,0,0,,,0,0,0,0,,,
-973,Anis Hadj Moussa,38,FWD,3,1,97,0,0,,,0,0,0,0,,,
-974,Ahmed Nadhir Benbouali,38,FWD,1,0,45,1,0,,,0,0,0,0,,,7.6
-975,Jaouen Djimmy Hadjam,38,DEF,3,1,108,0,0,,,0,0,0,0,,,6.8
-976,Hicham Boudaoui,38,MID,3,2,128,0,0,,,0,0,0,0,,,6.7
-977,Rayan Ait-Nouri,38,DEF,4,3,284,0,0,,,0,0,0,0,,,
-978,Oussama Benbot,38,GK,1,1,90,0,0,,,0,0,0,0,0.0,0.0,
-979,Rafik Belghali,38,DEF,4,4,333,1,0,,,0,0,0,0,,,6.63
-980,Mohammed Elamine Amoura,38,FWD,1,0,26,0,0,,,0,0,0,0,,,
-981,Nabil Bentaleb,38,MID,4,3,288,0,0,,,0,0,0,0,,,6.93
-982,Adil Boulbina,38,FWD,2,0,16,0,0,,,0,0,0,0,,,
-983,Selmane Rami Bensebaini,38,DEF,4,4,341,0,0,,,0,0,0,0,,,6.8
-984,Ibrahim Maza,38,MID,4,4,352,0,0,,,0,0,0,0,,,
-985,Luca Zinedine Zidane,38,GK,3,3,270,0,0,,,0,0,0,0,0.0,8.0,
-986,Yassine Titraoui,38,MID,0,0,0,0,0,,,0,0,0,0,,,
-987,Fares Ghedjemis,38,FWD,1,0,1,0,0,,,0,0,0,0,,,
-988,Samir Sophian Chergui,38,DEF,1,0,19,0,0,,,0,0,0,0,,,
-989,Alexander Schlager,39,GK,4,4,360,0,0,,,0,0,0,0,0.0,12.0,
-990,David Leopold Affengruber,39,DEF,0,0,0,0,0,,,0,0,0,0,,,
-991,Kevin Danso,39,DEF,4,2,239,0,0,,,0,0,0,0,,,6.7
-992,Xaver Schlager,39,MID,4,4,240,0,1,,,0,0,0,0,,,
-993,Stefan Posch,39,DEF,4,4,332,0,0,,,0,0,0,0,,,
-994,Nicolas Seiwald,39,MID,4,4,315,0,1,,,0,0,0,0,,,6.88
-995,Marko Arnautovic,39,FWD,4,1,143,2,0,,,0,0,0,0,,,6.85
-996,David Alaba,39,DEF,4,4,278,0,1,,,0,0,0,0,,,7.08
-997,Marcel Sabitzer,39,MID,4,4,360,1,0,,,0,0,0,0,,,6.88
-998,Florian Grillitsch,39,MID,2,0,89,0,0,,,0,0,0,0,,,6.73
-999,Michael Gregoritsch,39,FWD,3,2,189,0,1,,,0,0,0,0,,,
-1000,Florian Wiegele,39,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1001,Patrick Pentz,39,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1002,Saša Kalajdzic,39,FWD,3,1,77,1,0,,,0,0,0,0,,,6.67
-1003,Philipp Lienhart,39,DEF,2,2,180,0,0,,,0,0,0,0,,,
-1004,Phillip Mwene,39,DEF,2,2,149,0,0,,,0,0,0,0,,,
-1005,Carney Chibueze Chukwuemeka,39,MID,3,0,81,0,0,,,0,0,0,0,,,
-1006,Romano Schmid,39,MID,4,4,267,1,0,,,0,0,0,0,,,6.73
-1007,Dejan Ljubicic,39,MID,0,0,0,0,0,,,0,0,0,0,,,
-1008,Konrad Laimer,39,MID,4,4,360,0,0,,,0,0,0,0,,,
-1009,Patrick Wimmer,39,FWD,2,0,19,0,0,,,0,0,0,0,,,
-1010,Alexander Prass,39,MID,2,0,28,0,0,,,0,0,0,0,,,
-1011,Marco Friedl,39,DEF,1,0,23,0,0,,,0,0,0,0,,,
-1012,Paul Wanner,39,MID,4,2,232,0,0,,,0,0,0,0,,,
-1013,Michael Svoboda,39,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1014,Alessandro Andre Schoepf,39,MID,0,0,0,0,0,,,0,0,0,0,,,
-1015,Mo'ien Hasan Yazeed Abulaila,40,GK,3,3,270,0,0,,,0,0,0,0,0.0,11.0,
-1016,Ali Hasan Mohammad,40,DEF,1,0,5,0,0,,,0,0,0,0,,,
-1017,Mousa Musallam Abdallah Nasib,40,DEF,3,3,261,0,0,,,0,0,0,0,,,
-1018,Ali Mohammad Husam Abudahab,40,DEF,2,2,180,0,0,,,0,0,0,0,,,
-1019,Mousa Mahmoud Yazan Alarab,40,DEF,3,3,270,0,0,,,0,0,0,1,,,
-1020,Rasem Adel Amer Jamous,40,MID,1,0,14,0,0,,,0,0,0,0,,,
-1021,Faisal Yousef Mohammad,40,FWD,2,0,2,0,0,,,0,0,0,0,,,
-1022,Mahmoud Ali Noor Alrawabdeh,40,MID,3,3,270,0,1,,,0,0,0,0,,,6.63
-1023,Iyad Ali Ali Olwan,40,FWD,3,3,270,1,0,,,0,0,0,0,,,6.87
-1024,Mohammad Mousa Mousa Altamari,40,FWD,3,2,216,1,1,,,0,0,0,0,,,6.93
-1025,Burhan Shehadeh Odeh Fakhoury,40,FWD,0,0,0,0,0,,,0,0,0,0,,,6.7
-1026,Zaid Khaleel Nour Baniateyah,40,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1027,Nayef Ahmad Mahmoud Almardi,40,FWD,3,1,128,0,0,,,0,0,0,0,,,
-1028,Ayed Fadel Rajaei Ayed,40,MID,0,0,0,0,0,,,0,0,0,0,,,
-1029,Mohammad Sami Ibrahim,40,MID,0,0,0,0,0,,,0,0,0,0,,,
-1030,Majed Jamil Mohammad Abualnadi,40,DEF,1,1,72,0,0,,,0,0,0,0,,,
-1031,Amer Saleem Saleem,40,DEF,3,0,20,0,0,,,0,0,0,0,,,
-1032,Ahmed Mohammad Mohammad,40,MID,0,0,0,0,0,,,0,0,0,0,,,
-1033,Ahmad Salameh Saed,40,DEF,1,0,9,0,0,,,0,0,0,0,,,
-1034,Mahmoud Saleh Mohannad Abutaha,40,MID,3,3,265,0,0,,,0,0,0,0,,,6.63
-1035,Mahmoud Ahmed Nizar Alrashdan,40,MID,3,3,256,1,0,,,0,0,0,0,,,
-1036,Ra'ed Mahmoud Abdallah Alfakhori,40,GK,3,2,149,0,0,,,0,0,0,0,0.0,7.0,
-1037,Manel Farhan Ehsan Haddad,40,DEF,3,3,262,0,1,,,0,0,0,0,,,
-1038,Ahmad Ali Ali Azaizeh,40,FWD,3,1,53,0,0,,,0,0,0,0,,,6.7
-1039,Ratib Mohammad Mohammad Aldaoud,40,MID,1,0,2,0,0,,,0,0,0,0,,,
-1040,Said Ghazi Anas Badawi,40,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1041,Diogo Diogo Costa,41,GK,5,5,450,0,0,,,0,0,0,0,2.0,22.0,7.46
-1042,SEMEDONélson Nelson,41,DEF,3,0,89,0,0,,,0,0,0,0,,,
-1043,Rúben Ruben Dias,41,DEF,4,4,360,0,0,,,0,0,0,0,,,7.25
-1044,Tomás Tomas Araujo,41,DEF,2,2,180,0,0,,,0,0,0,0,,,6.9
-1045,Diogo Diogo Dalot,41,DEF,2,1,134,0,0,,,0,0,0,0,,,6.85
-1046,Luiz Matheus,41,MID,2,1,91,0,0,,,0,0,0,0,,,
-1047,Ronaldo Cristiano Ronaldo,41,FWD,4,4,351,3,0,,,0,0,0,0,,,7.02
-1048,Miguel Bruno,41,MID,4,4,333,0,1,,,0,0,0,0,,,
-1049,RAMOSGonçalo Goncalo,41,FWD,3,1,124,1,0,,,0,0,0,0,,,7.25
-1050,Bernardo Bernardo Silva,41,MID,3,1,88,0,0,,,0,0,0,0,,,
-1051,João Joao Felix,41,FWD,2,2,133,0,0,,,0,0,0,0,,,6.67
-1052,Pedro Jose Sa,41,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1053,Renato Renato Veiga,41,DEF,4,4,360,0,0,,,0,0,0,0,,,7.18
-1054,Gonçalo Goncalo Inacio,41,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1055,Pedro Joao Neves,41,MID,5,4,390,1,0,,,0,0,0,0,,,7.14
-1056,António Francisco Trincao,41,FWD,1,0,27,0,0,,,0,0,0,0,,,
-1057,Alexandre Rafael Leao,41,FWD,4,1,135,1,1,,,0,0,0,0,,,6.88
-1058,Pedro Pedro Neto,41,FWD,4,4,271,0,1,,,0,0,0,0,,,6.84
-1059,Manuel Goncalo,41,FWD,0,0,0,0,0,,,0,0,0,0,,,
-1060,Pedro Joao Cancelo,41,DEF,4,4,245,0,1,,,0,0,0,0,,,6.9
-1061,Diogo Ruben,41,MID,3,2,145,0,0,,,0,0,0,0,,,6.65
-1062,Tiago Rui Silva,41,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1063,Vitor Vitinha,41,MID,5,5,388,0,1,,,0,0,0,0,,,7.3
-1064,Samuel Samu Costa,41,DEF,1,0,20,0,0,,,0,0,0,0,,,7.0
-1065,Alexandre Nuno,41,DEF,5,5,432,1,0,,,0,0,0,0,,,
-1066,Francisco Francisco Conceicao,41,FWD,4,1,205,0,0,,,0,0,0,0,,,6.8
-1067,Lionel Nzau Mpasi,42,GK,4,4,360,0,0,,,0,0,0,0,0.0,12.0,6.81
-1068,Wan Wan-Bissaka,42,DEF,4,4,355,0,0,,,0,0,0,0,,,7.0
-1069,Steve Nkanu Kapuadi,42,DEF,2,2,180,0,0,,,0,0,0,0,,,
-1070,Axel Tuanzebe,42,DEF,4,4,360,0,0,,,0,0,0,0,,,6.68
-1071,Dylan Buduka Batubinsika,42,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1072,Ngal’ayel Mukau,42,MID,4,3,197,0,0,,,0,0,0,0,,,
-1073,Nathanaël Mbuku,42,MID,3,2,144,0,0,,,0,0,0,0,,,6.73
-1074,Samuel Alain Moutoussamy,42,MID,4,4,333,0,0,,,0,0,0,0,,,6.78
-1075,Kibambe Brian Cipenga,42,FWD,2,2,148,1,0,,,0,0,0,0,,,6.73
-1076,Theo Mbulofeko Batombo Bongonda,42,MID,2,0,32,0,0,,,0,0,0,0,,,
-1077,Gaël Roméo Kakuta,42,FWD,0,0,0,0,0,,,0,0,0,0,,,
-1078,Joris Kayembe,42,DEF,4,0,43,0,0,,,0,0,0,0,,,6.78
-1079,Meschack Lina Elia,42,FWD,2,0,44,0,1,,,0,0,0,0,,,6.7
-1080,Noah Junior Sadiki,42,MID,4,2,257,0,0,,,0,0,0,0,,,6.81
-1081,Tshibola Tshibola,42,MID,0,0,0,0,0,,,0,0,0,0,,,
-1082,Timothy Bruce Munzoko Fayulu,42,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1083,Cedric Bakambu,42,FWD,3,3,193,0,0,,,0,0,0,0,,,
-1084,Charles Monginda Pickel,42,MID,2,0,35,0,0,,,0,0,0,0,,,
-1085,Mayele Fiston Mayele,42,FWD,2,0,40,1,0,,,0,0,0,0,,,6.6
-1086,Yoane Wissa,42,FWD,4,4,360,3,0,,,0,0,0,0,,,7.13
-1087,Matthieu Luka Epolo,42,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1088,Mangulu Chancel Mbemba,42,DEF,4,4,360,0,0,,,0,0,0,0,,,6.8
-1089,Simon Bokote Banza,42,FWD,2,0,38,0,0,,,0,0,0,0,,,
-1090,Gédéon Tchingoma Kyatengwa Kalulu,42,DEF,1,0,5,0,0,,,0,0,0,0,,,6.8
-1091,Edo Kayembe Kayembe,42,MID,3,2,159,0,0,,,0,0,0,0,,,
-1092,Arthur Fuka Masuaku,42,DEF,4,4,317,0,1,,,0,0,0,0,,,6.85
-1093,Utkir Yusupov,43,GK,1,1,90,0,0,,,0,0,0,0,0.0,6.0,
-1094,Abdukodir Khusanov,43,DEF,3,3,270,0,0,,,0,0,0,1,,,
-1095,Khojiakbar Alijonov,43,DEF,2,1,134,0,0,,,0,0,0,0,,,
-1096,Farrukh Sayfiev,43,DEF,1,0,44,0,0,,,0,0,0,0,,,
-1097,Rustamjon Ashurmatov,43,DEF,3,3,257,0,0,,,0,0,0,0,,,
-1098,Akmal Mozgovoy,43,MID,3,2,216,0,1,,,0,0,0,0,,,
-1099,Otabek Shukurov,43,MID,3,3,238,0,0,,,0,0,0,0,,,
-1100,Jamshid Iskanderov,43,MID,1,0,8,0,0,,,0,0,0,0,,,
-1101,Odiljon Xamrobekov,43,MID,2,1,78,0,0,,,0,0,0,0,,,
-1102,Ruslanbek Jiyanov,43,MID,1,0,1,0,0,,,0,0,0,0,,,
-1103,Oston Urunov,43,MID,2,1,63,0,0,,,0,0,0,0,,,
-1104,Abduvakhid Nematov,43,GK,2,2,180,0,0,,,0,0,0,0,0.0,4.0,
-1105,Sherzod Nasrullaev,43,DEF,3,3,182,0,0,,,0,0,0,0,,,
-1106,Eldor Shomurodov,43,FWD,3,3,270,1,0,,,0,0,0,0,,,
-1107,Umarbek Eshmurodov,43,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1108,Botirali Ergashev,43,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1109,Dostonbek Khamdamov,43,MID,2,1,102,0,0,,,0,0,0,0,,,
-1110,Abdulla Abdullaev,43,DEF,2,2,180,0,0,,,0,0,0,0,,,
-1111,Azizjon Ganiev,43,MID,2,1,122,0,0,,,0,0,0,0,,,6.7
-1112,Azizbek Amonov,43,FWD,1,0,13,0,0,,,0,0,0,0,,,
-1113,Igor Sergeev,43,FWD,3,0,26,0,0,,,0,0,0,0,,,
-1114,Abbosbek Fayzullaev,43,MID,3,3,223,1,0,,,0,0,0,0,,,6.77
-1115,Sherzod Esanov,43,MID,1,0,1,0,0,,,0,0,0,0,,,
-1116,Behruzjon Karimov,43,DEF,2,2,180,0,0,,,0,0,0,0,,,
-1117,Avazbek Ulmasaliyev,43,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1118,Jakhongir Urozov,43,DEF,2,1,95,0,0,,,0,0,0,0,,,
-1119,David Ospina,44,GK,1,1,90,0,0,,,0,0,0,0,1.0,3.0,
-1120,Daniel Munoz,44,DEF,5,4,363,2,0,,,0,0,0,0,,,7.16
-1121,Jhon Janer Lucumi,44,DEF,5,5,450,0,0,,,0,0,0,0,,,7.14
-1122,Santiago Arias,44,DEF,1,1,87,0,0,,,0,0,0,0,,,7.5
-1123,Kevin Duvan Castano,44,MID,2,0,15,0,0,,,0,0,0,0,,,6.7
-1124,Richard Rios,44,MID,5,1,187,0,0,,,0,0,0,0,,,
-1125,Luis Fernando Diaz,44,FWD,5,5,450,1,1,,,0,0,0,0,,,6.98
-1126,Jorge Andres Carrascal,44,MID,0,0,0,0,0,,,0,0,0,0,,,
-1127,Jhon Andrés Cordoba,44,FWD,3,2,100,0,0,,,0,0,0,0,,,
-1128,James David Rodriguez,44,MID,4,4,252,0,0,,,0,0,0,0,,,7.06
-1129,Jhon Adolfo Arias,44,MID,5,5,406,1,0,,,0,0,0,0,,,7.26
-1130,Camilo Andres Vargas,44,GK,4,4,360,0,0,,,0,0,0,0,3.0,6.0,6.84
-1131,Yerry Fernando Mina,44,DEF,1,1,90,0,0,,,0,0,0,0,,,
-1132,Gustavo Adolfo Puerta,44,DEF,4,4,350,0,1,,,0,0,0,0,,,7.12
-1133,Juan Camilo Portilla,44,MID,1,1,90,0,0,,,0,0,0,0,,,
-1134,Jefferson Andrés Lerma,44,MID,5,5,420,0,0,,,0,0,0,0,,,6.78
-1135,Johan Andrés Mojica,44,DEF,3,3,270,0,0,,,0,0,0,0,,,7.2
-1136,Willer Emilio Ditta,44,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1137,Juan Camilo Hernandez,44,FWD,1,0,10,0,1,,,0,0,0,0,,,
-1138,Juan Fernando Quintero,44,MID,3,0,63,0,1,,,0,0,0,0,,,7.4
-1139,Jaminton Leandro Campaz,44,FWD,2,0,21,1,0,,,0,0,0,0,,,7.23
-1140,Deiver Machado,44,DEF,2,2,180,0,0,,,0,0,0,0,,,7.1
-1141,Davinson Sanchez,44,DEF,4,4,360,0,0,,,0,0,0,0,,,7.2
-1142,Álvaro David Montero,44,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1143,Luis Javier Suarez,44,FWD,5,3,340,0,1,,,0,0,0,0,,,
-1144,Carlos Andrés Gomez,44,FWD,1,0,1,0,0,,,0,0,0,0,,,
-1145,Jordan Lee Pickford,45,GK,7,7,630,0,0,,,0,0,0,0,2.0,17.0,
-1146,Ezri Ngoyo Konsa,45,DEF,7,6,558,1,0,,,0,0,0,0,,,6.79
-1147,Nico Oreilly,45,DEF,7,5,468,0,0,,,0,0,0,0,,,
-1148,Declan Rice,45,MID,7,7,604,1,2,,,0,0,0,0,,,7.33
-1149,John Stones,45,DEF,4,2,211,0,0,,,0,0,0,0,,,6.68
-1150,Keaninkin Marc-Isreal Guehi,45,DEF,7,6,543,0,0,,,0,0,0,0,,,7.08
-1151,Bukayo Ayoyinka Saka,45,FWD,7,4,373,3,3,,,0,0,0,0,,,7.31
-1152,Elliot Junior Anderson,45,MID,8,7,604,0,1,,,0,0,0,0,,,7.18
-1153,Harry Edward Kane,45,FWD,6,6,534,6,1,,,0,0,0,0,,,7.26
-1154,Jude Victor William Bellingham,45,MID,8,7,596,7,1,,,0,0,0,0,,,7.81
-1155,Marcus Rashford,45,FWD,5,3,220,1,1,,,0,0,0,0,,,6.8
-1156,Trevoh Tom Chalobah,45,DEF,1,0,1,0,0,,,0,0,0,0,,,
-1157,Dean Bradley Henderson,45,GK,1,1,90,0,0,,,0,0,0,0,0.0,5.0,7.4
-1158,Jordan Brian Henderson,45,MID,2,0,7,0,0,,,0,0,0,0,,,6.8
-1159,Daniel Johnson Burn,45,DEF,2,0,23,0,0,,,0,0,0,0,,,
-1160,Kobbie Boateng Mainoo,45,MID,0,0,0,0,0,,,0,0,0,0,,,
-1161,Morgan Elliot Rogers,45,MID,7,4,395,0,1,,,0,0,0,0,,,6.69
-1162,Anthony Michael Gordon,45,FWD,6,5,419,1,3,,,0,0,0,0,,,6.88
-1163,George Arthur Watkins,45,FWD,2,0,51,0,0,,,0,0,0,0,,,
-1164,Azuka Tristan Madueke,45,FWD,4,3,242,0,0,,,0,0,0,0,,,7.02
-1165,Eberechi Oluchi Eze,45,MID,4,1,134,0,1,,,0,0,0,0,,,6.84
-1166,Ivan Benjamin Elijah Toney,45,FWD,1,1,79,0,0,,,0,0,0,0,,,6.9
-1167,James Harrington Trafford,45,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1168,Reece Lewis James,45,DEF,5,4,359,0,0,,,0,0,0,0,,,6.72
-1169,Tehuti Djed-Hotep Spence,45,DEF,8,5,450,0,0,,,0,0,0,0,,,6.95
-1170,Jarell Amorin Quansah,45,DEF,4,4,297,0,0,,,0,1,0,0,,,
-1171,Dominik Livakovic,46,GK,4,4,360,0,0,,,0,0,0,0,1.0,8.0,6.78
-1172,Josip Stanisic,46,DEF,4,4,360,0,2,,,0,0,0,0,,,6.73
-1173,Marin Pongracic,46,DEF,3,3,270,0,0,,,0,0,0,0,,,
-1174,Joško Gvardiol,46,DEF,4,2,139,0,0,,,0,0,0,0,,,
-1175,Duje Caleta-Car,46,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1176,Josip Sutalo,46,DEF,4,4,360,0,0,,,0,0,0,0,,,6.78
-1177,Nikola Moro,46,MID,0,0,0,0,0,,,0,0,0,0,,,
-1178,Mateo Kovacic,46,MID,4,3,272,0,0,,,0,0,0,0,,,6.85
-1179,Andrej Kramaric,46,FWD,3,0,57,0,0,,,0,0,0,0,,,
-1180,Luka Modric,46,MID,4,4,319,0,1,,,0,0,0,0,,,7.03
-1181,Ante Budimir,46,FWD,3,2,155,1,0,,,0,0,0,0,,,6.7
-1182,Ivor Pandur,46,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1183,Nikola Vlasic,46,MID,3,2,190,1,0,,,0,0,0,0,,,6.6
-1184,Ivan Perisic,46,FWD,4,4,360,1,1,,,0,0,0,0,,,6.95
-1185,Mario Pasalic,46,MID,4,1,121,0,0,,,0,0,0,0,,,6.63
-1186,Martin Baturina,46,MID,4,4,324,1,0,,,0,0,0,0,,,7.18
-1187,Petar Sucic,46,MID,4,3,288,1,1,,,0,0,0,0,,,7.03
-1188,Kristijan Jakic,46,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1189,Toni Fruk,46,MID,0,0,0,0,0,,,0,0,0,0,,,
-1190,Igor Matanovic,46,FWD,3,0,93,0,0,,,0,0,0,0,,,
-1191,Luka Sucic,46,MID,1,0,18,0,0,,,0,0,0,0,,,
-1192,Luka Vuskovic,46,DEF,1,1,66,0,0,,,0,0,0,0,,,
-1193,Dominik Kotarski,46,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1194,Marco Pasalic,46,FWD,3,1,98,0,0,,,0,0,0,0,,,6.63
-1195,Martin Erlic,46,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1196,Petar Musa,46,FWD,2,2,112,1,0,,,0,0,0,0,,,7.0
-1197,Lawrence Ati Zigi,47,GK,2,2,136,0,0,,,0,0,0,0,1.0,12.0,8.45
-1198,Alidu Seidu,47,DEF,1,0,77,0,0,,,0,0,0,0,,,
-1199,Caleb Marfo Yirenkyi,47,MID,4,3,264,1,0,,,0,0,0,0,,,6.73
-1200,Jonas Adjei Adjetey,47,DEF,3,3,226,0,0,,,0,0,0,0,,,6.97
-1201,Thomas Teye Partey,47,MID,3,3,270,0,0,,,0,0,0,0,,,6.9
-1202,Abdul Mumin Mumin,47,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1203,Abdul Fatawu Fatawu,47,FWD,4,0,128,0,0,,,0,0,0,0,,,6.73
-1204,Kwasi Sibo,47,MID,4,3,249,0,0,,,0,0,0,0,,,
-1205,Jordan Pierre Ayew,47,FWD,4,4,303,0,0,,,0,0,0,0,,,6.65
-1206,Brandon Michael Clarke Thomas-Asante,47,FWD,2,0,51,0,0,,,0,0,0,0,,,6.6
-1207,Antoine Serlom Semenyo,47,MID,4,4,360,0,1,,,0,0,0,0,,,
-1208,Joseph Tetteh Anang,47,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1209,Christopher Bonsu Bonsu Baah,47,FWD,0,0,0,0,0,,,0,0,0,0,,,
-1210,Gideon Mensah,47,DEF,4,4,360,0,0,,,0,0,0,0,,,6.98
-1211,Elisha Owusu,47,MID,3,2,152,0,0,,,0,0,0,0,,,
-1212,Benjamin Asare,47,GK,3,2,224,0,0,,,0,0,0,0,1.0,5.0,7.2
-1213,Abdul Rahman Rahman,47,DEF,1,0,1,0,0,,,0,0,0,0,,,
-1214,Jerome Opoku,47,DEF,3,3,270,0,0,,,0,0,0,0,,,7.13
-1215,Inaki Williams,47,FWD,2,2,128,0,0,,,0,0,0,0,,,
-1216,Augustine Boakye,47,MID,0,0,0,0,0,,,0,0,0,0,,,
-1217,Kojo Peprah Oppong,47,DEF,2,0,47,0,0,,,0,0,0,0,,,
-1218,Kamal Deen Sulemana,47,FWD,2,2,129,0,0,,,0,0,0,0,,,
-1219,Derrick Luckassen,47,DEF,2,2,180,1,0,,,0,0,0,0,,,7.25
-1220,Ernest Nuamah Nuamah,47,FWD,3,1,88,0,1,,,0,0,0,0,,,6.7
-1221,Prince Kwabena Adu,47,FWD,3,0,38,0,0,,,0,0,0,0,,,
-1222,Marvin Elom Senaya,47,DEF,4,4,280,0,0,,,0,0,0,0,,,6.93
-1223,Luis Ricardo Mejia,48,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1224,Cesar Rodolfo Blackman,48,DEF,2,2,180,0,0,,,0,0,0,0,,,
-1225,Jose Angel Cordoba,48,DEF,3,3,270,0,0,,,0,0,0,0,,,
-1226,Fidel Escobar,48,DEF,1,1,90,0,0,,,0,0,0,0,,,6.8
-1227,Edgardo Issac Farina,48,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1228,Cristian Jesus Martinez,48,MID,3,3,243,0,0,,,0,0,0,0,,,6.63
-1229,Jose Luis Rodriguez,48,MID,3,3,235,0,0,,,0,0,0,0,,,
-1230,Adalberto Eliecer Carrasquilla,48,MID,0,0,0,0,0,,,0,0,0,0,,,
-1231,Tomas Abdiel Rodriguez,48,FWD,2,1,47,0,0,,,0,0,0,0,,,
-1232,Ismael Diaz,48,MID,2,0,35,0,0,,,0,0,0,0,,,
-1233,Edgar Yoel Barcenas,48,MID,3,3,251,0,0,,,0,0,0,0,,,6.9
-1234,Cesar Jair Samudio,48,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,
-1235,Jiovany Javier Ramos,48,DEF,2,2,167,0,0,,,0,0,0,0,,,7.1
-1236,Carlos Miguel Harvey,48,DEF,3,3,268,0,0,,,0,0,0,0,,,
-1237,Eric Javier Davis,48,DEF,2,0,3,0,0,,,0,0,0,0,,,6.7
-1238,Andres Alberto Andrade,48,DEF,3,3,270,0,0,,,0,0,0,0,,,7.0
-1239,Jose Fajardo,48,FWD,3,1,154,0,0,,,0,0,0,0,,,
-1240,Cecilio Alfonso Waterman,48,FWD,2,1,76,0,0,,,0,0,0,0,,,
-1241,Alberto Abdiel Quintero,48,MID,1,0,2,0,0,,,0,0,0,0,,,
-1242,Anibal Casis Godoy,48,MID,1,0,1,0,0,,,0,0,0,0,,,6.7
-1243,Cesar Augusto Yanis,48,MID,0,0,0,0,0,,,0,0,0,0,,,
-1244,Orlando Mosquera,48,GK,3,3,270,0,0,,,0,0,0,0,0.0,8.0,6.8
-1245,Michael Amir Murillo,48,DEF,3,3,270,0,0,,,0,0,0,0,,,6.93
-1246,Azarías Emmanuel Londono,48,FWD,3,0,53,0,0,,,0,0,0,0,,,
-1247,Roderick Alonso Miller,48,DEF,0,0,0,0,0,,,0,0,0,0,,,
-1248,Jorge Abdiel Gutierrez,48,DEF,1,1,88,0,0,,,0,0,0,0,,,
+﻿player_id,player_name,team_id,position,matches_played,matches_started,minutes_played,goals,assists,shots,shots_on_target,yellow_cards,red_cards,penalty_goals,own_goals,clean_sheets,saves,avg_rating,shirt_number
+1,José Raúl Rangel,1,GK,5,5,438,0,0,,,0,0,0,0,4.0,7.0,7.2,1
+2,Jorge Eduardo Sanchez,1,DEF,5,5,439,0,1,,,0,0,0,0,,,6.68,2
+3,César Jasib Montes,1,DEF,3,2,165,0,0,,,0,1,0,0,,,7.05,3
+4,Edson Omar Alvarez,1,DEF,2,0,75,0,0,,,1,0,0,0,,,7.08,4
+5,Johan Felipe Vasquez,1,DEF,2,2,180,0,0,,,0,0,0,0,,,7.08,5
+6,Erik Antonio Lira,1,MID,5,5,450,0,1,,,1,0,0,0,,,7.03,6
+7,Luis Francisco Romo,1,MID,4,2,194,1,1,,,0,0,0,0,,,6.9,7
+8,Álvaro Fidalgo,1,MID,2,0,41,1,0,,,0,0,0,0,,,7.3,8
+9,Raúl Alonso Jimenez,1,FWD,3,2,193,3,0,,,0,0,0,0,,,7.2,9
+10,Ernesto Alexis Vega,1,FWD,0,0,0,0,0,,,0,0,0,0,,,6.49,10
+11,Santiago Tomás Gimenez,1,FWD,5,3,316,0,0,,,0,0,0,0,,,6.62,11
+12,Carlos Acevedo,1,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.57,12
+13,Francisco Guillermo Ochoa,1,GK,1,0,12,0,0,,,0,0,0,0,0.0,0.0,6.5,13
+14,Armando Gonzalez,1,FWD,0,0,0,0,0,,,0,0,0,0,,,6.45,14
+15,Israel Reyes,1,DEF,4,3,280,0,0,,,0,0,0,0,,,7.03,15
+16,Julián Andrés Quinones,1,FWD,4,2,221,4,1,,,0,0,0,0,,,7.72,16
+17,Orbelín Pineda,1,MID,4,3,280,0,0,,,0,0,0,0,,,6.48,17
+18,Obed Goméz Vargas,1,MID,1,0,17,0,0,,,0,0,0,0,,,6.67,18
+19,Gilberto Rafael Mora,1,MID,5,5,390,0,0,,,0,0,0,0,,,6.49,19
+20,Mateo Chavez,1,DEF,3,3,270,1,0,,,0,0,0,0,,,8.1,20
+21,César Saúl Huerta,1,FWD,0,0,0,0,0,,,0,0,0,0,,,6.59,21
+22,Guillermo Martinez,1,FWD,4,3,279,0,0,,,0,0,0,0,,,6.55,22
+23,Jesús Daniel Gallardo,1,DEF,5,5,450,0,0,,,0,0,0,0,,,6.72,23
+24,Luis Gerardo Chavez,1,MID,3,3,270,0,0,,,0,0,0,0,,,6.8,24
+25,Roberto Carlos Alvarado,1,FWD,4,2,230,0,3,,,0,0,0,0,,,7.34,25
+26,Brian Gutierrez,1,MID,2,0,60,0,0,,,0,0,0,0,,,6.9,26
+27,Ronwen Hayden Williams,2,GK,4,4,360,0,0,,,0,0,0,0,1.0,17.0,7.15,1
+28,Tholo Thabang Matuludi,2,DEF,0,0,0,0,0,,,0,0,0,0,,,6.56,2
+29,Khulumani Ndamane,2,DEF,0,0,0,0,0,,,0,0,0,0,,,6.42,3
+30,Teboho Mokoena,2,MID,3,3,270,1,0,,,1,0,0,0,,,7.07,4
+31,Thalente Wandile Mbatha,2,MID,4,2,258,0,0,,,1,0,0,0,,,6.56,5
+32,Aubrey Maphosa Modiba,2,DEF,4,4,346,0,0,,,0,0,0,0,,,7.08,6
+33,Oswin Reagan Appollis,2,FWD,4,3,256,0,0,,,0,0,0,0,,,6.68,7
+34,Tshepang Moremi,2,FWD,2,0,32,0,1,,,0,0,0,0,,,6.9,8
+35,Lyle Brent Foster,2,FWD,1,1,56,0,0,,,0,0,0,0,,,6.54,9
+36,Relebohile Mofokeng,2,FWD,3,2,170,0,0,,,0,0,0,0,,,6.77,10
+37,Themba Zwane,2,MID,1,0,29,0,0,,,0,1,0,0,,,6.2,11
+38,Thapelo Maseko,2,FWD,3,3,245,1,0,,,0,0,0,0,,,7.0,12
+39,Sphephelo S'miso Sithole,2,MID,3,3,270,0,0,,,0,1,0,0,,,6.23,13
+40,Mbekezeli Mfanufikile Mbokazi,2,DEF,4,4,360,0,0,,,0,0,0,0,,,6.9,14
+41,Iqraam Rayners,2,FWD,4,2,161,0,0,,,0,0,0,0,,,6.46,15
+42,Sipho Justin Chaine,2,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,16
+43,Sekotori Evidence Makgopa,2,FWD,4,2,214,0,0,,,0,0,0,0,,,6.68,17
+44,Samukele Alucious Kabini,2,DEF,0,0,0,0,0,,,0,0,0,0,,,6.52,18
+45,Nkosinathi Emmanuel Sibisi,2,DEF,1,1,90,0,0,,,0,0,0,0,,,6.49,19
+46,Khuliso Johnson Mudau,2,DEF,4,4,360,0,0,,,0,0,0,0,,,6.81,20
+47,Ime Daniel Okon,2,DEF,4,4,360,0,0,,,0,0,0,0,,,6.8,21
+48,Stuart Ricardo Goss,2,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,22
+49,Jayden Oswin Adams,2,MID,3,2,117,0,0,,,0,0,0,0,,,6.52,23
+50,Olwethu Mpilwenhle Makhanya,2,DEF,0,0,0,0,0,,,0,0,0,0,,,6.45,24
+51,Kamogelo Michael Sebelebele,2,FWD,1,0,6,0,0,,,0,0,0,0,,,6.45,25
+52,Bradley Paul Cross,2,DEF,0,0,0,0,0,,,0,0,0,0,,,6.49,26
+53,Seunggyu Kim,3,GK,3,3,270,0,0,,,0,0,0,0,0.0,8.0,6.77,1
+54,Hanbeom Lee,3,DEF,3,3,270,0,0,,,0,0,0,0,,,6.73,2
+55,Gihyuk Lee,3,MID,3,3,270,0,0,,,0,0,0,0,,,7.13,3
+56,Minjae Kim,3,DEF,3,3,245,0,0,,,1,0,0,0,,,6.87,4
+57,Taehyeon Kim,3,DEF,0,0,0,0,0,,,0,0,0,0,,,6.51,5
+58,Inbeom Hwang,3,MID,3,3,264,1,1,,,0,0,0,0,,,7.47,6
+59,Heung Min Son,3,FWD,3,2,170,0,0,,,0,0,0,0,,,6.7,7
+60,Seungho Paik,3,MID,3,3,207,0,0,,,0,0,0,0,,,6.67,8
+61,Guesung Cho,3,FWD,2,0,29,0,0,,,0,0,0,0,,,6.53,9
+62,Jae Sung Lee,3,MID,2,2,119,0,0,,,0,0,0,0,,,6.8,10
+63,Hee Chan Hwang,3,MID,3,1,107,0,0,,,0,0,0,0,,,6.45,11
+64,Bumkeun Song,3,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,12
+65,Taeseok Lee,3,DEF,2,2,115,0,0,,,0,0,0,0,,,7.1,13
+66,Wije Cho,3,DEF,0,0,0,0,0,,,0,0,0,0,,,6.54,14
+67,Moonhwan Kim,3,DEF,1,1,71,0,0,,,0,0,0,0,,,6.42,15
+68,Jinseob Park,3,DEF,2,0,31,0,0,,,0,0,0,0,,,6.8,16
+69,Junho Bae,3,MID,0,0,0,0,0,,,0,0,0,0,,,6.54,17
+70,Hyeongyu Oh,3,FWD,3,1,128,1,0,,,0,0,0,0,,,6.71,18
+71,Kangin Lee,3,MID,3,3,270,0,1,,,0,0,0,0,,,7.27,19
+72,Hyunjun Yang,3,MID,1,0,19,0,0,,,0,0,0,0,,,6.7,20
+73,Hyeonwoo Jo,3,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.45,21
+74,Youngwoo Seol,3,DEF,3,3,251,0,0,,,0,0,0,0,,,6.7,22
+75,Jens Castrop,3,DEF,1,0,44,0,0,,,0,0,0,0,,,6.42,23
+76,Jingyu Kim,3,MID,2,0,50,0,0,,,0,0,0,0,,,6.85,24
+77,Jisung Eom,3,MID,2,0,40,0,0,,,0,0,0,0,,,7.25,25
+78,Donggyeong Lee,3,MID,0,0,0,0,0,,,0,0,0,0,,,6.61,26
+79,Mat ě j Kovar,4,GK,3,3,270,0,0,,,0,0,0,0,0.0,9.0,6.63,1
+80,David Zima,4,DEF,1,0,12,0,0,,,0,0,0,0,,,6.56,2
+81,Tomáš Holes,4,DEF,2,2,154,0,0,,,0,0,0,0,,,6.56,3
+82,Robin Hranac,4,DEF,3,3,270,0,0,,,0,0,0,0,,,6.5,4
+83,Vladimír Coufal,4,DEF,3,3,270,0,1,,,0,0,0,0,,,6.67,5
+84,ě pán Chaloupek,4,DEF,1,1,90,0,0,,,0,0,0,0,,,6.43,6
+85,Ladislav Krejci,4,DEF,3,3,270,1,0,,,1,0,0,0,,,6.9,7
+86,Vladimír Darida,4,MID,1,1,55,0,0,,,0,0,0,0,,,6.9,8
+87,Adam Hlozek,4,FWD,3,2,158,0,0,,,0,0,0,0,,,6.67,9
+88,Patrik Schick,4,FWD,3,2,179,0,0,,,0,0,0,0,,,6.55,10
+89,Jan Kuchta,4,FWD,0,0,0,0,0,,,0,0,0,0,,,6.51,11
+90,Lukáš Cerv,4,MID,2,2,165,0,0,,,0,0,0,0,,,6.8,12
+91,Mojmír Chytil,4,FWD,1,0,6,0,0,,,0,0,0,0,,,6.42,13
+92,David Jurasek,4,DEF,0,0,0,0,0,,,0,0,0,0,,,6.52,14
+93,Pavel Sulc,4,FWD,3,2,188,0,0,,,0,0,0,0,,,6.67,15
+94,Jind ř ich Stanek,4,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.43,16
+95,Lukáš Provod,4,MID,3,1,120,0,0,,,0,0,0,0,,,6.67,17
+96,Michal Sadilek,4,MID,3,2,184,1,0,,,0,0,0,0,,,6.93,18
+97,Tomáš Chory,4,FWD,2,0,30,0,0,,,0,0,0,0,,,6.55,19
+98,Jaroslav Zeleny,4,DEF,2,1,125,0,0,,,0,0,0,0,,,6.65,20
+99,David Doudera,4,DEF,1,1,90,0,0,,,0,0,0,0,,,6.46,21
+100,Tomáš Soucek,4,MID,3,1,136,0,0,,,0,0,0,0,,,6.53,22
+101,Lukáš Hornicek,4,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,23
+102,Alexandr Sojka,4,MID,3,2,142,0,1,,,0,0,0,0,,,6.78,24
+103,Hugo Sochurek,4,MID,0,0,0,0,0,,,0,0,0,0,,,6.52,25
+104,Denis Visinsky,4,FWD,1,1,56,0,0,,,0,0,0,0,,,6.7,26
+105,Dayne Tristan St. Clair,5,GK,1,0,30,0,0,,,0,0,0,0,0.0,0.0,6.49,1
+106,Alistair William Johnston,5,DEF,5,5,450,0,0,,,0,0,0,0,,,7.02,2
+107,Alfie Charles Jones,5,DEF,1,1,90,0,0,,,0,0,0,0,,,6.45,3
+108,Luc De Fougerolles,5,DEF,4,3,282,0,0,,,0,0,0,0,,,6.7,4
+109,Joel Robert Waterman,5,DEF,0,0,0,0,0,,,0,0,0,0,,,6.61,5
+110,Mathieu Choiniere,5,MID,1,1,58,0,0,,,0,0,0,0,,,6.8,6
+111,Stephen Eustaquio,5,MID,5,4,392,1,0,,,0,0,0,0,,,7.7,7
+112,Ismaël Kenneth Jordan Kone,5,MID,3,3,236,0,0,,,1,0,0,0,,,6.8,8
+113,Cyle Christopher Larin,5,FWD,3,2,162,2,0,,,0,0,0,0,,,6.75,9
+114,Jonathan Christian David,5,FWD,5,5,421,3,0,,,0,0,0,0,,,6.84,10
+115,Liam Alan Millar,5,MID,3,2,163,0,0,,,0,0,0,0,,,6.56,11
+116,Tanitoluwa Oluwatimilehin Oluwaseyi,5,FWD,4,2,197,0,0,,,0,0,0,0,,,6.68,12
+117,Derek Austin Cornelius,5,DEF,4,4,316,0,0,,,0,0,0,0,,,6.61,13
+118,Jacob Everett Shaffelburg,5,MID,5,1,165,0,0,,,0,0,0,0,,,6.62,14
+119,Moïse Bombito Bombito,5,DEF,3,2,193,0,0,,,0,0,0,0,,,6.58,15
+120,Maxime Crepeau,5,GK,5,5,450,0,0,,,0,0,0,0,2.0,7.0,6.85,16
+121,Tajon Trevor Buchanan,5,FWD,4,4,293,0,0,,,0,0,0,0,,,6.61,17
+122,Owen Olamidayo Goodman,5,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.44,18
+123,Alphonso Boyle Davies,5,DEF,2,1,105,0,0,,,0,0,0,0,,,6.45,19
+124,Ali Ahmed,5,FWD,3,2,158,0,0,,,0,0,0,0,,,6.93,20
+125,Jonathan Osorio,5,MID,1,0,1,0,0,,,0,0,0,0,,,6.41,21
+126,Richmond Mamah Laryea,5,DEF,4,4,353,0,0,,,0,0,0,0,,,7.3,22
+127,Niko Kristian Sigur,5,DEF,2,0,38,0,0,,,0,0,0,0,,,6.67,23
+128,Promise Oluwatobi Emmanuel David,5,FWD,4,1,155,1,1,,,0,0,0,0,,,6.75,24
+129,Nathan-Dylan Saliba,5,MID,4,3,273,1,2,,,0,0,0,0,,,7.6,25
+130,Jayden Nelson,5,FWD,0,0,0,0,0,,,0,0,0,0,,,6.7,26
+131,Nikola Vasilj,6,GK,4,4,360,0,0,,,0,0,0,0,0.0,12.0,6.7,1
+132,Nihad Mujakic,6,DEF,0,0,0,0,0,,,0,0,0,0,,,6.5,2
+133,Dennis Hadzikadunic,6,DEF,1,0,27,0,1,,,0,0,0,0,,,7.1,3
+134,Tarik Muharemovic,6,DEF,3,3,270,0,0,,,0,1,0,0,,,6.87,4
+135,Sead Kolasinac,6,DEF,4,4,338,0,1,,,0,0,0,0,,,6.63,5
+136,Benjamin Tahirovic,6,MID,4,2,236,0,0,,,0,0,0,0,,,6.49,6
+137,Amar Dedic,6,DEF,3,3,270,0,0,,,0,0,0,0,,,6.59,7
+138,Armin Gigovic,6,MID,2,1,79,0,0,,,0,0,0,0,,,6.7,8
+139,Samed Bazdar,6,FWD,1,0,28,0,0,,,0,0,0,0,,,6.46,9
+140,Ermedin Demirovic,6,FWD,4,4,355,0,0,,,0,0,0,0,,,6.52,10
+141,Edin Dzeko,6,FWD,3,3,177,0,0,,,0,0,0,0,,,6.52,11
+142,Mladen Jurkas,6,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.45,12
+143,Ivan Basic,6,MID,3,2,179,0,1,,,0,0,0,0,,,7.2,13
+144,Ivan Sunjic,6,MID,4,3,198,0,0,,,0,0,0,0,,,6.57,14
+145,Amar Memic,6,MID,4,2,223,0,0,,,0,0,0,0,,,6.46,15
+146,Amir Hadziahmetovic,6,MID,1,0,5,0,0,,,1,0,0,0,,,6.51,16
+147,Dzenis Burnic,6,MID,2,0,15,0,0,,,0,0,0,0,,,6.65,17
+148,Nikola Katic,6,DEF,4,4,318,0,0,,,0,0,0,0,,,6.85,18
+149,Kerim Alajbegovic,6,FWD,4,3,278,1,0,,,0,0,0,0,,,6.63,19
+150,Esmir Bajraktarevic,6,FWD,4,2,230,0,0,,,0,0,0,0,,,6.57,20
+151,Stjepan Radeljic,6,DEF,2,2,180,0,0,,,0,0,0,0,,,6.7,21
+152,Martin Zlomislic,6,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.46,22
+153,Haris Tabakovic,6,FWD,1,0,15,0,0,,,0,0,0,0,,,6.4,23
+154,Arjan Malic,6,DEF,1,1,46,0,0,,,0,0,0,0,,,6.54,24
+155,Jovo Lukic,6,FWD,2,1,67,1,0,,,0,0,0,0,,,6.95,25
+156,Ermin Mahmic,6,MID,3,0,67,2,0,,,0,0,0,0,,,7.03,26
+157,Ibrahim Mahmoud Abunada,7,GK,3,3,270,0,0,,,0,0,0,1,0.0,16.0,6.59,1
+158,Miguel Pedro,7,DEF,3,3,270,0,0,,,0,0,0,0,,,6.7,2
+159,Michel Lucas,7,DEF,1,0,3,0,0,,,0,0,0,0,,,6.52,3
+160,Gueye Issa Laye,7,DEF,3,3,270,0,0,,,0,0,0,0,,,6.73,4
+161,Gaber Jassem,7,DEF,3,3,152,0,0,,,0,0,0,0,,,6.55,5
+162,Hatim Abdulaziz Hatem,7,MID,1,0,44,0,0,,,0,0,0,0,,,6.42,6
+163,Alaaeldin Ahmed,7,FWD,2,0,41,0,0,,,0,0,0,0,,,6.47,7
+164,Junior Edmilson,7,FWD,3,3,213,0,1,,,0,0,0,0,,,6.58,8
+165,Mohammed Mohammed Muntari,7,FWD,0,0,0,0,0,,,0,0,0,0,,,6.59,9
+166,Khalid Hassan Alhaydos,7,FWD,2,1,57,1,0,,,0,0,0,0,,,7.0,10
+167,Hassan Akram,7,FWD,3,3,239,0,0,,,0,0,0,0,,,7.2,11
+168,Karim Karim Boudiaf,7,MID,3,1,132,0,0,,,1,0,0,0,,,6.9,12
+169,Mohamed Ayoub Aloui,7,DEF,2,2,150,0,0,,,0,0,0,0,,,6.53,13
+170,Elamin Homam,7,DEF,2,2,180,0,0,,,0,1,0,0,,,6.24,14
+171,Abdurisag Yusuf Abdurisag,7,FWD,2,2,100,0,0,,,0,0,0,0,,,6.73,15
+172,KHOUKHIBoualem Boualem,7,DEF,3,3,270,0,0,,,0,0,0,0,,,6.46,16
+173,Mohamed Ahmed Alganehi,7,MID,1,0,35,0,0,,,0,0,0,0,,,6.46,17
+174,Hussain Sultan,7,DEF,2,1,140,0,0,,,0,0,0,0,,,6.48,18
+175,Ali Zainelabdeen Almoez,7,FWD,1,0,18,0,0,,,0,0,0,0,,,6.52,19
+176,Fathy Ahmed Fathy,7,MID,3,1,150,0,0,,,0,0,0,0,,,6.53,20
+177,Zakaria Salah Zakaria,7,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.6,21
+178,Aissa Meshaal Barsham,7,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.51,22
+179,Omer Assim Madibo,7,MID,2,2,169,0,0,,,0,1,0,0,,,6.2,23
+180,Mohammad Tahsin,7,FWD,0,0,0,0,0,,,0,0,0,0,,,6.56,24
+181,Alhussein Alhashmi,7,DEF,1,0,31,0,0,,,0,0,0,0,,,6.53,25
+182,Naceur Mohamed Manai,7,FWD,3,0,66,0,0,,,0,0,0,1,,,6.3,26
+183,Gregor Kobel,8,GK,6,6,540,0,0,,,0,0,0,0,2.0,19.0,7.52,1
+184,Miro Max Maria Muheim,8,DEF,1,0,1,0,0,,,0,0,0,1,,,6.32,2
+185,Silvan Dominic Widmer,8,DEF,3,1,105,0,0,,,0,0,0,0,,,6.5,3
+186,Nico Elvedi,8,DEF,4,4,360,0,0,,,0,0,0,0,,,7.03,4
+187,Manuel Obafemi Akanji,8,DEF,6,6,540,0,0,,,0,0,0,0,,,7.07,5
+188,Denis Lemi Zakaria,8,MID,4,4,357,0,0,,,0,0,0,0,,,6.7,6
+189,Breel Donald Embolo,8,FWD,4,4,347,2,2,,,0,0,0,0,,,6.85,7
+190,Remo Marco Freuler,8,MID,4,4,340,0,0,,,0,0,0,0,,,6.8,8
+191,Johan Kula Manzambi,8,MID,6,4,378,3,2,,,0,0,0,0,,,7.6,9
+192,Granit Xhaka,8,MID,4,4,360,1,1,,,1,0,0,0,,,7.52,10
+193,Dan Ndoye,8,FWD,6,5,415,2,0,,,0,0,0,0,,,7.03,11
+194,Yvon Landry Mvogo,8,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,12
+195,Ricardo Ivan Rodriguez,8,DEF,6,6,539,0,1,,,0,0,0,0,,,7.02,13
+196,Ardon Jashari,8,MID,3,2,181,0,0,,,0,0,0,0,,,6.5,14
+197,Djibril Ibrahima Sow,8,MID,5,3,291,0,0,,,0,0,0,0,,,6.63,15
+198,Christian Andreas Fassnacht,8,FWD,1,0,5,0,0,,,0,0,0,0,,,6.41,16
+199,Ruben Estephan Vargas,8,FWD,4,3,248,2,2,,,0,0,0,0,,,7.37,17
+200,Eray Ervin Coemert,8,DEF,0,0,0,0,0,,,0,0,0,0,,,6.44,18
+201,Noah Arinzechukwu Okafor,8,FWD,3,2,199,0,0,,,0,0,0,0,,,6.9,19
+202,Michel Aebischer,8,MID,4,2,157,0,0,,,0,0,0,0,,,6.78,20
+203,Marvin Keller,8,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.43,21
+204,Fabian Rieder,8,MID,3,1,115,0,0,,,0,0,0,0,,,6.52,22
+205,Mohamed Zeki Amdouni,8,FWD,2,0,18,0,0,,,0,0,0,0,,,6.63,23
+206,Aurèle Florian Amenda,8,DEF,2,2,180,0,0,,,0,0,0,0,,,6.49,24
+207,Luca Antony Jaquez,8,DEF,4,3,258,0,0,,,0,0,0,0,,,6.53,25
+208,Cedric Jan Itten,8,FWD,2,0,6,0,0,,,0,0,0,0,,,6.7,26
+209,Ramsés Alisson,9,GK,5,5,450,0,0,,,0,0,0,0,2.0,9.0,7.22,1
+210,José Ederson Silva,9,MID,2,0,20,0,0,,,0,0,0,0,,,6.55,2
+211,Gabriel Gabriel Magalhaes,9,DEF,5,5,450,0,1,,,0,0,0,0,,,7.36,3
+212,MARQUINHOSMarcos,9,DEF,5,5,450,0,0,,,0,0,0,0,,,7.32,4
+213,Henrique,9,MID,5,5,382,1,0,,,0,0,0,0,,,7.32,5
+214,Sandro Alex,9,DEF,1,0,8,0,0,,,0,0,0,0,,,6.44,6
+215,José Vinicius,9,FWD,5,5,441,4,1,,,0,0,0,0,,,8.0,7
+216,GUIMARAESBruno Bruno,9,MID,5,5,420,0,4,,,0,0,0,0,,,7.12,8
+217,Matheus Matheus Cunha,9,FWD,5,4,293,3,0,,,0,0,0,0,,,7.36,9
+218,Neymar Neymar Jr,9,FWD,2,0,37,1,0,,,0,0,0,0,,,6.65,10
+219,Raphael Raphinha,9,FWD,2,2,130,0,0,,,0,0,0,0,,,6.55,11
+220,Weverton Weverton,9,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.47,12
+221,Luiz Danilo,9,DEF,5,4,404,0,0,,,0,0,0,0,,,6.64,13
+222,Bremer Bremer,9,DEF,0,0,0,0,0,,,0,0,0,0,,,6.44,14
+223,PEREIRALeonardo Leo,9,DEF,0,0,0,0,0,,,0,0,0,0,,,6.48,15
+224,Douglas Douglas Santos,9,DEF,5,5,442,0,0,,,1,0,0,0,,,6.96,16
+225,Henrique Fabinho,9,MID,3,0,69,0,0,,,0,0,0,0,,,6.7,17
+226,Danilo Danilo Santos,9,MID,4,0,43,0,0,,,0,0,0,0,,,6.67,18
+227,Felipe Endrick,9,FWD,4,0,110,0,0,,,0,0,0,0,,,6.45,19
+228,Lucas Lucas Paqueta,9,MID,4,4,237,0,1,,,0,0,0,0,,,7.08,20
+229,Henrique André Luiz,9,FWD,1,0,29,0,0,,,0,0,0,0,,,7.0,21
+230,MARTINELLIGabriel Gabriel,9,FWD,4,1,141,1,0,,,0,0,0,0,,,7.08,22
+231,Ederson Ederson,9,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,23
+232,IBANEZRoger Roger,9,DEF,1,1,46,0,0,,,0,0,0,0,,,6.54,24
+233,Thiago Igor Thiago,9,FWD,1,1,61,0,0,,,0,0,0,0,,,6.51,25
+234,Vitor Rayan,9,FWD,4,3,289,0,1,,,0,0,0,0,,,7.18,26
+235,Yassine Bounou,10,GK,6,6,570,0,0,,,0,0,0,1,2.0,17.0,6.95,1
+236,Achraf Hakimi,10,DEF,6,6,570,1,1,,,0,0,0,0,,,7.0,2
+237,Noussair Mazraoui,10,DEF,6,5,477,0,0,,,0,0,0,0,,,7.08,3
+238,Sofyan Amrabat,10,MID,1,1,90,0,0,,,0,0,0,0,,,6.56,4
+239,Marwane Saadane,10,DEF,0,0,0,0,0,,,0,0,0,0,,,6.9,5
+240,Ayyoub Bouaddi,10,MID,5,5,439,0,0,,,0,0,0,0,,,6.68,6
+241,Chemsdine Talbi,10,MID,5,2,246,0,1,,,0,0,0,0,,,6.7,7
+242,Azz-Eddine Ounahi,10,MID,5,3,290,2,0,,,0,0,0,0,,,7.15,8
+243,Soufiane Rahimi,10,FWD,5,0,91,2,0,,,0,0,0,0,,,7.02,9
+244,Brahim Diaz,10,FWD,6,6,477,0,4,,,0,0,0,0,,,6.8,10
+245,Ismael Saibari,10,MID,6,6,543,3,0,,,0,0,0,0,,,7.16,11
+246,Monir El Kajoui,10,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,12
+247,Zakaria El Ouahdi,10,DEF,2,2,180,0,0,,,0,0,0,0,,,6.7,13
+248,Issa Laye Lucas Jean Diop,10,DEF,3,3,300,1,0,,,0,0,0,0,,,6.96,14
+249,Samir El Mourabet,10,MID,4,0,75,0,0,,,0,0,0,0,,,6.73,15
+250,Gessime Ben Youssef Mustapha Yassine,10,MID,2,0,61,1,0,,,0,0,0,0,,,6.93,16
+251,Mohamed Amine Sbai,10,FWD,0,0,0,0,0,,,0,0,0,0,,,6.46,17
+252,Chadi Riad,10,DEF,6,6,525,0,0,,,0,0,0,0,,,6.73,18
+253,Youssef Belammari,10,DEF,0,0,0,0,0,,,0,0,0,0,,,6.6,19
+254,Ayoub El Kaabi,10,FWD,1,1,70,0,0,,,0,0,0,0,,,6.5,20
+255,Ayoube Amaimouni,10,FWD,4,2,196,0,0,,,0,0,0,0,,,6.57,21
+256,Ahmed Reda Tagnaouti,10,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.6,22
+257,Bilal El Khannouss,10,MID,6,6,520,0,0,,,0,0,0,0,,,6.88,23
+258,Neil Yoni El Aynaoui,10,MID,4,4,383,0,0,,,0,0,0,0,,,6.8,24
+259,Redouane Halhal,10,DEF,1,1,90,0,0,,,0,0,0,0,,,6.7,25
+260,Anass Salah Eddine,10,DEF,3,1,138,0,0,,,0,0,0,0,,,6.48,26
+261,Johny Placide,11,GK,3,3,270,0,0,,,0,0,0,0,0.0,14.0,6.8,1
+262,Carlens Jean Fedlaire Ruby Arcus,11,DEF,3,2,146,0,0,,,1,0,0,0,,,6.4,2
+263,Keeto Thermoncy,11,DEF,0,0,0,0,0,,,0,0,0,0,,,6.47,3
+264,Ricardo Ade,11,DEF,3,3,270,0,0,,,0,0,0,0,,,6.52,4
+265,Hannes Piterson Delcroix,11,DEF,3,3,270,0,0,,,0,0,0,0,,,6.58,5
+266,Carl Fred Sainte,11,MID,0,0,0,0,0,,,0,0,0,0,,,6.59,6
+267,Derrick Burckley Etienne,11,FWD,1,0,9,0,0,,,0,0,0,0,,,6.4,7
+268,Martin Yves Roberns Didier Experience,11,DEF,3,3,270,0,0,,,0,0,0,0,,,6.54,8
+269,Duckens Nazon,11,FWD,1,0,23,0,0,,,0,0,0,0,,,6.47,9
+270,Jean Ricner Bellegarde,11,MID,3,3,261,0,0,,,0,0,0,0,,,6.77,10
+271,Don Deedson Deedson,11,FWD,3,1,111,0,0,,,0,0,0,0,,,6.46,11
+272,Alexandre Jr Pierre,11,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.44,12
+273,Markhus Lacroix,11,DEF,0,0,0,0,0,,,0,0,0,0,,,6.49,13
+274,Garven-Michee Metusala,11,DEF,0,0,0,0,0,,,0,0,0,0,,,6.61,14
+275,Ruben Fritzner Providence,11,FWD,3,3,223,0,0,,,0,0,0,0,,,6.67,15
+276,Lenny Alvin Pico Joseph,11,FWD,3,1,117,0,0,,,0,0,0,0,,,6.48,16
+277,Danley Jean Jacques,11,MID,3,3,260,0,0,,,1,0,0,0,,,6.8,17
+278,Wilson Isidor,11,FWD,3,2,186,1,0,,,0,0,0,0,,,6.78,18
+279,Yassin Enzo Fortune,11,FWD,1,0,5,0,0,,,0,0,0,0,,,6.48,19
+280,Frantzdy Pierrot,11,FWD,3,2,143,0,0,,,1,0,0,0,,,6.49,20
+281,Josue Jeremie Casimir,11,FWD,3,2,182,0,0,,,0,0,0,0,,,6.49,21
+282,Jean-Kévin Duverne,11,DEF,2,2,170,0,0,,,0,0,0,0,,,6.59,22
+283,Josue Duverger,11,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,23
+284,Wilguens Raphael Polynice Paugain,11,DEF,0,0,0,0,0,,,0,0,0,0,,,6.47,24
+285,Dominique Celidor Simon,11,MID,2,0,54,0,0,,,0,0,0,0,,,6.65,25
+286,Olivier Woodensky Pierre,11,MID,0,0,0,0,0,,,0,0,0,0,,,6.52,26
+287,Angus Fraser James Gunn,12,GK,3,3,270,0,0,,,0,0,0,0,1.0,10.0,7.43,1
+288,Aaron Buchanan Hickey,12,DEF,1,1,75,0,0,,,0,0,0,0,,,7.0,2
+289,Andrew Henry Robertson,12,DEF,3,3,226,0,0,,,0,0,0,0,,,6.49,3
+290,Mc,12,MID,3,3,270,1,0,,,0,0,0,0,,,6.68,4
+291,Grant Campbell Hanley,12,DEF,2,2,180,0,0,,,0,0,0,0,,,7.3,5
+292,Kieran Tierney,12,DEF,2,1,104,0,0,,,0,0,0,0,,,6.9,6
+293,Mc,12,MID,3,3,261,0,0,,,0,0,0,0,,,6.83,7
+294,Tyler Robert Fletcher,12,MID,0,0,0,0,0,,,0,0,0,0,,,6.43,8
+295,Lyndon John Dykes,12,FWD,2,0,34,0,0,,,0,0,0,0,,,6.5,9
+296,Che Sac Everton Fred Adams,12,FWD,3,2,147,0,0,,,0,0,0,0,,,6.51,10
+297,Ryan Christie,12,MID,3,1,96,0,0,,,0,0,0,0,,,6.43,11
+298,Liam Patrick Kelly,12,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,12
+299,Jack William Hendry,12,DEF,3,3,270,0,0,,,0,0,0,0,,,6.93,13
+300,Ross Cameron Stewart,12,FWD,1,0,1,0,0,,,0,0,0,0,,,6.55,14
+301,John Francis Souttar,12,DEF,0,0,0,0,0,,,0,0,0,0,,,6.47,15
+302,Dominic John Hyam,12,DEF,0,0,0,0,0,,,0,0,0,0,,,6.45,16
+303,Ben Gannon Gannon-Doak,12,FWD,3,2,186,0,0,,,0,0,0,0,,,6.52,17
+304,George David Eric Hirst,12,FWD,0,0,0,0,0,,,0,0,0,0,,,6.62,18
+305,Lewis Ferguson,12,MID,3,3,270,0,0,,,0,0,0,0,,,7.67,19
+306,Lawrence Shankland,12,FWD,2,2,172,0,0,,,0,0,0,0,,,6.47,20
+307,Craig Sinclair Gordon,12,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.55,21
+308,Nathan Kenneth Patterson,12,DEF,3,2,185,0,0,,,0,0,0,0,,,6.56,22
+309,Mc,12,MID,3,1,116,0,0,,,0,0,0,0,,,6.46,23
+310,Anthony Ralston,12,DEF,2,0,10,0,0,,,0,0,0,0,,,6.8,24
+311,Findlay Kenneth Curtis,12,FWD,2,0,9,0,0,,,0,0,0,0,,,6.52,25
+312,Mc,12,DEF,1,1,90,0,0,,,0,0,0,0,,,6.48,26
+313,Matthew Charles Turner,13,GK,4,2,240,0,0,,,0,0,0,0,0.0,7.0,6.65,1
+314,Sergiño Gianni Dest,13,DEF,5,4,343,0,1,,,0,0,0,0,,,6.76,2
+315,Christopher Jeffrey Richards,13,DEF,4,4,360,0,0,,,1,0,0,0,,,6.95,3
+316,Tyler Shaan Adams,13,MID,4,4,360,0,0,,,0,0,0,0,,,6.88,4
+317,Antonee Robinson,13,DEF,4,4,350,0,0,,,1,0,0,0,,,7.05,5
+318,Auston Levi-Jesaiah Trusty,13,DEF,2,1,100,1,0,,,0,0,0,0,,,7.0,6
+319,Giovanni Alejandro Reyna,13,MID,4,1,86,1,0,,,0,0,0,0,,,6.9,7
+320,Mc,13,MID,5,5,446,0,0,,,0,0,0,0,,,6.94,8
+321,Ricardo Daniel Pepi,13,FWD,4,2,185,0,0,,,0,0,0,0,,,6.54,9
+322,Christian Mate Pulisic,13,FWD,4,3,255,0,1,,,0,0,0,0,,,6.93,10
+323,Brenden Russell Aaronson,13,FWD,1,1,76,0,0,,,0,0,0,0,,,6.5,11
+324,Miles Gordon Robinson,13,DEF,1,1,90,0,0,,,0,0,0,0,,,6.43,12
+325,Timothy Michael Ream,13,DEF,3,3,270,0,0,,,0,0,0,0,,,6.85,13
+326,Sebastian Matthew Berhalter,13,MID,5,2,243,1,1,,,0,0,0,0,,,7.1,14
+327,Cristian Roldan,13,MID,0,0,0,0,0,,,0,0,0,0,,,6.59,15
+328,Alexander Michael Freeman,13,DEF,4,3,284,1,1,,,0,0,0,0,,,7.3,16
+329,Malik Leon Tillman,13,MID,5,4,356,2,2,,,0,0,0,0,,,7.28,17
+330,Maximilian Michael Arfsten,13,DEF,0,0,0,0,0,,,0,0,0,0,,,6.48,18
+331,Haji Amir Wright,13,FWD,1,0,1,0,0,,,0,0,0,0,,,6.43,19
+332,Folarin Jolaoluwa Balogun,13,FWD,4,4,316,3,0,,,1,1,0,0,,,6.98,20
+333,Timothy Tarpeh Weah,13,FWD,2,1,76,0,0,,,0,0,0,0,,,6.42,21
+334,Mc,13,DEF,2,2,180,0,0,,,0,0,0,0,,,6.53,22
+335,Joseph Michael Scally,13,DEF,2,1,86,0,0,,,0,0,0,0,,,6.53,23
+336,Matthew Andrew Geary Freese,13,GK,3,3,270,0,0,,,0,0,0,0,2.0,5.0,6.69,24
+337,Christopher Keith Brady,13,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,25
+338,Alejandro Zendejas,13,FWD,1,0,14,0,0,,,0,0,0,0,,,6.44,26
+339,Roberto Junior Fernandez,14,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.55,1
+340,Victor Gustavo Velazquez,14,DEF,4,1,153,0,0,,,0,0,0,0,,,6.72,2
+341,Omar Federico Alderete,14,DEF,4,4,354,0,0,,,0,0,0,0,,,6.7,3
+342,Juan Jose Caceres,14,DEF,5,5,439,0,0,,,0,0,0,0,,,6.92,4
+343,Fabián Cornelio Balbuena,14,DEF,1,0,1,0,0,,,0,0,0,0,,,6.43,5
+344,Júnior Osmar Ignacio Alonso,14,DEF,4,3,301,0,0,,,0,0,0,0,,,6.57,6
+345,Ramón Sosa,14,MID,2,1,101,0,0,,,0,0,0,0,,,6.48,7
+346,Diego Alexander Gomez,14,MID,3,3,236,0,0,,,1,0,0,0,,,6.55,8
+347,Arnaldo Antonio Sanabria,14,FWD,2,1,83,0,0,,,0,0,0,0,,,6.44,9
+348,Miguel Angel Almiron,14,MID,4,4,350,0,0,,,0,1,0,0,,,6.27,10
+349,Mauricio Mauricio,14,MID,3,0,151,1,0,,,0,0,0,0,,,7.1,11
+350,Orlando Daniel Gill,14,GK,5,5,480,0,0,,,0,0,0,0,2.0,29.0,7.88,12
+351,Jose Maria Canale,14,DEF,4,2,217,0,0,,,0,0,0,0,,,6.97,13
+352,Adrián Andrés Cubas,14,MID,4,4,390,0,0,,,0,0,0,0,,,7.02,14
+353,Gustavo Raul Gomez,14,DEF,4,4,390,0,0,,,0,0,0,0,,,6.76,15
+354,Damián Josue Bobadilla,14,MID,4,2,190,0,0,,,0,0,0,1,,,6.26,16
+355,Alejandro Sebastian Romero Gamarra,14,FWD,1,0,11,0,0,,,0,0,0,0,,,6.55,17
+356,Alex Adrian Arce,14,FWD,3,1,141,0,0,,,0,0,0,0,,,6.57,18
+357,Julio Cesar Enciso,14,FWD,4,4,327,1,2,,,0,0,0,0,,,6.96,19
+358,Braian Oscar Ojeda,14,MID,1,0,21,0,0,,,0,0,0,0,,,6.45,20
+359,Gabriel Avalos,14,FWD,3,2,123,0,0,,,0,0,0,0,,,6.53,21
+360,Gastón Hernán Olveira,14,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,22
+361,Matias Galarza,14,MID,4,4,390,1,1,,,0,0,0,0,,,7.1,23
+362,Gustavo Ruben Caballero,14,MID,2,1,155,0,0,,,0,0,0,0,,,6.7,24
+363,Isidro Miguel Pitta,14,FWD,2,2,136,0,0,,,0,0,0,0,,,6.52,25
+364,Alexandro Maidana,14,DEF,3,2,145,0,0,,,0,0,0,0,,,6.65,26
+365,Mathew David Ryan,15,GK,1,0,1,0,0,,,0,0,0,0,0.0,0.0,6.48,1
+366,Milos Degenek,15,DEF,0,0,0,0,0,,,0,0,0,0,,,6.47,2
+367,Alessandro Circati,15,DEF,4,4,390,0,0,,,1,0,0,0,,,7.48,3
+368,Jacob Michael Italiano,15,DEF,2,2,164,0,0,,,1,0,0,0,,,6.4,4
+369,Jordan Jacob Bos,15,DEF,4,4,309,0,0,,,1,0,0,0,,,6.73,5
+370,Jason Kato Geria,15,DEF,2,0,60,0,0,,,0,0,0,0,,,6.73,6
+371,Mathew Allan Leckie,15,FWD,1,1,61,0,0,,,0,0,0,0,,,6.56,7
+372,Connor Isaac Metcalfe,15,MID,4,3,315,1,0,,,0,0,0,0,,,6.78,8
+373,Mohamed Toure,15,FWD,3,2,166,0,0,,,0,0,0,0,,,6.58,9
+374,Ajdin Hrustic,15,FWD,2,0,78,0,0,,,0,0,0,0,,,6.8,10
+375,Awer Bul Mabil,15,FWD,1,0,29,0,0,,,0,0,0,0,,,7.2,11
+376,Paul David Izzo,15,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.55,12
+377,Aiden Connor Oneill,15,MID,4,4,361,0,0,,,0,0,0,0,,,6.95,13
+378,Cameron Peter Devlin,15,MID,0,0,0,0,0,,,0,0,0,0,,,6.49,14
+379,Kai Clifton Trewin,15,DEF,1,0,74,0,0,,,0,0,0,0,,,6.47,15
+380,Aziz Behich,15,DEF,3,2,217,0,0,,,0,0,0,0,,,6.63,16
+381,Nestory Irankunda,15,FWD,4,3,263,1,0,,,0,0,0,0,,,6.78,17
+382,Patrick Thomas Beach,15,GK,4,4,389,0,0,,,0,0,0,0,2.0,11.0,7.45,18
+383,Harry James Souttar,15,DEF,4,4,390,0,0,,,1,0,0,0,,,7.0,19
+384,Cristian Volpato,15,FWD,3,2,161,0,0,,,0,0,0,0,,,6.63,20
+385,Cameron Robert Burgess,15,DEF,2,2,136,0,0,,,0,0,0,1,,,6.34,21
+386,Jackson Alexander Irvine,15,MID,4,2,223,0,0,,,1,0,0,0,,,7.0,22
+387,Nishan Matthew Velupillay,15,FWD,2,1,75,0,0,,,0,0,0,0,,,6.56,23
+388,Paul Michael Junior Okon-Engstler,15,MID,4,2,196,0,1,,,0,0,0,0,,,6.9,24
+389,Lucas Herrington,15,DEF,2,2,210,0,0,,,0,0,0,0,,,6.58,25
+390,Tete Owen Yengi,15,FWD,2,0,22,0,0,,,0,0,0,0,,,6.53,26
+391,Fehmi Mert Gunok,16,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.55,1
+392,Mehmet Zeki Celik,16,DEF,2,2,164,0,0,,,0,0,0,0,,,6.9,2
+393,Merih Demiral,16,DEF,2,2,180,0,0,,,0,0,0,0,,,6.7,3
+394,Ça ğ lar Soyuncu,16,DEF,1,0,6,0,0,,,0,0,0,0,,,6.9,4
+395,Salih Ozcan,16,MID,2,1,100,0,0,,,0,0,0,0,,,7.0,5
+396,Orkun Kokcu,16,MID,3,2,154,1,0,,,0,0,0,0,,,6.62,6
+397,Muhammed Kerem Akturkoglu,16,FWD,2,2,131,0,0,,,0,0,0,0,,,6.45,7
+398,Arda Guler,16,FWD,3,3,270,1,0,,,0,0,0,0,,,7.6,8
+399,Deniz Daniel Gul,16,FWD,2,0,35,0,0,,,0,0,0,0,,,6.55,9
+400,Hakan Calhanoglu,16,MID,2,2,180,0,0,,,0,0,0,0,,,7.4,10
+401,Kenan Yildiz,16,FWD,3,2,218,0,0,,,0,0,0,0,,,7.1,11
+402,Altay Bayindir,16,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.54,12
+403,Evren Eren Elmali,16,DEF,2,1,110,0,1,,,0,0,0,0,,,7.1,13
+404,Abdülker Bardakci,16,DEF,3,3,266,0,0,,,0,0,0,0,,,7.17,14
+405,Ozan Muhammed Kabak,16,DEF,1,1,90,0,0,,,0,0,0,0,,,7.1,15
+406,Ismailİsma Yuksek,16,MID,2,2,140,0,0,,,0,0,0,0,,,7.2,16
+407,Can İrfan Kahveci,16,FWD,3,1,101,0,0,,,0,0,0,0,,,6.42,17
+408,Mert Muldur,16,DEF,0,0,0,0,0,,,0,0,0,0,,,6.73,18
+409,Yunus Akgun,16,FWD,2,1,88,0,0,,,0,0,0,0,,,6.43,19
+410,Ferdi Erenay Kadioglu,16,DEF,2,2,160,0,0,,,0,0,0,0,,,6.65,20
+411,Barı ş Alper Yilmaz,16,FWD,3,2,180,0,0,,,0,0,0,0,,,6.77,21
+412,Kaan Ayhan,16,MID,1,0,2,1,0,,,0,0,0,0,,,7.6,22
+413,Ugurcan Cakir,16,GK,3,3,270,0,0,,,0,0,0,0,0.0,7.0,6.67,23
+414,Oguz Aydin,16,FWD,1,1,90,0,0,,,0,0,0,0,,,7.0,24
+415,Samet Akaydin,16,DEF,0,0,0,0,0,,,0,0,0,0,,,6.42,25
+416,Can Yılmaz Uzun,16,FWD,2,0,36,0,1,,,0,0,0,0,,,6.73,26
+417,Manuel Peter Neuer,17,GK,4,4,390,0,0,,,0,0,0,0,0.0,8.0,6.95,1
+418,Antonio Ruediger,17,DEF,4,2,262,0,0,,,0,0,0,0,,,6.88,2
+419,Waldemar Anton,17,DEF,2,0,48,0,0,,,0,0,0,0,,,6.9,3
+420,Jonathan Glao Tah,17,DEF,4,4,372,0,0,,,0,0,0,0,,,6.93,4
+421,Aleksandar Pavlovic,17,MID,4,4,275,0,0,,,0,0,0,0,,,6.73,5
+422,Joshua Walter Kimmich,17,DEF,4,4,353,0,2,,,0,0,0,0,,,7.55,6
+423,Kai Lukas Havertz,17,FWD,4,4,355,3,0,,,0,0,0,0,,,7.35,7
+424,Leon Christoph Goretzka,17,MID,3,0,97,0,0,,,0,0,0,0,,,6.77,8
+425,Jamie Jaleel Jeremy Leweling,17,MID,1,0,30,0,0,,,0,0,0,0,,,6.43,9
+426,Jamal Musiala,17,MID,4,3,271,1,0,,,0,0,0,0,,,7.18,10
+427,Nick Woltemade,17,FWD,1,0,32,0,0,,,0,0,0,0,,,6.49,11
+428,Oliver Baumann,17,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,12
+429,Pascal Alexander GROß GROß Gross,17,MID,1,0,17,0,0,,,0,0,0,0,,,6.51,13
+430,Maximilian Beier,17,FWD,1,0,26,0,0,,,0,0,0,0,,,6.44,14
+431,Nico Cédric Schlotterbeck,17,DEF,2,2,136,1,0,,,0,0,0,0,,,7.5,15
+432,Angelo Nicolas Stiller,17,MID,1,0,44,0,0,,,0,0,0,0,,,6.8,16
+433,Florian Richard Wirtz,17,MID,4,4,363,0,3,,,0,0,0,0,,,7.63,17
+434,Nathaniel Christopher Brown,17,DEF,3,3,282,1,1,,,0,0,0,0,,,7.3,18
+435,Leroy Aziz Sane,17,MID,4,4,328,1,0,,,0,0,0,0,,,6.63,19
+436,Nadiem Amiri,17,MID,2,0,40,0,1,,,0,0,0,0,,,7.1,20
+437,Alexander Nuebel,17,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,21
+438,David Raum,17,DEF,2,1,108,0,0,,,0,0,0,0,,,6.73,22
+439,Felix Kalu Nmecha,17,MID,4,4,272,1,1,,,0,0,0,0,,,7.05,23
+440,Malick Thiaw,17,DEF,2,0,40,0,0,,,0,0,0,0,,,6.65,24
+441,Forzan Assan Ouedraogo,17,MID,0,0,0,0,0,,,0,0,0,0,,,6.47,25
+442,Deniz Undav,17,FWD,4,1,149,3,2,,,0,0,0,0,,,7.43,26
+443,Eloy Victor Room,18,GK,3,3,270,0,0,,,0,0,0,0,1.0,25.0,7.2,1
+444,Shurandy Ruggerio Sambo,18,DEF,1,0,1,0,0,,,0,0,0,0,,,6.45,2
+445,Juriën Godfried Juan Gaari,18,DEF,2,2,167,0,0,,,0,0,0,0,,,6.55,3
+446,Róshón Felix Romar Jordan Van Eijma,18,DEF,1,0,15,0,0,,,0,0,0,0,,,6.9,4
+447,Sherel Constancio Floranus,18,DEF,3,3,270,0,0,,,0,0,0,0,,,6.56,5
+448,Godfried Roemeratoe,18,MID,1,0,7,0,0,,,0,0,0,0,,,6.7,6
+449,Juninho Gracielo Bacuna,18,MID,3,3,255,0,0,,,0,0,0,0,,,6.59,7
+450,Livano Shyron Liomar Comenencia,18,MID,3,3,234,1,0,,,0,0,0,0,,,6.9,8
+451,Jürgen Leonardo Locadia,18,FWD,3,3,238,0,0,,,0,0,0,0,,,6.55,9
+452,Leandro Jones Johan Bacuna,18,MID,3,3,270,0,0,,,0,0,0,0,,,6.63,10
+453,Jeremy Cornelis Jacobus Antonisse,18,FWD,2,0,73,0,0,,,0,0,0,0,,,6.85,11
+454,Juniffer Naigelino Hansen,18,FWD,1,1,46,0,0,,,0,0,0,0,,,6.5,12
+455,Tyrese Yurvencey Noslin,18,FWD,1,0,13,0,0,,,0,0,0,0,,,6.8,13
+456,Kenji Joël Gorre,18,FWD,1,0,15,0,0,,,0,0,0,0,,,6.42,14
+457,Jainel Archenir Martha,18,MID,0,0,0,0,0,,,0,0,0,0,,,6.49,15
+458,Jearl Erwin Margaritha,18,FWD,2,0,40,0,0,,,0,0,0,0,,,6.45,16
+459,Brandley Mack-Olien Kuwas,18,FWD,1,0,1,0,0,,,0,0,0,0,,,6.44,17
+460,Armando Maria Obispo,18,DEF,3,3,270,0,0,,,0,0,0,0,,,6.61,18
+461,Gervane Zjandric Adonnis Kastaneer,18,FWD,3,0,28,0,0,,,1,0,0,0,,,6.42,19
+462,Joshua Benjamin Brenet,18,DEF,2,2,180,0,0,,,0,0,0,0,,,6.85,20
+463,Tahith Jose Girigorio Djorkaef Chong,18,MID,3,3,247,0,0,,,0,0,0,0,,,6.63,21
+464,Kevin Antonio Felida,18,MID,0,0,0,0,0,,,0,0,0,0,,,6.6,22
+465,Riechedly Guillermo Bazoer,18,DEF,1,1,90,0,0,,,0,0,0,0,,,6.52,23
+466,Deveron Lenny Fonville,18,DEF,3,3,242,0,0,,,0,0,0,0,,,6.58,24
+467,Tyrick Jeremy Bodak,18,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,25
+468,Trevor Irving Doornbusch,18,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.54,26
+469,Yahia Fofana,19,GK,4,4,360,0,0,,,0,0,0,0,2.0,12.0,7.15,1
+470,Ousmane Diomande,19,DEF,1,1,90,0,0,,,0,0,0,0,,,7.3,2
+471,N'clomande Ghislain Konan,19,DEF,3,3,270,0,0,,,0,0,0,0,,,6.8,3
+472,Jean Michael Seri,19,MID,1,0,13,0,0,,,0,0,0,0,,,6.8,4
+473,Wilfried Stephane Singo,19,DEF,2,2,172,0,1,,,0,0,0,0,,,7.15,5
+474,Seko Mohamed Fofana,19,MID,2,1,92,0,0,,,0,0,0,0,,,6.5,6
+475,Odilon Dorgeless Kossounou,19,DEF,4,3,271,0,0,,,0,0,0,0,,,6.73,7
+476,Franck Yannick Kessie,19,MID,4,4,347,1,0,,,0,0,0,0,,,6.83,8
+477,Ange-Yoan Laurent Bonny,19,FWD,4,3,236,0,0,,,0,0,0,0,,,6.48,9
+478,Simon Adingra,19,FWD,1,0,15,0,0,,,0,0,0,0,,,6.52,10
+479,Yan Diomande,19,FWD,4,4,332,0,1,,,0,0,0,0,,,7.53,11
+480,Elye Delmas Wahi,19,FWD,3,1,109,0,0,,,0,0,0,0,,,6.47,12
+481,Christopher Tea Domoraud Operi,19,DEF,1,1,90,0,0,,,0,0,0,0,,,7.0,13
+482,Oumar Diakite,19,FWD,2,0,26,0,0,,,0,0,0,0,,,6.41,14
+483,Amad Diallo,19,FWD,4,2,185,2,0,,,0,0,0,0,,,7.78,15
+484,Mohamed Kone,19,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.55,16
+485,Guela Maho-Lewis Doue,19,DEF,4,3,277,0,0,,,0,0,0,0,,,6.9,17
+486,Ibrahim Sangare,19,MID,4,3,268,0,0,,,0,0,0,0,,,7.4,18
+487,Nicolas Pepe,19,FWD,4,3,236,2,0,,,0,0,0,0,,,7.08,19
+488,Emmanuel Elysee Djedje Agbadou,19,DEF,3,3,270,0,0,,,0,0,0,0,,,6.93,20
+489,Obite Evan Ndicka,19,DEF,0,0,0,0,0,,,0,0,0,0,,,6.46,21
+490,Evann Ludovic Vidjannagni Guessand,19,FWD,2,0,16,0,0,,,0,0,0,0,,,6.55,22
+491,Alban-Marc Lafont,19,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,23
+492,Bazoumana Toure,19,FWD,3,1,80,0,0,,,0,0,0,0,,,6.56,24
+493,Parfait Guiagon,19,MID,0,0,0,0,0,,,0,0,0,0,,,6.49,25
+494,Christ Ravynel Inao Oulai,19,MID,4,2,207,0,0,,,0,0,0,0,,,7.08,26
+495,Hernán Ismael Galindez,20,GK,4,4,360,0,0,,,0,0,0,0,1.0,25.0,7.13,1
+496,Félix Eduardo Torres,20,DEF,1,0,5,0,0,,,0,0,0,0,,,6.7,2
+497,Piero Martin Hincapie,20,DEF,4,4,341,0,0,,,0,1,0,0,,,6.63,3
+498,Joel Leandro Ordonez,20,DEF,3,3,226,0,0,,,0,0,0,0,,,6.45,4
+499,Jordy Jose Alcivar,20,MID,1,1,46,0,0,,,0,0,0,0,,,6.56,5
+500,Willian Joel Pacho,20,DEF,4,4,360,0,0,,,0,0,0,0,,,6.85,6
+501,Pervis Josue Estupinan,20,DEF,2,1,90,0,0,,,0,0,0,0,,,6.7,7
+502,Anthony Lenin Valencia,20,MID,0,0,0,0,0,,,0,0,0,0,,,6.51,8
+503,John Yeboah,20,FWD,4,4,315,0,0,,,0,0,0,0,,,7.03,9
+504,Ray Kendry Paez,20,MID,1,0,11,0,0,,,0,0,0,0,,,6.8,10
+505,Kevin Jose Rodriguez,20,FWD,4,0,114,0,0,,,0,0,0,0,,,6.6,11
+506,Wellington Moisés Ramirez,20,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,12
+507,Enner Remberto Valencia,20,FWD,4,4,290,0,0,,,0,0,0,0,,,6.61,13
+508,Alan Steve Minda,20,MID,1,1,56,0,0,,,0,0,0,0,,,6.55,14
+509,Pedro Jeampierre Vite,20,MID,4,4,360,0,1,,,0,0,0,0,,,7.43,15
+510,Jordy Josue Caicedo,20,FWD,3,0,17,0,0,,,0,0,0,0,,,6.45,16
+511,Ángelo Smit Preciado,20,DEF,4,0,105,0,0,,,0,0,0,0,,,6.48,17
+512,Denil Daniel Castillo,20,MID,0,0,0,0,0,,,0,0,0,0,,,6.59,18
+513,Gonzalo Jordy Plata,20,FWD,4,4,360,1,0,,,0,0,0,0,,,6.83,19
+514,Nilson David Angulo,20,FWD,4,2,217,1,0,,,0,0,0,0,,,6.93,20
+515,Alan Steven Franco,20,MID,4,4,255,0,0,,,0,0,0,0,,,6.73,21
+516,Gonzalo Roberto Valle,20,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,22
+517,Moisés Isaac Caicedo,20,MID,4,4,360,0,1,,,0,0,0,0,,,7.5,23
+518,Jeremy Alberto Arevalo,20,FWD,0,0,0,0,0,,,0,0,0,0,,,6.45,24
+519,Jackson Gabriel Porozo,20,DEF,1,0,28,0,0,,,0,0,0,0,,,6.49,25
+520,Yaimar Abel Medina,20,DEF,1,0,44,0,0,,,0,0,0,0,,,6.56,26
+521,Bart Verbruggen,21,GK,4,4,390,0,0,,,0,0,0,0,0.0,12.0,7.28,1
+522,Lutsharel Emiliano Geertruida,21,DEF,0,0,0,0,0,,,0,0,0,0,,,6.56,2
+523,Marten Elco De Roon,21,MID,1,0,10,0,0,,,0,0,0,0,,,6.49,3
+524,Virgil Van Dijk,21,DEF,4,4,390,1,0,,,0,0,0,0,,,7.45,4
+525,Nathan Benjamin Ake,21,DEF,3,2,170,0,0,,,0,0,0,0,,,6.45,5
+526,Paul Jan-Paul Van Hecke,21,DEF,4,4,390,1,0,,,0,0,0,0,,,7.65,6
+527,Justin Dean Kluivert,21,MID,2,0,25,0,0,,,0,0,0,0,,,6.5,7
+528,Ryan Jiro Gravenberch,21,MID,4,4,347,0,2,,,0,0,0,0,,,6.78,8
+529,Wout François Maria Weghorst,21,FWD,1,0,49,0,0,,,0,0,0,0,,,7.5,9
+530,Memphis Depay,21,FWD,3,0,51,0,1,,,0,0,0,0,,,6.69,10
+531,Cody Mathès Gakpo,21,FWD,4,4,372,3,1,,,0,0,0,0,,,7.55,11
+532,Mats Henrik Berne Wieffer,21,DEF,0,0,0,0,0,,,0,0,0,0,,,6.45,12
+533,Robin Gerardus Petrus Roefs,21,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,13
+534,Tijjani Martinus Jan Reijnders,21,MID,3,3,201,0,0,,,0,0,0,0,,,6.63,14
+535,Micky Van De Ven,21,DEF,3,3,266,0,0,,,0,0,0,0,,,6.59,15
+536,Guus Berend Til,21,MID,1,0,31,0,0,,,0,0,0,0,,,6.52,16
+537,Noa Noëll Lang,21,FWD,2,0,7,0,0,,,0,0,0,0,,,6.51,17
+538,Donyell Malen,21,FWD,3,3,188,0,0,,,0,0,0,0,,,6.67,18
+539,Brian Ebenezer Adjei Brobbey,21,FWD,4,3,225,3,0,,,0,0,0,0,,,7.23,19
+540,Teun Koopmeiners,21,MID,4,0,118,0,0,,,0,0,0,0,,,6.78,20
+541,Frenkie De Jong,21,MID,4,4,331,0,0,,,0,0,0,0,,,7.13,21
+542,Denzel Justus Morris Dumfries,21,DEF,4,4,390,0,2,,,0,0,0,0,,,7.0,22
+543,Mark Maria Hubertus Flekken,21,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,23
+544,Crysencio Jilbert Sylverio Cir Summerville,21,FWD,4,2,252,2,2,,,0,0,0,0,,,7.48,24
+545,Jorrel Evan Hato,21,DEF,1,0,34,0,0,,,0,0,0,0,,,6.46,25
+546,Quinten Ryan Crispito Timber,21,MID,2,0,54,0,0,,,0,0,0,0,,,6.46,26
+547,Zion Suzuki,22,GK,4,4,360,0,0,,,0,0,0,0,1.0,11.0,7.2,1
+548,Yukinari Sugawara,22,DEF,4,1,145,0,0,,,0,0,0,0,,,6.68,2
+549,Shogo Taniguchi,22,DEF,3,2,231,0,0,,,0,0,0,0,,,6.63,3
+550,Kou Itakura,22,DEF,2,2,129,0,0,,,0,0,0,0,,,7.45,4
+551,Yuto Nagatomo,22,DEF,1,0,15,0,0,,,0,0,0,0,,,6.9,5
+552,Shuto Machino,22,FWD,1,0,12,0,0,,,0,0,0,0,,,6.53,6
+553,Ao Tanaka,22,MID,3,2,192,0,0,,,0,0,0,0,,,6.93,7
+554,Takefusa Kubo,22,MID,1,1,75,0,1,,,0,0,0,0,,,6.7,8
+555,Keisuke Goto,22,FWD,1,0,6,0,0,,,0,0,0,0,,,6.8,9
+556,Ritsu Doan,22,MID,4,4,281,0,0,,,0,0,0,0,,,6.59,10
+557,Daizen Maeda,22,MID,3,3,246,1,0,,,0,0,0,0,,,7.0,11
+558,Keisuke Osako,22,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.59,12
+559,Keito Nakamura,22,MID,4,4,309,1,2,,,0,0,0,0,,,7.2,13
+560,Junya Ito,22,MID,4,2,216,1,0,,,0,0,0,0,,,6.75,14
+561,Daichi Kamada,22,MID,4,4,332,2,0,,,0,0,0,0,,,6.78,15
+562,Tsuyoshi Watanabe,22,DEF,2,1,90,0,0,,,0,0,0,0,,,6.65,16
+563,Yuito Suzuki,22,MID,1,0,12,0,0,,,0,0,0,0,,,6.55,17
+564,Ayase Ueda,22,FWD,4,4,324,2,1,,,0,0,0,0,,,7.15,18
+565,Koki Ogawa,22,FWD,3,0,40,0,1,,,0,0,0,0,,,6.61,19
+566,Ayumu Seko,22,DEF,2,1,87,0,0,,,0,0,0,0,,,6.5,20
+567,Hiroki Ito,22,DEF,4,4,360,0,0,,,0,0,0,0,,,6.7,21
+568,Takehiro Tomiyasu,22,DEF,3,2,183,0,0,,,0,0,0,0,,,7.27,22
+569,Tomoki Hayakawa,22,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,23
+570,Kaishu Sano,22,MID,3,3,270,1,1,,,0,0,0,0,,,7.2,24
+571,Junnosuke Suzuki,22,DEF,2,0,40,0,0,,,0,0,0,0,,,6.51,25
+572,Kento Shiogai,22,FWD,1,0,6,0,0,,,0,0,0,0,,,6.51,26
+573,Jacob Mikael Widell Zetterstrom,23,GK,2,2,180,0,0,,,0,0,0,0,0.0,13.0,7.65,1
+574,Gustaf Johan Lagerbielke,23,DEF,4,4,360,0,0,,,0,0,0,0,,,6.6,2
+575,Victor Jörgen Lindelof,23,DEF,4,4,357,0,0,,,0,0,0,0,,,6.61,3
+576,Isak Malcolm Kwaku Hien,23,DEF,3,3,217,0,0,,,0,0,0,0,,,6.5,4
+577,Gabriel Johan Gudmundsson,23,DEF,4,4,332,0,0,,,0,0,0,0,,,6.73,5
+578,Herman Nils Johansson,23,DEF,0,0,0,0,0,,,0,0,0,0,,,6.5,6
+579,Lucas Erik Holger Bergvall,23,MID,4,1,179,0,1,,,0,0,0,0,,,6.57,7
+580,Daniel Jonathan Svensson,23,DEF,3,1,98,0,0,,,0,0,0,0,,,6.51,8
+581,Alexander Isak,23,FWD,4,4,359,1,3,,,0,0,0,0,,,6.95,9
+582,Erik Benjamin Nygren,23,MID,4,2,131,0,0,,,0,0,0,0,,,6.43,10
+583,Anthony David Junior Elanga,23,FWD,4,2,216,2,0,,,0,0,0,0,,,7.3,11
+584,Tobias Viktor Johansson,23,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.51,12
+585,Ken Sema,23,MID,1,0,15,0,0,,,0,0,0,0,,,6.7,13
+586,Hjalmar Ekdal,23,DEF,0,0,0,0,0,,,0,0,0,0,,,6.53,14
+587,Carl Anders Theodor Starfelt,23,DEF,1,0,3,0,0,,,0,0,0,0,,,6.7,15
+588,Jesper Kewe Karlstrom,23,MID,2,2,139,0,0,,,0,0,0,0,,,6.47,16
+589,Viktor Einar Gyokeres,23,FWD,4,4,360,1,1,,,0,0,0,0,,,6.95,17
+590,Yasin Ayari,23,MID,4,4,341,2,0,,,0,0,0,0,,,7.18,18
+591,Mattias Olof Svanberg,23,MID,2,0,14,1,0,,,0,0,0,0,,,7.2,19
+592,Eric Anders Smith,23,DEF,0,0,0,0,0,,,0,0,0,0,,,6.54,20
+593,Alexander Olof Bernhardsson,23,DEF,3,3,220,0,0,,,0,0,0,0,,,6.45,21
+594,Besfort Zeneli,23,MID,2,0,59,0,0,,,0,0,0,0,,,6.42,22
+595,Bo Kristoffer Nordfeldt,23,GK,2,2,180,0,0,,,0,0,0,0,0.0,8.0,6.69,23
+596,Elliot Karl Stroud,23,DEF,4,2,167,0,0,,,0,0,0,0,,,6.63,24
+597,Håkan Gustaf Nilsson,23,FWD,1,0,1,0,0,,,0,0,0,0,,,6.46,25
+598,Taha Abdi Ali,23,FWD,2,0,35,0,0,,,0,0,0,0,,,6.43,26
+599,Abdelmouhib Chamakh,24,GK,1,1,90,0,0,,,0,0,0,0,0.0,6.0,6.59,1
+600,Ali Abdi,24,DEF,3,3,270,0,0,,,0,0,0,0,,,6.58,2
+601,Montassar Omar Talbi,24,DEF,3,3,270,0,0,,,0,0,0,0,,,6.49,3
+602,Omar Rekik,24,DEF,2,2,180,1,0,,,0,0,0,0,,,6.72,4
+603,Adam Arous,24,DEF,0,0,0,0,0,,,0,0,0,0,,,6.44,5
+604,Dylan Daniel Mahmoud Bronn,24,DEF,1,1,46,0,0,,,0,0,0,0,,,6.42,6
+605,Mohamed Elyes Achouri,24,FWD,3,0,42,0,0,,,0,0,0,0,,,6.49,7
+606,Elias Saad,24,FWD,2,2,118,0,0,,,0,0,0,0,,,6.51,8
+607,Hazem Mastouri,24,FWD,1,1,90,1,0,,,0,0,0,0,,,7.9,9
+608,Hannibal Mejbri,24,MID,3,3,270,0,1,,,0,0,0,0,,,7.0,10
+609,Ismael Seifallah Gharbi,24,MID,3,1,125,0,0,,,0,0,0,0,,,6.53,11
+610,Ahmed Mortadha Ben Ouanes,24,DEF,1,0,23,0,0,,,0,0,0,0,,,6.7,12
+611,Rani Khedira,24,MID,3,2,152,0,0,,,0,0,0,0,,,6.55,13
+612,Khalil Ayari,24,MID,0,0,0,0,0,,,0,0,0,0,,,6.62,14
+613,Mohamed Hadj Mahmoud,24,MID,2,0,41,0,0,,,0,0,0,0,,,6.49,15
+614,Aymen Dahmen,24,GK,2,2,180,0,0,,,0,0,0,0,0.0,7.0,6.59,16
+615,Ellyes Joris Skhiri,24,MID,3,3,252,0,0,,,0,0,0,1,,,6.38,17
+616,Rayan Elloumi,24,FWD,0,0,0,0,0,,,0,0,0,0,,,6.47,18
+617,Firas Chaouat,24,FWD,3,0,47,0,0,,,0,0,0,0,,,6.48,19
+618,Yan Valery,24,DEF,3,3,252,0,0,,,0,0,0,0,,,6.46,20
+619,Mohamed Amine Ben Hmida,24,DEF,3,2,201,0,0,,,0,0,0,0,,,6.44,21
+620,Sabri Ben Hessen,24,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,22
+621,Moutaz Neffati,24,DEF,0,0,0,0,0,,,0,0,0,0,,,6.59,23
+622,Raed Chikhaoui,24,DEF,0,0,0,0,0,,,0,0,0,0,,,6.56,24
+623,Anis Slimane,24,MID,3,3,241,0,0,,,0,0,0,0,,,6.51,25
+624,Sebastian Tounekti,24,MID,3,1,83,0,0,,,0,0,0,0,,,6.44,26
+625,Thibaut Nicolas Courtois,25,GK,6,6,570,0,1,,,0,0,0,0,1.0,15.0,7.07,1
+626,Zeno Koen Debast,25,DEF,2,2,180,0,0,,,0,0,0,0,,,6.46,2
+627,Arthur Nicolas Theate,25,DEF,5,4,407,0,0,,,0,0,0,0,,,6.87,3
+628,Brandon Erik Mechele,25,DEF,4,4,390,0,0,,,0,0,0,0,,,6.97,4
+629,Maxim Peter De Cuyper,25,DEF,4,3,292,0,0,,,0,0,0,0,,,6.72,5
+630,Axel Laurent Witsel,25,MID,2,2,180,0,0,,,0,0,0,0,,,6.48,6
+631,Kevin De Bruyne,25,MID,4,4,301,1,0,,,0,0,0,0,,,7.22,7
+632,Youri Marion Tielemans,25,MID,4,4,385,2,0,,,0,0,0,0,,,7.44,8
+633,Romelu Lukaku,25,FWD,5,1,206,3,0,,,1,0,0,0,,,6.8,9
+634,Leandro Trossard,25,FWD,5,4,391,2,2,,,0,0,0,0,,,7.52,10
+635,Jeremy Baffour Doku,25,FWD,5,5,378,0,0,,,0,0,0,0,,,6.8,11
+636,Senne Lammens,25,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.53,12
+637,Mike Louis Penders,25,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,13
+638,Dodi Lukebakio,25,FWD,2,0,96,0,0,,,0,0,0,0,,,6.83,14
+639,Thomas Andre Meunier,25,DEF,5,4,370,0,1,,,0,0,0,0,,,6.7,15
+640,Koni De Winter,25,DEF,0,0,0,0,0,,,0,0,0,0,,,6.55,16
+641,Charles Marc De Ketelaere,25,FWD,5,3,257,3,0,,,0,0,0,0,,,7.12,17
+642,Joaquin Ronny Seys,25,DEF,0,0,0,0,0,,,0,0,0,0,,,6.48,18
+643,Diego Manuel Moreira,25,MID,1,0,57,0,0,,,0,0,0,0,,,6.9,19
+644,Hans Vanaken,25,MID,5,2,219,1,0,,,0,0,0,0,,,6.83,20
+645,Timothy Castagne,25,DEF,4,3,298,0,0,,,0,0,0,0,,,6.97,21
+646,Alexis Jesse Saelemaekers,25,MID,4,3,256,1,0,,,0,0,0,0,,,7.03,22
+647,Nicolas Thierry Raskin,25,MID,6,3,341,0,1,,,0,0,0,0,,,7.17,23
+648,Amadou Ba Onana,25,MID,5,3,265,0,0,,,0,0,0,0,,,6.73,24
+649,Nathan Ngoy,25,DEF,4,4,360,0,0,,,0,1,0,0,,,6.81,25
+650,Matias Fernandez-Pardo,25,FWD,5,2,221,0,0,,,0,0,0,0,,,6.6,26
+651,Elsayed Mohamed Mohamed Elshenawy,26,GK,1,1,90,0,0,,,0,0,0,0,0.0,4.0,6.6,1
+652,Ahmed Ibrahim Yasser,26,DEF,5,3,406,1,0,,,0,0,0,0,,,6.86,2
+653,Hany Gamal Mohamed Hany,26,DEF,5,5,480,0,1,,,0,0,0,2,,,6.3,3
+654,Abdelmegeed Abdelsalam Hossam Abdelmaguid,26,DEF,2,0,59,0,0,,,0,0,0,0,,,7.25,4
+655,Abdelaziz Moustafa Ramy Rabia,26,DEF,5,3,368,0,0,,,0,0,0,0,,,7.1,5
+656,Abdelmoneim Elsayed Mohamed,26,DEF,3,2,105,0,0,,,0,0,0,0,,,6.52,6
+657,Ahmed Ibrahim Trezeguet,26,FWD,3,1,144,1,0,,,0,0,0,0,,,6.68,7
+658,Ashour Metwaly Emam,26,MID,4,4,321,2,0,,,0,0,0,0,,,7.0,8
+659,Mohamed Abdelkarim Hamza,26,FWD,5,1,146,0,0,,,0,0,0,0,,,6.5,9
+660,Hamed Mahrous Mohamed Salah,26,FWD,5,5,427,1,3,,,0,0,0,0,,,7.18,10
+661,Mohamed Zaky Mostafa Zico,26,MID,5,5,385,2,1,,,0,0,0,0,,,7.0,11
+662,Yousry Fouad Haissem Hassan,26,FWD,2,0,83,0,1,,,0,0,0,0,,,6.9,12
+663,Mohamed Aboelfetouh Ahmed Fatouh,26,DEF,4,4,358,0,0,,,0,0,0,0,,,6.8,13
+664,Fathy Abdelhalim Hamdy Fathy,26,MID,4,4,286,0,0,,,0,0,0,0,,,6.73,14
+665,Hafez Ramadan Karim Hafez,26,DEF,2,1,82,0,0,,,0,0,0,0,,,6.65,15
+666,Mohamed Soliman Mahdy Soliman,26,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.49,16
+667,Mostafa Ahmed Mohanad Lashin,26,MID,3,3,270,0,0,,,0,0,0,0,,,6.9,17
+668,Aly Elmahdy Nabil,26,MID,1,1,90,0,0,,,0,0,0,0,,,6.54,18
+669,Attia Fahim Marawan Attia,26,MID,4,3,343,0,0,,,0,0,0,0,,,7.12,19
+670,Adel Aly Mohamed Ibrahim,26,FWD,1,0,2,0,0,,,0,0,0,0,,,6.4,20
+671,Saber Abdelmohsen Mahmoud,26,MID,3,2,137,1,0,,,0,0,0,0,,,7.5,21
+672,Mohamed Abdelsalam Omar,26,FWD,4,3,316,0,0,,,0,0,0,0,,,6.78,22
+673,Abdelaziz Mohame Mostafa,26,GK,4,4,390,0,0,,,0,0,0,0,0.0,9.0,7.44,23
+674,Abdelghaffar Abdel Tarek Alaa,26,DEF,0,0,0,0,0,,,0,0,0,0,,,6.44,24
+675,Mostafa Mohamed Zizo,26,FWD,3,0,53,0,0,,,0,0,0,0,,,6.63,25
+676,Alaaeldin Soliman Mohamed Alaa,26,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.43,26
+677,Ali Reza Beiranvand,27,GK,3,3,270,0,0,,,0,0,0,0,1.0,16.0,7.63,1
+678,Saleh Hardani,27,DEF,2,1,90,0,0,,,0,0,0,0,,,7.05,2
+679,Ehsan Hajisafi,27,DEF,2,1,91,0,0,,,0,0,0,0,,,6.7,3
+680,Shojae Khalilzadeh,27,DEF,3,3,270,0,0,,,0,0,0,0,,,7.07,4
+681,Milad Mohammadi,27,DEF,3,2,204,0,0,,,0,0,0,0,,,6.45,5
+682,Saeid Ezatolahi,27,MID,3,3,265,0,0,,,0,0,0,0,,,6.93,6
+683,Alireza Jahanbakhsh,27,MID,2,0,45,0,0,,,0,0,0,0,,,6.7,7
+684,Mohammad Mohebbi,27,MID,3,3,246,1,0,,,0,0,0,0,,,6.83,8
+685,Mehdi Taremi,27,FWD,3,3,260,0,0,,,0,0,0,0,,,6.67,9
+686,Mehdi Ghayedi,27,FWD,1,0,45,0,0,,,0,0,0,0,,,6.55,10
+687,Ali Alipour,27,FWD,1,0,37,0,0,,,0,0,0,0,,,6.52,11
+688,Seyedpayam Niazmand,27,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.51,12
+689,Mohammadhossein Kanani,27,DEF,2,2,136,0,0,,,0,0,0,0,,,6.8,13
+690,Seyed Saman Ghoddos,27,MID,3,3,211,0,0,,,0,0,0,0,,,6.67,14
+691,Roozbeh Cheshmi,27,MID,0,0,0,0,0,,,0,0,0,0,,,6.44,15
+692,Mahdi Torabi,27,MID,1,0,24,0,0,,,0,0,0,0,,,6.7,16
+693,Arya Yousefi,27,DEF,1,1,45,0,0,,,0,0,0,0,,,6.8,17
+694,Amirhossein Hosseinzadeh,27,FWD,2,0,15,0,0,,,0,0,0,0,,,6.48,18
+695,Ali Nemati,27,DEF,3,3,270,0,0,,,0,0,0,0,,,6.77,19
+696,Shahriyar Moghanloo,27,FWD,3,1,87,0,0,,,0,0,0,0,,,6.7,20
+697,Mohammad Ghorbani,27,MID,1,1,90,0,0,,,0,0,0,0,,,6.49,21
+698,Seyedhossein Hosseini,27,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.45,22
+699,Ramin Rezaeian,27,DEF,3,3,270,2,1,,,0,0,0,0,,,7.57,23
+700,Dennis Dargahi,27,FWD,0,0,0,0,0,,,0,0,0,0,,,6.51,24
+701,Danial Iri,27,DEF,0,0,0,0,0,,,0,0,0,0,,,6.5,25
+702,Amirmohammad Razaghinia,27,MID,0,0,0,0,0,,,0,0,0,0,,,6.54,26
+703,Maxime Teremoana Crocombe,28,GK,3,3,270,0,0,,,0,0,0,0,0.0,18.0,6.78,1
+704,Timothy John Payne,28,DEF,3,3,227,0,1,,,0,0,0,0,,,6.57,2
+705,Francis De Vries,28,DEF,2,0,16,0,0,,,0,0,0,0,,,6.46,3
+706,Tyler Grant Bindon,28,DEF,3,1,96,0,0,,,0,0,0,0,,,6.52,4
+707,Michael Joseph Boxall,28,DEF,3,2,206,0,0,,,0,0,0,0,,,6.52,5
+708,Joe Zen Robert Bell,28,MID,3,3,244,0,0,,,0,0,0,0,,,6.59,6
+709,Logan Tipene Rogerson,28,FWD,0,0,0,0,0,,,0,0,0,0,,,6.55,7
+710,Marko Seufatu Nikola Stamenic,28,MID,3,3,270,0,0,,,0,0,0,0,,,6.83,8
+711,Christopher Grant Wood,28,FWD,3,3,270,0,2,,,0,0,0,0,,,6.72,9
+712,Sarpreet Singh,28,MID,3,3,212,0,0,,,0,0,0,0,,,6.45,10
+713,Elijah Henry Just,28,MID,3,3,265,3,0,,,0,0,0,0,,,7.83,11
+714,Alexander Noah Paulsen,28,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.55,12
+715,Liberato Gianpaolo Cacace,28,DEF,3,3,223,0,0,,,0,0,0,0,,,6.45,13
+716,Alex Arthur Rufer,28,MID,0,0,0,0,0,,,0,0,0,0,,,6.54,14
+717,Nando Zen Pijnaker,28,DEF,0,0,0,0,0,,,0,0,0,0,,,6.61,15
+718,Finn Surman,28,DEF,3,3,270,1,0,,,0,0,0,0,,,6.78,16
+719,Kosta Barbarouses,28,FWD,0,0,0,0,0,,,0,0,0,0,,,6.54,17
+720,Benjamin Peter Waine,28,FWD,0,0,0,0,0,,,0,0,0,0,,,6.5,18
+721,Benjamin Craig Old,28,MID,3,0,90,0,0,,,0,0,0,0,,,6.52,19
+722,Mc,28,MID,3,2,160,0,0,,,0,0,0,0,,,6.51,20
+723,Jesse Carmichael Randall,28,FWD,3,0,59,0,0,,,0,0,0,0,,,6.5,21
+724,Michael Cornelis Woud,28,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,22
+725,Ryan Jared Thomas,28,MID,3,1,82,0,0,,,0,0,0,0,,,6.48,23
+726,Callan Rennie Elliot,28,DEF,1,0,12,0,0,,,0,0,0,0,,,7.0,24
+727,Lachlan Ryan Bayliss,28,MID,0,0,0,0,0,,,0,0,0,0,,,6.61,25
+728,Thomas Jefferson Smith,28,DEF,0,0,0,0,0,,,0,0,0,0,,,6.6,26
+729,David Raya,29,GK,4,3,300,0,0,,,0,0,0,0,2.0,8.0,6.77,1
+730,Marc Pubill,29,DEF,1,0,1,0,0,,,0,0,0,0,,,6.41,2
+731,Alejandro Grimaldo,29,DEF,3,3,270,0,0,,,0,0,0,0,,,6.47,3
+732,Eric Garcia,29,DEF,4,3,291,0,0,,,0,0,0,0,,,6.7,4
+733,Marcos Llorente,29,DEF,2,2,180,0,1,,,0,0,0,0,,,7.27,5
+734,Mikel Merino,29,MID,8,4,442,1,0,,,0,0,0,0,,,6.88,6
+735,Ferran Torres,29,FWD,6,1,246,1,1,,,0,0,0,0,,,6.75,7
+736,Fabian Ruiz,29,MID,5,2,184,0,0,,,0,0,0,0,,,6.91,8
+737,Pablo Gavi,29,MID,2,1,76,0,0,,,0,0,0,0,,,6.65,9
+738,Daniel Olmo,29,FWD,8,6,516,1,2,,,0,0,0,0,,,7.01,10
+739,Yeremy Jesús Pino,29,FWD,2,0,68,0,0,,,0,0,0,0,,,6.43,11
+740,Pedro Antonio Porro,29,DEF,6,6,570,2,0,,,0,0,0,0,,,7.45,12
+741,Joan Garcia,29,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,13
+742,Aymeric Laporte,29,DEF,5,5,459,0,1,,,0,0,0,0,,,7.4,14
+743,Alejandro Baena,29,MID,7,7,543,1,1,,,0,0,0,0,,,7.04,15
+744,Rodrigo Rodri,29,MID,5,5,477,0,0,,,0,0,0,0,,,7.76,16
+745,Nicholas Williams,29,FWD,4,0,91,0,1,,,0,0,0,0,,,6.55,17
+746,Martin Zubimendi,29,MID,3,3,270,0,0,,,0,0,0,0,,,7.0,18
+747,Lamine Yamal Yamal,29,FWD,8,7,616,2,0,,,0,0,0,0,,,7.16,19
+748,Pedro Pedri,29,MID,8,7,638,0,0,,,0,0,0,0,,,7.23,20
+749,Mikel Oyarzabal,29,FWD,6,5,394,5,1,,,0,0,0,0,,,7.14,21
+750,Pau Cubarsi,29,DEF,5,5,480,0,0,,,0,0,0,0,,,7.56,22
+751,Unai Simon,29,GK,5,5,480,0,0,,,0,0,0,0,5.0,13.0,6.95,23
+752,Marc Cucurella,29,DEF,8,8,750,0,2,,,0,0,0,0,,,7.09,24
+753,Victor Munoz,29,FWD,0,0,0,0,0,,,0,0,0,0,,,6.48,25
+754,Borja Iglesias,29,FWD,0,0,0,0,0,,,0,0,0,0,,,6.59,26
+755,José Vozinha,30,GK,4,4,390,0,0,,,0,0,0,0,2.0,23.0,7.88,1
+756,Ianique Stopira,30,DEF,0,0,0,0,0,,,0,0,0,0,,,6.42,2
+757,Alberto Diney,30,DEF,4,4,390,0,0,,,0,0,0,1,,,6.41,3
+758,Carlos Pico Lopes,30,DEF,4,4,390,0,0,,,0,0,0,0,,,7.25,4
+759,Evans Logan Costa,30,DEF,0,0,0,0,0,,,0,0,0,0,,,6.48,5
+760,Lenini Kevin Pina,30,MID,4,4,350,1,0,,,0,0,0,0,,,7.05,6
+761,Eduardo Jovane,30,MID,2,2,141,0,0,,,0,0,0,0,,,6.65,7
+762,Paulo Joao Paulo,30,MID,2,1,104,0,0,,,0,0,0,0,,,7.1,8
+763,BENCHIMOLGilson Gilson,30,FWD,2,1,78,0,0,,,0,0,0,0,,,6.43,9
+764,Gregory Jamiro Monteiro,30,MID,4,3,283,0,0,,,0,0,0,0,,,6.57,10
+765,RODRIGUESGarry Garry,30,MID,2,1,77,0,0,,,0,0,0,0,,,6.52,11
+766,Salomão Marcio,30,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.6,12
+767,CABRALSidny Sidny Lopes,30,DEF,3,3,286,1,0,,,0,0,0,0,,,7.03,13
+768,Deroy Deroy Duarte,30,MID,4,2,263,1,0,,,0,0,0,0,,,7.03,14
+769,Michael Laros Duarte,30,MID,4,2,167,0,0,,,0,0,0,0,,,6.63,15
+770,SEMEDOJair Yannick,30,MID,2,0,30,0,0,,,0,0,0,0,,,6.8,16
+771,Johnson Willy,30,MID,3,1,130,0,0,,,0,0,0,0,,,6.54,17
+772,Emanuel Telmo,30,MID,2,1,57,0,0,,,0,0,0,0,,,6.65,18
+773,Dailon Dailon Livramento,30,FWD,3,2,175,0,0,,,0,0,0,0,,,6.56,19
+774,Isaac Ryan,30,FWD,4,4,331,0,0,,,0,0,0,0,,,6.73,20
+775,Miguel Nuno Da Costa,30,MID,4,1,157,0,0,,,0,0,0,0,,,6.65,21
+776,MOREIRASteven Steven,30,DEF,4,3,301,0,0,,,0,0,0,0,,,6.51,22
+777,Joaquim Cj Dos Santos,30,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.46,23
+778,Fabricio Wagner Pina,30,DEF,1,1,90,0,0,,,1,0,0,0,,,6.9,24
+779,PIRESKelvin Kelvin,30,DEF,0,0,0,0,0,,,0,0,0,0,,,6.57,25
+780,Sandro Helio Varela,30,MID,3,0,101,1,0,,,0,0,0,0,,,6.87,26
+781,Dhahi Nawaf Alaqidi,31,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,1
+782,Hassan Ali Majrashi,31,DEF,0,0,0,0,0,,,0,0,0,0,,,6.62,2
+783,Mohammed Ali Lajami,31,DEF,3,1,148,0,0,,,0,0,0,0,,,6.9,3
+784,Ali Abdulelah Alamri,31,DEF,3,3,240,1,0,,,0,0,0,0,,,6.93,4
+785,Mohammed Hassan Altambakti,31,DEF,3,3,213,0,0,,,0,0,0,1,,,6.31,5
+786,Essa Nasser Aldawsari,31,MID,3,2,207,0,0,,,1,0,0,0,,,6.45,6
+787,Fahad Musab Aljuwayr,31,MID,3,2,153,0,0,,,0,0,0,0,,,6.7,7
+788,Yahya Aiman Yahya,31,FWD,0,0,0,0,0,,,0,0,0,0,,,6.58,8
+789,Tariq Feras,31,FWD,3,3,240,0,0,,,1,0,0,0,,,6.45,9
+790,Mohammed Salem Aldawsari,31,FWD,3,3,245,0,0,,,0,0,0,0,,,6.6,10
+791,Khalid Saleh,31,FWD,0,0,0,0,0,,,0,0,0,0,,,6.59,11
+792,Abdullah Saud Abdulhamid,31,DEF,3,3,270,0,0,,,1,0,0,0,,,6.47,12
+793,Meshari Nawaf Bu Washl,31,DEF,2,1,91,0,0,,,0,0,0,0,,,6.65,13
+794,Kadish Hassan,31,DEF,0,0,0,0,0,,,0,0,0,0,,,6.57,14
+795,Mohammed Abdullah Alkhaibari,31,MID,3,3,182,0,0,,,0,0,0,0,,,6.56,15
+796,Mubarak Ziyad Aljohani,31,MID,0,0,0,0,0,,,0,0,0,0,,,6.44,16
+797,Essa Khalid Alghannam,31,FWD,1,0,1,0,0,,,0,0,0,0,,,6.54,17
+798,Mohsen Ala Alhajji,31,MID,2,0,31,0,0,,,0,0,0,0,,,6.49,18
+799,Abdulrahman Abdullah Alhamddan,31,FWD,3,0,70,0,0,,,0,0,0,0,,,6.55,19
+800,Ahmed Sultan Mandash,31,FWD,1,1,65,0,0,,,0,0,0,0,,,7.1,20
+801,Khalil Mohammed Alowais,31,GK,3,3,270,0,0,,,0,0,0,0,1.0,18.0,7.33,21
+802,Ali Ahmed,31,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.93,22
+803,Ibrahim Mohamed,31,MID,3,2,224,0,0,,,0,0,0,0,,,6.93,23
+804,Saad Moteb Alharbi,31,DEF,3,2,188,0,0,,,0,0,0,0,,,6.49,24
+805,Abdullatif Jehad Thikri,31,DEF,0,0,0,0,0,,,0,0,0,0,,,6.6,25
+806,Waheeb Mohammed Abu Alshamat,31,DEF,3,1,136,0,0,,,0,0,0,0,,,6.49,26
+807,Sergio Ramón Rochet,32,GK,1,0,44,0,0,,,0,0,0,0,0.0,0.0,6.41,1
+808,José María Gimenez,32,DEF,0,0,0,0,0,,,0,0,0,0,,,6.6,2
+809,Sebastián Enzo Caceres,32,DEF,3,3,270,0,0,,,0,0,0,0,,,6.47,3
+810,Ronald Federico Araujo,32,DEF,0,0,0,0,0,,,0,0,0,0,,,6.48,4
+811,Manuel Ugarte,32,MID,3,3,187,0,0,,,0,0,0,0,,,6.59,5
+812,Rodrigo Bentancur,32,MID,3,3,270,0,0,,,0,0,0,0,,,6.93,6
+813,Diego Nicolás De La Cruz,32,MID,3,0,83,0,0,,,0,0,0,0,,,7.07,7
+814,Federico Santiago Valverde,32,MID,3,3,236,0,1,,,0,0,0,0,,,6.7,8
+815,Darwin Gabriel Nunez,32,FWD,3,2,156,0,0,,,0,0,0,0,,,6.58,9
+816,Giorgian Daniel De Arrascaeta,32,MID,0,0,0,0,0,,,0,0,0,0,,,6.53,10
+817,Facundo Pellistri,32,FWD,0,0,0,0,0,,,0,0,0,0,,,6.55,11
+818,Santiago Andres Mele,32,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.51,12
+819,Guillermo Varela,32,DEF,3,3,270,0,0,,,0,0,0,0,,,6.5,13
+820,Agustin Canobbio,32,MID,3,2,224,1,0,,,0,0,0,0,,,6.83,14
+821,Emiliano Martinez,32,MID,0,0,0,0,0,,,0,0,0,0,,,6.49,15
+822,Mathías Olivera,32,DEF,3,3,270,0,0,,,0,0,0,0,,,7.0,16
+823,Matías Nicolas Vina,32,DEF,1,1,46,0,0,,,0,0,0,0,,,6.52,17
+824,Paul Brian Rodriguez,32,FWD,3,0,38,0,0,,,0,0,0,0,,,6.53,18
+825,Rodrigo Sebastian Aguirre,32,FWD,1,0,1,0,0,,,0,0,0,0,,,6.53,19
+826,Maximiliano Javier Araujo,32,MID,3,3,252,2,1,,,0,0,0,0,,,7.37,20
+827,Federico Sebastian Vinas,32,FWD,3,2,194,0,0,,,0,0,0,0,,,6.57,21
+828,Joaquin Piquerez,32,MID,0,0,0,0,0,,,0,0,0,0,,,6.44,22
+829,Nestor Fernando Muslera,32,GK,3,3,226,0,0,,,0,0,0,0,0.0,9.0,6.66,23
+830,Santiago Ignacio Bueno,32,DEF,0,0,0,0,0,,,0,0,0,0,,,6.43,24
+831,Juan Manuel Sanabria,32,MID,3,2,204,0,0,,,0,0,0,0,,,6.67,25
+832,Radrigo Zalazar,32,MID,0,0,0,0,0,,,0,0,0,0,,,6.53,26
+833,Brice Lauriche Samba,33,GK,2,2,180,0,0,,,0,0,0,0,1.0,6.0,6.68,1
+834,Malo Arthur Gusto,33,DEF,4,1,116,0,0,,,0,0,0,0,,,6.57,2
+835,Lucas Digne,33,DEF,3,2,213,0,0,,,0,0,0,0,,,6.65,3
+836,Dayotchanculle Oswald Upamecano,33,DEF,8,7,661,0,1,,,0,0,0,0,,,7.21,4
+837,Jules Olivier Kounde,33,DEF,8,7,605,0,0,,,0,0,0,0,,,6.73,5
+838,Emmanuel Boris Kone,33,MID,5,5,450,0,0,,,0,0,0,0,,,6.86,6
+839,Masour Ousmane Dembele,33,FWD,6,4,363,5,2,,,0,0,0,0,,,7.91,7
+840,Aurélien Djani Tchouameni,33,MID,6,6,540,0,1,,,1,0,0,0,,,7.33,8
+841,Marcus Lilian Thuram,33,FWD,1,0,1,0,0,,,0,0,0,0,,,6.46,9
+842,Kylian Mbappe,33,FWD,8,8,711,10,4,,,0,0,0,0,,,8.24,10
+843,Michael Akpovie Olise,33,FWD,8,8,668,0,8,,,0,0,0,0,,,7.33,11
+844,Bradley Jean-Manuel Essolisa Barcola,33,FWD,6,2,283,4,1,,,0,0,0,0,,,7.11,12
+845,N'golo Kante,33,MID,0,0,0,0,0,,,0,0,0,0,,,6.44,13
+846,Adrien Thibault Marie Rabiot,33,MID,4,4,360,0,1,,,0,0,0,0,,,6.86,14
+847,Ibrahima Konate,33,DEF,2,1,59,0,0,,,0,0,0,0,,,6.43,15
+848,Mike Peterson Maignan,33,GK,6,6,540,0,0,,,0,0,0,0,3.0,15.0,6.79,16
+849,William Alain André Gabriel Saliba,33,DEF,6,6,540,0,0,,,0,0,0,0,,,6.85,17
+850,Warren Marie Jean-Pierre Zaire-Emery,33,MID,4,4,360,0,0,,,0,0,0,0,,,6.59,18
+851,Théo Bernard François Hernandez,33,DEF,4,3,237,0,0,,,0,0,0,0,,,6.55,19
+852,Désiré Nonka-Maho Doue,33,FWD,5,3,259,1,0,,,0,0,0,0,,,6.88,20
+853,Lucas Francois Bernard Hernandez,33,DEF,0,0,0,0,0,,,0,0,0,0,,,6.44,21
+854,Jean-Philippe Mateta,33,FWD,2,0,9,0,0,,,0,0,0,0,,,6.42,22
+855,Robin François Philippe Risser,33,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,23
+856,Mathis Rayan Cherki,33,MID,8,4,370,0,0,,,0,0,0,0,,,6.61,24
+857,Maghnes Akliouche,33,MID,1,0,7,0,0,,,0,0,0,0,,,6.41,25
+858,Maxence Guy Lacroix,33,DEF,5,5,450,0,0,,,0,0,0,0,,,6.77,26
+859,Yehvann Djibril Victor Diouf,34,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,1
+860,Mamadou Sarr,34,DEF,0,0,0,0,0,,,0,0,0,0,,,6.56,2
+861,Kalidou Koulibaly,34,DEF,2,2,162,0,0,,,0,0,0,0,,,6.45,3
+862,Abdoulaye Seck,34,DEF,1,1,58,0,1,,,1,0,0,0,,,6.9,4
+863,Idrissa Gana Gueye,34,MID,4,4,363,0,0,,,0,0,0,0,,,7.2,5
+864,Ismaila Pathe Ciss,34,MID,4,1,181,0,0,,,0,0,0,0,,,6.81,6
+865,Assane Diao,34,FWD,1,0,9,0,0,,,0,0,0,0,,,6.42,7
+866,Lamine Camara,34,MID,4,3,248,0,1,,,0,0,0,0,,,6.63,8
+867,Ahmadou Bamba Mbacke Dieng,34,FWD,1,0,7,0,0,,,0,0,0,0,,,6.56,9
+868,Sadio Mane,34,FWD,4,4,363,0,1,,,0,0,0,0,,,6.9,10
+869,Nicolas Jackson,34,FWD,4,2,234,0,1,,,0,0,0,0,,,6.63,11
+870,Pape Cherif Ndiaye,34,FWD,0,0,0,0,0,,,0,0,0,0,,,6.49,12
+871,Iliman Cheikh Baroy Ndiaye,34,FWD,3,1,114,1,2,,,0,0,0,0,,,7.37,13
+872,Ismail Joshua Jakobs,34,DEF,3,2,219,0,0,,,0,0,0,0,,,6.57,14
+873,Krepin Diatta,34,DEF,4,4,390,0,0,,,0,0,0,0,,,6.81,15
+874,Edouard Osoque Mendy,34,GK,2,2,153,0,0,,,0,0,0,0,0.0,7.0,6.69,16
+875,Pape Matar Sarr,34,MID,2,0,65,0,0,,,0,0,0,0,,,6.57,17
+876,Ismaila Sarr,34,FWD,4,4,366,4,1,,,0,0,0,0,,,7.55,18
+877,Moussa Niakhate,34,DEF,4,4,390,0,1,,,0,0,0,0,,,7.08,19
+878,Ibrahim Mbaye,34,FWD,4,1,154,1,0,,,0,0,0,0,,,6.95,20
+879,Habib Mbacke Diarra,34,MID,3,2,144,2,0,,,0,0,0,0,,,7.0,21
+880,Bara Sapoko Ndiaye,34,MID,1,0,25,0,0,,,0,0,0,0,,,6.53,22
+881,Mory Diaw,34,GK,3,2,237,0,0,,,0,0,0,0,1.0,3.0,6.63,23
+882,Antoine Alpha Mendy,34,DEF,0,0,0,0,0,,,0,0,0,0,,,6.5,24
+883,El Hadji Malick Diouf,34,DEF,3,2,171,0,0,,,0,0,0,0,,,6.45,25
+884,Pape Alassane Gueye,34,MID,4,3,237,2,1,,,1,0,0,0,,,7.33,26
+885,Talib Raheem Fahad Talib,35,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,1
+886,Ghareeb Solaka Rebin Sulaka,35,DEF,2,1,120,0,0,,,0,1,0,0,,,6.26,2
+887,Haydar Hussein Hussein,35,DEF,2,2,163,0,0,,,0,0,0,1,,,6.3,3
+888,Tahseen Abd Zaid Zaid,35,DEF,2,2,150,0,0,,,0,0,0,0,,,6.58,4
+889,Hashim Rahman Akam Hashim,35,DEF,3,3,270,0,0,,,0,0,0,0,,,6.47,5
+890,Younus Hashim Munaf Younus,35,DEF,1,0,74,0,0,,,0,0,0,0,,,6.49,6
+891,Wali Faeq Youssef Amyn,35,MID,1,0,30,0,0,,,0,0,0,0,,,6.41,7
+892,Bayesh Kamil Ibrahim Bayesh,35,MID,3,3,236,0,0,,,0,0,0,0,,,6.52,8
+893,Ibrahim Karim Ali Alhamadi,35,FWD,3,2,180,0,0,,,0,0,0,0,,,6.45,9
+894,Ali Kadhim Mohanad Ali,35,FWD,1,0,12,0,0,,,0,0,0,0,,,6.42,10
+895,Ihab Ahmed Ahmed,35,FWD,3,2,123,0,0,,,0,0,0,0,,,6.44,11
+896,Hasan Hachim Jalal Hassan,35,GK,2,1,134,0,0,,,0,0,0,0,0.0,7.0,6.64,12
+897,Yousif Hashim Ali Yousif,35,FWD,1,0,33,0,0,,,0,0,0,0,,,6.53,13
+898,Aamar Iqbal Zidane,35,MID,3,2,188,0,0,,,0,0,0,0,,,6.53,14
+899,Hasan Maknazi Ahmed Maknazi,35,DEF,1,0,33,0,0,,,0,0,0,0,,,6.56,15
+900,Fouad Aboud Amir Alammari,35,MID,3,3,248,0,1,,,1,0,0,0,,,6.58,16
+901,Jasim Elaibi Ali Jasim,35,FWD,2,2,130,0,0,,,0,0,0,0,,,6.47,17
+902,Hussein Ghadhban Aymen,35,FWD,2,2,116,1,0,,,0,0,0,0,,,6.9,18
+903,Yakob William Kevin Yakob,35,MID,1,0,23,0,0,,,0,0,0,0,,,6.54,19
+904,Hazar Anwar Aimar,35,MID,1,0,22,0,0,,,0,0,0,0,,,6.44,20
+905,Jabbar Hussein Marko Farji,35,FWD,2,0,53,0,0,,,0,0,0,0,,,6.7,21
+906,Basil Fadhil Ahmed,35,GK,2,2,136,0,0,,,0,0,0,0,0.0,9.0,6.72,22
+907,Ghazi Salih Merchas,35,DEF,3,3,270,0,0,,,1,0,0,0,,,6.41,23
+908,Ismael Khaleel Zaid Ismael,35,MID,2,2,119,0,0,,,0,0,0,0,,,6.65,24
+909,Saadoon Abbood Mustafa,35,DEF,1,0,17,0,0,,,0,0,0,0,,,6.56,25
+910,Dhia Jirjis Frans,35,DEF,1,1,90,0,0,,,0,0,0,0,,,6.42,26
+911,Ørjan Haskjold Nyland,36,GK,5,5,450,0,0,,,0,0,0,0,0.0,15.0,7.32,1
+912,Morten Thorsby,36,MID,1,0,44,0,0,,,0,0,0,0,,,6.55,2
+913,Kristoffer Vassbakk Köpp Ajer,36,DEF,5,5,450,0,0,,,0,0,0,0,,,6.84,3
+914,Leo Skiri Ostigard,36,DEF,4,1,114,1,0,,,0,0,0,0,,,6.69,4
+915,David Møller Moller Wolfe,36,DEF,4,4,343,0,1,,,0,0,0,0,,,6.76,5
+916,Patrick Berg,36,MID,5,3,323,0,2,,,1,0,0,0,,,6.92,6
+917,Alexander Sorloth,36,FWD,4,4,273,0,0,,,0,0,0,0,,,6.61,7
+918,Sander Gard Bolin Berge,36,MID,5,5,450,0,0,,,0,0,0,0,,,6.9,8
+919,Erling Braut Haaland,36,FWD,5,5,450,7,0,,,0,0,0,0,,,7.9,9
+920,Martín Odegaard,36,MID,5,4,381,0,3,,,0,0,0,0,,,6.94,10
+921,Jørgen Strand Strand Larsen,36,FWD,1,1,90,0,0,,,0,0,0,0,,,6.43,11
+922,Sander Tangvik,36,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.53,12
+923,Egil Selvik,36,GK,1,1,90,0,0,,,0,0,0,0,0.0,4.0,6.7,13
+924,Fredrik Aursnes,36,MID,6,4,333,0,0,,,0,0,0,0,,,6.72,14
+925,Fredrik André Bjorkan,36,DEF,2,2,136,0,0,,,0,0,0,0,,,6.58,15
+926,Marcus Holmgren Holmgren Pedersen,36,DEF,4,2,294,1,0,,,0,0,0,0,,,6.72,16
+927,Torbjørn Lysaker Heggem,36,DEF,5,5,444,0,0,,,0,0,0,0,,,6.72,17
+928,Kristian Thorstvedt,36,MID,3,2,153,0,0,,,0,0,0,0,,,6.53,18
+929,Thelonious Gerard Aasgaard,36,MID,1,1,90,1,0,,,0,0,0,0,,,7.9,19
+930,Antonio Eromonsele Nordby Nusa,36,FWD,6,5,357,1,0,,,0,0,0,0,,,6.62,20
+931,Andreas Rædergård Schjelderup,36,MID,6,1,213,1,2,,,0,0,0,0,,,7.07,21
+932,Oscar Bobb,36,MID,6,2,260,0,0,,,0,0,0,0,,,6.78,22
+933,Jens Petter Hauge,36,MID,1,0,7,0,0,,,0,0,0,0,,,6.51,23
+934,Sondre Klingen Langas,36,DEF,1,0,24,0,0,,,0,0,0,0,,,6.48,24
+935,Henrik Sælebakke Falchener,36,DEF,1,1,66,0,0,,,0,0,0,0,,,6.51,25
+936,Julian Ryerson,36,FWD,3,3,166,0,0,,,0,0,0,0,,,6.88,26
+937,Juan Agustín Musso,37,GK,3,2,210,0,0,,,0,0,0,0,0.0,4.0,6.6,1
+938,Marcos Nicolás Senesi,37,DEF,4,3,289,0,0,,,0,0,0,0,,,6.6,2
+939,Nicolás Alejandro Tagliafico,37,DEF,5,3,334,0,0,,,0,0,0,0,,,6.66,3
+940,Gonzalo Ariel Montiel,37,DEF,4,2,137,0,0,,,0,0,0,0,,,6.62,4
+941,Leandro Daniel Paredes,37,MID,5,2,273,0,0,,,0,0,0,0,,,7.21,5
+942,Lisandro Martinez,37,DEF,7,7,595,1,0,,,0,0,0,0,,,7.29,6
+943,Rodrigo Javier De Paul,37,MID,5,4,343,0,1,,,0,0,0,0,,,6.97,7
+944,Valentin Barco,37,MID,3,2,199,0,0,,,0,0,0,0,,,6.8,8
+945,Julián Alvarez,37,FWD,8,5,571,2,0,,,0,0,0,0,,,6.88,9
+946,Lionel Andrés Messi,37,FWD,8,5,590,8,4,,,0,0,0,0,,,8.79,10
+947,Giovani Lo Celso,37,MID,1,1,60,1,0,,,0,0,0,0,,,7.9,11
+948,Geronimo Rulli,37,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,12
+949,Cristian Gabriel Romero,37,DEF,7,7,596,1,0,,,0,0,0,0,,,7.17,13
+950,Exequiel Alejandro Palacios,37,MID,3,3,270,0,0,,,0,0,0,0,,,6.8,14
+951,Nicolas Ivan Gonzalez,37,MID,5,1,189,0,1,,,0,0,0,0,,,6.79,15
+952,Thiago Ezequiel Almada,37,FWD,4,3,212,0,0,,,0,0,0,0,,,6.8,16
+953,Giuliano Simeone,37,FWD,3,2,194,0,0,,,0,0,0,0,,,6.59,17
+954,Nicolas Paz,37,FWD,4,3,250,0,0,,,0,0,0,0,,,6.65,18
+955,Nicolas Hernan Gonzalo Otamendi,37,DEF,5,1,228,0,0,,,0,0,0,0,,,6.8,19
+956,Alexis Mac Allister,37,MID,8,7,720,1,1,,,0,0,0,0,,,6.72,20
+957,Jose Manuel Alberto Lopez,37,FWD,2,0,38,0,1,,,0,0,0,0,,,6.67,21
+958,Lautaro Javier Martinez,37,FWD,6,4,281,3,0,,,0,0,0,0,,,6.76,22
+959,Damián Emiliano Martinez,37,GK,6,6,600,0,0,,,0,0,0,0,2.0,12.0,7.03,23
+960,Enzo Jeremías Fernandez,37,MID,7,7,663,1,0,,,0,0,0,0,,,7.01,24
+961,Facundo Axel Medina,37,DEF,4,3,308,0,1,,,0,0,0,0,,,6.93,25
+962,Nahuel Molina,37,DEF,7,5,553,0,0,,,0,0,0,0,,,6.58,26
+963,Melvin Feycal Mastil,38,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.54,1
+964,Aissa Mandi,38,DEF,4,4,360,0,0,,,0,0,0,0,,,6.65,2
+965,Achref Abada,38,DEF,0,0,0,0,0,,,0,0,0,0,,,6.48,3
+966,Mohamed Amine Tougai,38,DEF,0,0,0,0,0,,,0,0,0,0,,,6.46,4
+967,Zineddine Belaid,38,DEF,2,0,23,0,0,,,0,0,0,0,,,6.73,5
+968,Ramiz Larbi Zerrouki,38,MID,3,2,111,0,0,,,0,0,0,0,,,6.5,6
+969,Riyad Karim Mahrez,38,FWD,4,3,282,2,2,,,0,0,0,0,,,7.28,7
+970,Houssem-Eddine Chaabane Aouar,38,MID,3,2,174,0,2,,,0,0,0,0,,,6.87,8
+971,Amine Ferid Gouiri,38,FWD,4,3,253,1,0,,,0,0,0,0,,,6.68,9
+972,Fares Chaibi,38,MID,4,4,360,0,0,,,0,0,0,0,,,6.53,10
+973,Anis Hadj Moussa,38,FWD,3,1,97,0,0,,,0,0,0,0,,,6.51,11
+974,Ahmed Nadhir Benbouali,38,FWD,1,0,45,1,0,,,0,0,0,0,,,7.6,12
+975,Jaouen Djimmy Hadjam,38,DEF,3,1,108,0,0,,,0,0,0,0,,,6.8,13
+976,Hicham Boudaoui,38,MID,3,2,128,0,0,,,0,0,0,0,,,6.7,14
+977,Rayan Ait-Nouri,38,DEF,4,3,284,0,0,,,0,0,0,0,,,6.47,15
+978,Oussama Benbot,38,GK,1,1,90,0,0,,,0,0,0,0,0.0,0.0,6.57,16
+979,Rafik Belghali,38,DEF,4,4,333,1,0,,,0,0,0,0,,,6.63,17
+980,Mohammed Elamine Amoura,38,FWD,1,0,26,0,0,,,0,0,0,0,,,6.56,18
+981,Nabil Bentaleb,38,MID,4,3,288,0,0,,,0,0,0,0,,,6.93,19
+982,Adil Boulbina,38,FWD,2,0,16,0,0,,,0,0,0,0,,,6.51,20
+983,Selmane Rami Bensebaini,38,DEF,4,4,341,0,0,,,0,0,0,0,,,6.8,21
+984,Ibrahim Maza,38,MID,4,4,352,0,0,,,0,0,0,0,,,6.56,22
+985,Luca Zinedine Zidane,38,GK,3,3,270,0,0,,,0,0,0,0,0.0,8.0,6.62,23
+986,Yassine Titraoui,38,MID,0,0,0,0,0,,,0,0,0,0,,,6.58,24
+987,Fares Ghedjemis,38,FWD,1,0,1,0,0,,,0,0,0,0,,,6.51,25
+988,Samir Sophian Chergui,38,DEF,1,0,19,0,0,,,0,0,0,0,,,6.43,26
+989,Alexander Schlager,39,GK,4,4,360,0,0,,,0,0,0,0,0.0,12.0,6.8,1
+990,David Leopold Affengruber,39,DEF,0,0,0,0,0,,,0,0,0,0,,,6.58,2
+991,Kevin Danso,39,DEF,4,2,239,0,0,,,0,0,0,0,,,6.7,3
+992,Xaver Schlager,39,MID,4,4,240,0,1,,,0,0,0,0,,,6.72,4
+993,Stefan Posch,39,DEF,4,4,332,0,0,,,0,0,0,0,,,6.58,5
+994,Nicolas Seiwald,39,MID,4,4,315,0,1,,,0,0,0,0,,,6.88,6
+995,Marko Arnautovic,39,FWD,4,1,143,2,0,,,0,0,0,0,,,6.85,7
+996,David Alaba,39,DEF,4,4,278,0,1,,,0,0,0,0,,,7.08,8
+997,Marcel Sabitzer,39,MID,4,4,360,1,0,,,0,0,0,0,,,6.88,9
+998,Florian Grillitsch,39,MID,2,0,89,0,0,,,0,0,0,0,,,6.73,10
+999,Michael Gregoritsch,39,FWD,3,2,189,0,1,,,0,0,0,0,,,6.66,11
+1000,Florian Wiegele,39,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.5,12
+1001,Patrick Pentz,39,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.61,13
+1002,Saša Kalajdzic,39,FWD,3,1,77,1,0,,,0,0,0,0,,,6.67,14
+1003,Philipp Lienhart,39,DEF,2,2,180,0,0,,,0,0,0,0,,,6.57,15
+1004,Phillip Mwene,39,DEF,2,2,149,0,0,,,0,0,0,0,,,6.44,16
+1005,Carney Chibueze Chukwuemeka,39,MID,3,0,81,0,0,,,0,0,0,0,,,6.42,17
+1006,Romano Schmid,39,MID,4,4,267,1,0,,,0,0,0,0,,,6.73,18
+1007,Dejan Ljubicic,39,MID,0,0,0,0,0,,,0,0,0,0,,,6.5,19
+1008,Konrad Laimer,39,MID,4,4,360,0,0,,,0,0,0,0,,,6.6,20
+1009,Patrick Wimmer,39,FWD,2,0,19,0,0,,,0,0,0,0,,,6.56,21
+1010,Alexander Prass,39,MID,2,0,28,0,0,,,0,0,0,0,,,6.43,22
+1011,Marco Friedl,39,DEF,1,0,23,0,0,,,0,0,0,0,,,6.5,23
+1012,Paul Wanner,39,MID,4,2,232,0,0,,,0,0,0,0,,,6.51,24
+1013,Michael Svoboda,39,DEF,0,0,0,0,0,,,0,0,0,0,,,6.61,25
+1014,Alessandro Andre Schoepf,39,MID,0,0,0,0,0,,,0,0,0,0,,,6.59,26
+1015,Mo'ien Hasan Yazeed Abulaila,40,GK,3,3,270,0,0,,,0,0,0,0,0.0,11.0,6.75,1
+1016,Ali Hasan Mohammad,40,DEF,1,0,5,0,0,,,0,0,0,0,,,7.0,2
+1017,Mousa Musallam Abdallah Nasib,40,DEF,3,3,261,0,0,,,0,0,0,0,,,6.53,3
+1018,Ali Mohammad Husam Abudahab,40,DEF,2,2,180,0,0,,,0,0,0,0,,,6.5,4
+1019,Mousa Mahmoud Yazan Alarab,40,DEF,3,3,270,0,0,,,0,0,0,1,,,6.3,5
+1020,Rasem Adel Amer Jamous,40,MID,1,0,14,0,0,,,0,0,0,0,,,6.41,6
+1021,Faisal Yousef Mohammad,40,FWD,2,0,2,0,0,,,0,0,0,0,,,6.54,7
+1022,Mahmoud Ali Noor Alrawabdeh,40,MID,3,3,270,0,1,,,0,0,0,0,,,6.63,8
+1023,Iyad Ali Ali Olwan,40,FWD,3,3,270,1,0,,,0,0,0,0,,,6.87,9
+1024,Mohammad Mousa Mousa Altamari,40,FWD,3,2,216,1,1,,,0,0,0,0,,,6.93,10
+1025,Burhan Shehadeh Odeh Fakhoury,40,FWD,0,0,0,0,0,,,0,0,0,0,,,6.7,11
+1026,Zaid Khaleel Nour Baniateyah,40,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,12
+1027,Nayef Ahmad Mahmoud Almardi,40,FWD,3,1,128,0,0,,,0,0,0,0,,,6.59,13
+1028,Ayed Fadel Rajaei Ayed,40,MID,0,0,0,0,0,,,0,0,0,0,,,6.62,14
+1029,Mohammad Sami Ibrahim,40,MID,0,0,0,0,0,,,0,0,0,0,,,6.53,15
+1030,Majed Jamil Mohammad Abualnadi,40,DEF,1,1,72,0,0,,,0,0,0,0,,,6.54,16
+1031,Amer Saleem Saleem,40,DEF,3,0,20,0,0,,,0,0,0,0,,,6.56,17
+1032,Ahmed Mohammad Mohammad,40,MID,0,0,0,0,0,,,0,0,0,0,,,6.59,18
+1033,Ahmad Salameh Saed,40,DEF,1,0,9,0,0,,,0,0,0,0,,,6.44,19
+1034,Mahmoud Saleh Mohannad Abutaha,40,MID,3,3,265,0,0,,,0,0,0,0,,,6.63,20
+1035,Mahmoud Ahmed Nizar Alrashdan,40,MID,3,3,256,1,0,,,0,0,0,0,,,6.7,21
+1036,Ra'ed Mahmoud Abdallah Alfakhori,40,GK,3,2,149,0,0,,,0,0,0,0,0.0,7.0,6.56,22
+1037,Manel Farhan Ehsan Haddad,40,DEF,3,3,262,0,1,,,0,0,0,0,,,6.73,23
+1038,Ahmad Ali Ali Azaizeh,40,FWD,3,1,53,0,0,,,0,0,0,0,,,6.7,24
+1039,Ratib Mohammad Mohammad Aldaoud,40,MID,1,0,2,0,0,,,0,0,0,0,,,6.5,25
+1040,Said Ghazi Anas Badawi,40,DEF,0,0,0,0,0,,,0,0,0,0,,,6.47,26
+1041,Diogo Diogo Costa,41,GK,5,5,450,0,0,,,0,0,0,0,2.0,22.0,7.46,1
+1042,SEMEDONélson Nelson,41,DEF,3,0,89,0,0,,,0,0,0,0,,,6.53,2
+1043,Rúben Ruben Dias,41,DEF,4,4,360,0,0,,,0,0,0,0,,,7.25,3
+1044,Tomás Tomas Araujo,41,DEF,2,2,180,0,0,,,0,0,0,0,,,6.9,4
+1045,Diogo Diogo Dalot,41,DEF,2,1,134,0,0,,,0,0,0,0,,,6.85,5
+1046,Luiz Matheus,41,MID,2,1,91,0,0,,,0,0,0,0,,,6.52,6
+1047,Ronaldo Cristiano Ronaldo,41,FWD,4,4,351,3,0,,,0,0,0,0,,,7.02,7
+1048,Miguel Bruno,41,MID,4,4,333,0,1,,,0,0,0,0,,,7.5,8
+1049,RAMOSGonçalo Goncalo,41,FWD,3,1,124,1,0,,,0,0,0,0,,,7.25,9
+1050,Bernardo Bernardo Silva,41,MID,3,1,88,0,0,,,0,0,0,0,,,6.47,10
+1051,João Joao Felix,41,FWD,2,2,133,0,0,,,0,0,0,0,,,6.67,11
+1052,Pedro Jose Sa,41,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.44,12
+1053,Renato Renato Veiga,41,DEF,4,4,360,0,0,,,0,0,0,0,,,7.18,13
+1054,Gonçalo Goncalo Inacio,41,DEF,0,0,0,0,0,,,0,0,0,0,,,6.55,14
+1055,Pedro Joao Neves,41,MID,5,4,390,1,0,,,0,0,0,0,,,7.14,15
+1056,António Francisco Trincao,41,FWD,1,0,27,0,0,,,0,0,0,0,,,6.49,16
+1057,Alexandre Rafael Leao,41,FWD,4,1,135,1,1,,,0,0,0,0,,,6.88,17
+1058,Pedro Pedro Neto,41,FWD,4,4,271,0,1,,,0,0,0,0,,,6.84,18
+1059,Manuel Goncalo,41,FWD,0,0,0,0,0,,,0,0,0,0,,,6.57,19
+1060,Pedro Joao Cancelo,41,DEF,4,4,245,0,1,,,0,0,0,0,,,6.9,20
+1061,Diogo Ruben,41,MID,3,2,145,0,0,,,0,0,0,0,,,6.65,21
+1062,Tiago Rui Silva,41,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,22
+1063,Vitor Vitinha,41,MID,5,5,388,0,1,,,0,0,0,0,,,7.3,23
+1064,Samuel Samu Costa,41,DEF,1,0,20,0,0,,,0,0,0,0,,,7.0,24
+1065,Alexandre Nuno,41,DEF,5,5,432,1,0,,,0,0,0,0,,,7.48,25
+1066,Francisco Francisco Conceicao,41,FWD,4,1,205,0,0,,,0,0,0,0,,,6.8,26
+1067,Lionel Nzau Mpasi,42,GK,4,4,360,0,0,,,0,0,0,0,0.0,12.0,6.81,1
+1068,Wan Wan-Bissaka,42,DEF,4,4,355,0,0,,,0,0,0,0,,,7.0,2
+1069,Steve Nkanu Kapuadi,42,DEF,2,2,180,0,0,,,0,0,0,0,,,6.57,3
+1070,Axel Tuanzebe,42,DEF,4,4,360,0,0,,,0,0,0,0,,,6.68,4
+1071,Dylan Buduka Batubinsika,42,DEF,0,0,0,0,0,,,0,0,0,0,,,6.53,5
+1072,Ngal’ayel Mukau,42,MID,4,3,197,0,0,,,0,0,0,0,,,6.53,6
+1073,Nathanaël Mbuku,42,MID,3,2,144,0,0,,,0,0,0,0,,,6.73,7
+1074,Samuel Alain Moutoussamy,42,MID,4,4,333,0,0,,,0,0,0,0,,,6.78,8
+1075,Kibambe Brian Cipenga,42,FWD,2,2,148,1,0,,,0,0,0,0,,,6.73,9
+1076,Theo Mbulofeko Batombo Bongonda,42,MID,2,0,32,0,0,,,0,0,0,0,,,6.55,10
+1077,Gaël Roméo Kakuta,42,FWD,0,0,0,0,0,,,0,0,0,0,,,6.5,11
+1078,Joris Kayembe,42,DEF,4,0,43,0,0,,,0,0,0,0,,,6.78,12
+1079,Meschack Lina Elia,42,FWD,2,0,44,0,1,,,0,0,0,0,,,6.7,13
+1080,Noah Junior Sadiki,42,MID,4,2,257,0,0,,,0,0,0,0,,,6.81,14
+1081,Tshibola Tshibola,42,MID,0,0,0,0,0,,,0,0,0,0,,,6.45,15
+1082,Timothy Bruce Munzoko Fayulu,42,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.43,16
+1083,Cedric Bakambu,42,FWD,3,3,193,0,0,,,0,0,0,0,,,6.56,17
+1084,Charles Monginda Pickel,42,MID,2,0,35,0,0,,,0,0,0,0,,,6.51,18
+1085,Mayele Fiston Mayele,42,FWD,2,0,40,1,0,,,0,0,0,0,,,6.6,19
+1086,Yoane Wissa,42,FWD,4,4,360,3,0,,,0,0,0,0,,,7.13,20
+1087,Matthieu Luka Epolo,42,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.56,21
+1088,Mangulu Chancel Mbemba,42,DEF,4,4,360,0,0,,,0,0,0,0,,,6.8,22
+1089,Simon Bokote Banza,42,FWD,2,0,38,0,0,,,0,0,0,0,,,6.44,23
+1090,Gédéon Tchingoma Kyatengwa Kalulu,42,DEF,1,0,5,0,0,,,0,0,0,0,,,6.8,24
+1091,Edo Kayembe Kayembe,42,MID,3,2,159,0,0,,,0,0,0,0,,,6.45,25
+1092,Arthur Fuka Masuaku,42,DEF,4,4,317,0,1,,,0,0,0,0,,,6.85,26
+1093,Utkir Yusupov,43,GK,1,1,90,0,0,,,0,0,0,0,0.0,6.0,6.51,1
+1094,Abdukodir Khusanov,43,DEF,3,3,270,0,0,,,0,0,0,1,,,6.31,2
+1095,Khojiakbar Alijonov,43,DEF,2,1,134,0,0,,,0,0,0,0,,,6.52,3
+1096,Farrukh Sayfiev,43,DEF,1,0,44,0,0,,,0,0,0,0,,,6.47,4
+1097,Rustamjon Ashurmatov,43,DEF,3,3,257,0,0,,,0,0,0,0,,,6.52,5
+1098,Akmal Mozgovoy,43,MID,3,2,216,0,1,,,0,0,0,0,,,6.71,6
+1099,Otabek Shukurov,43,MID,3,3,238,0,0,,,0,0,0,0,,,6.5,7
+1100,Jamshid Iskanderov,43,MID,1,0,8,0,0,,,0,0,0,0,,,6.48,8
+1101,Odiljon Xamrobekov,43,MID,2,1,78,0,0,,,0,0,0,0,,,6.54,9
+1102,Ruslanbek Jiyanov,43,MID,1,0,1,0,0,,,0,0,0,0,,,6.46,10
+1103,Oston Urunov,43,MID,2,1,63,0,0,,,0,0,0,0,,,6.51,11
+1104,Abduvakhid Nematov,43,GK,2,2,180,0,0,,,0,0,0,0,0.0,4.0,6.63,12
+1105,Sherzod Nasrullaev,43,DEF,3,3,182,0,0,,,0,0,0,0,,,6.59,13
+1106,Eldor Shomurodov,43,FWD,3,3,270,1,0,,,0,0,0,0,,,6.66,14
+1107,Umarbek Eshmurodov,43,DEF,0,0,0,0,0,,,0,0,0,0,,,6.61,15
+1108,Botirali Ergashev,43,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,16
+1109,Dostonbek Khamdamov,43,MID,2,1,102,0,0,,,0,0,0,0,,,6.46,17
+1110,Abdulla Abdullaev,43,DEF,2,2,180,0,0,,,0,0,0,0,,,6.51,18
+1111,Azizjon Ganiev,43,MID,2,1,122,0,0,,,0,0,0,0,,,6.7,19
+1112,Azizbek Amonov,43,FWD,1,0,13,0,0,,,0,0,0,0,,,6.56,20
+1113,Igor Sergeev,43,FWD,3,0,26,0,0,,,0,0,0,0,,,6.48,21
+1114,Abbosbek Fayzullaev,43,MID,3,3,223,1,0,,,0,0,0,0,,,6.77,22
+1115,Sherzod Esanov,43,MID,1,0,1,0,0,,,0,0,0,0,,,6.45,23
+1116,Behruzjon Karimov,43,DEF,2,2,180,0,0,,,0,0,0,0,,,6.54,24
+1117,Avazbek Ulmasaliyev,43,DEF,0,0,0,0,0,,,0,0,0,0,,,6.47,25
+1118,Jakhongir Urozov,43,DEF,2,1,95,0,0,,,0,0,0,0,,,6.43,26
+1119,David Ospina,44,GK,1,1,90,0,0,,,0,0,0,0,1.0,3.0,6.56,1
+1120,Daniel Munoz,44,DEF,5,4,363,2,0,,,0,0,0,0,,,7.16,2
+1121,Jhon Janer Lucumi,44,DEF,5,5,450,0,0,,,0,0,0,0,,,7.14,3
+1122,Santiago Arias,44,DEF,1,1,87,0,0,,,0,0,0,0,,,7.5,4
+1123,Kevin Duvan Castano,44,MID,2,0,15,0,0,,,0,0,0,0,,,6.7,5
+1124,Richard Rios,44,MID,5,1,187,0,0,,,0,0,0,0,,,6.46,6
+1125,Luis Fernando Diaz,44,FWD,5,5,450,1,1,,,0,0,0,0,,,6.98,7
+1126,Jorge Andres Carrascal,44,MID,0,0,0,0,0,,,0,0,0,0,,,6.45,8
+1127,Jhon Andrés Cordoba,44,FWD,3,2,100,0,0,,,0,0,0,0,,,6.44,9
+1128,James David Rodriguez,44,MID,4,4,252,0,0,,,0,0,0,0,,,7.06,10
+1129,Jhon Adolfo Arias,44,MID,5,5,406,1,0,,,0,0,0,0,,,7.26,11
+1130,Camilo Andres Vargas,44,GK,4,4,360,0,0,,,0,0,0,0,3.0,6.0,6.84,12
+1131,Yerry Fernando Mina,44,DEF,1,1,90,0,0,,,0,0,0,0,,,6.52,13
+1132,Gustavo Adolfo Puerta,44,DEF,4,4,350,0,1,,,0,0,0,0,,,7.12,14
+1133,Juan Camilo Portilla,44,MID,1,1,90,0,0,,,0,0,0,0,,,6.45,15
+1134,Jefferson Andrés Lerma,44,MID,5,5,420,0,0,,,0,0,0,0,,,6.78,16
+1135,Johan Andrés Mojica,44,DEF,3,3,270,0,0,,,0,0,0,0,,,7.2,17
+1136,Willer Emilio Ditta,44,DEF,0,0,0,0,0,,,0,0,0,0,,,6.49,18
+1137,Juan Camilo Hernandez,44,FWD,1,0,10,0,1,,,0,0,0,0,,,6.67,19
+1138,Juan Fernando Quintero,44,MID,3,0,63,0,1,,,0,0,0,0,,,7.4,20
+1139,Jaminton Leandro Campaz,44,FWD,2,0,21,1,0,,,0,0,0,0,,,7.23,21
+1140,Deiver Machado,44,DEF,2,2,180,0,0,,,0,0,0,0,,,7.1,22
+1141,Davinson Sanchez,44,DEF,4,4,360,0,0,,,0,0,0,0,,,7.2,23
+1142,Álvaro David Montero,44,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.51,24
+1143,Luis Javier Suarez,44,FWD,5,3,340,0,1,,,0,0,0,0,,,6.69,25
+1144,Carlos Andrés Gomez,44,FWD,1,0,1,0,0,,,0,0,0,0,,,6.43,26
+1145,Jordan Lee Pickford,45,GK,7,7,630,0,0,,,0,0,0,0,2.0,17.0,6.94,1
+1146,Ezri Ngoyo Konsa,45,DEF,7,6,558,1,0,,,0,0,0,0,,,6.79,2
+1147,Nico Oreilly,45,DEF,7,5,468,0,0,,,0,0,0,0,,,6.5,3
+1148,Declan Rice,45,MID,7,7,604,1,2,,,0,0,0,0,,,7.33,4
+1149,John Stones,45,DEF,4,2,211,0,0,,,0,0,0,0,,,6.68,5
+1150,Keaninkin Marc-Isreal Guehi,45,DEF,7,6,543,0,0,,,0,0,0,0,,,7.08,6
+1151,Bukayo Ayoyinka Saka,45,FWD,7,4,373,3,3,,,0,0,0,0,,,7.31,7
+1152,Elliot Junior Anderson,45,MID,8,7,604,0,1,,,0,0,0,0,,,7.18,8
+1153,Harry Edward Kane,45,FWD,6,6,534,6,1,,,0,0,0,0,,,7.26,9
+1154,Jude Victor William Bellingham,45,MID,8,7,596,7,1,,,0,0,0,0,,,7.81,10
+1155,Marcus Rashford,45,FWD,5,3,220,1,1,,,0,0,0,0,,,6.8,11
+1156,Trevoh Tom Chalobah,45,DEF,1,0,1,0,0,,,0,0,0,0,,,6.43,12
+1157,Dean Bradley Henderson,45,GK,1,1,90,0,0,,,0,0,0,0,0.0,5.0,7.4,13
+1158,Jordan Brian Henderson,45,MID,2,0,7,0,0,,,0,0,0,0,,,6.8,14
+1159,Daniel Johnson Burn,45,DEF,2,0,23,0,0,,,0,0,0,0,,,6.45,15
+1160,Kobbie Boateng Mainoo,45,MID,0,0,0,0,0,,,0,0,0,0,,,6.46,16
+1161,Morgan Elliot Rogers,45,MID,7,4,395,0,1,,,0,0,0,0,,,6.69,17
+1162,Anthony Michael Gordon,45,FWD,6,5,419,1,3,,,0,0,0,0,,,6.88,18
+1163,George Arthur Watkins,45,FWD,2,0,51,0,0,,,0,0,0,0,,,6.42,19
+1164,Azuka Tristan Madueke,45,FWD,4,3,242,0,0,,,0,0,0,0,,,7.02,20
+1165,Eberechi Oluchi Eze,45,MID,4,1,134,0,1,,,0,0,0,0,,,6.84,21
+1166,Ivan Benjamin Elijah Toney,45,FWD,1,1,79,0,0,,,0,0,0,0,,,6.9,22
+1167,James Harrington Trafford,45,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.44,23
+1168,Reece Lewis James,45,DEF,5,4,359,0,0,,,0,0,0,0,,,6.72,24
+1169,Tehuti Djed-Hotep Spence,45,DEF,8,5,450,0,0,,,0,0,0,0,,,6.95,25
+1170,Jarell Amorin Quansah,45,DEF,4,4,297,0,0,,,0,1,0,0,,,6.28,26
+1171,Dominik Livakovic,46,GK,4,4,360,0,0,,,0,0,0,0,1.0,8.0,6.78,1
+1172,Josip Stanisic,46,DEF,4,4,360,0,2,,,0,0,0,0,,,6.73,2
+1173,Marin Pongracic,46,DEF,3,3,270,0,0,,,0,0,0,0,,,6.49,3
+1174,Joško Gvardiol,46,DEF,4,2,139,0,0,,,0,0,0,0,,,6.49,4
+1175,Duje Caleta-Car,46,DEF,0,0,0,0,0,,,0,0,0,0,,,6.52,5
+1176,Josip Sutalo,46,DEF,4,4,360,0,0,,,0,0,0,0,,,6.78,6
+1177,Nikola Moro,46,MID,0,0,0,0,0,,,0,0,0,0,,,6.56,7
+1178,Mateo Kovacic,46,MID,4,3,272,0,0,,,0,0,0,0,,,6.85,8
+1179,Andrej Kramaric,46,FWD,3,0,57,0,0,,,0,0,0,0,,,6.42,9
+1180,Luka Modric,46,MID,4,4,319,0,1,,,0,0,0,0,,,7.03,10
+1181,Ante Budimir,46,FWD,3,2,155,1,0,,,0,0,0,0,,,6.7,11
+1182,Ivor Pandur,46,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.58,12
+1183,Nikola Vlasic,46,MID,3,2,190,1,0,,,0,0,0,0,,,6.6,13
+1184,Ivan Perisic,46,FWD,4,4,360,1,1,,,0,0,0,0,,,6.95,14
+1185,Mario Pasalic,46,MID,4,1,121,0,0,,,0,0,0,0,,,6.63,15
+1186,Martin Baturina,46,MID,4,4,324,1,0,,,0,0,0,0,,,7.18,16
+1187,Petar Sucic,46,MID,4,3,288,1,1,,,0,0,0,0,,,7.03,17
+1188,Kristijan Jakic,46,DEF,0,0,0,0,0,,,0,0,0,0,,,6.55,18
+1189,Toni Fruk,46,MID,0,0,0,0,0,,,0,0,0,0,,,6.44,19
+1190,Igor Matanovic,46,FWD,3,0,93,0,0,,,0,0,0,0,,,6.56,20
+1191,Luka Sucic,46,MID,1,0,18,0,0,,,0,0,0,0,,,6.55,21
+1192,Luka Vuskovic,46,DEF,1,1,66,0,0,,,0,0,0,0,,,6.42,22
+1193,Dominik Kotarski,46,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.48,23
+1194,Marco Pasalic,46,FWD,3,1,98,0,0,,,0,0,0,0,,,6.63,24
+1195,Martin Erlic,46,DEF,0,0,0,0,0,,,0,0,0,0,,,6.58,25
+1196,Petar Musa,46,FWD,2,2,112,1,0,,,0,0,0,0,,,7.0,26
+1197,Lawrence Ati Zigi,47,GK,2,2,136,0,0,,,0,0,0,0,1.0,12.0,8.45,1
+1198,Alidu Seidu,47,DEF,1,0,77,0,0,,,0,0,0,0,,,6.54,2
+1199,Caleb Marfo Yirenkyi,47,MID,4,3,264,1,0,,,0,0,0,0,,,6.73,3
+1200,Jonas Adjei Adjetey,47,DEF,3,3,226,0,0,,,0,0,0,0,,,6.97,4
+1201,Thomas Teye Partey,47,MID,3,3,270,0,0,,,0,0,0,0,,,6.9,5
+1202,Abdul Mumin Mumin,47,DEF,0,0,0,0,0,,,0,0,0,0,,,6.46,6
+1203,Abdul Fatawu Fatawu,47,FWD,4,0,128,0,0,,,0,0,0,0,,,6.73,7
+1204,Kwasi Sibo,47,MID,4,3,249,0,0,,,0,0,0,0,,,6.48,8
+1205,Jordan Pierre Ayew,47,FWD,4,4,303,0,0,,,0,0,0,0,,,6.65,9
+1206,Brandon Michael Clarke Thomas-Asante,47,FWD,2,0,51,0,0,,,0,0,0,0,,,6.6,10
+1207,Antoine Serlom Semenyo,47,MID,4,4,360,0,1,,,0,0,0,0,,,6.65,11
+1208,Joseph Tetteh Anang,47,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,12
+1209,Christopher Bonsu Bonsu Baah,47,FWD,0,0,0,0,0,,,0,0,0,0,,,6.54,13
+1210,Gideon Mensah,47,DEF,4,4,360,0,0,,,0,0,0,0,,,6.98,14
+1211,Elisha Owusu,47,MID,3,2,152,0,0,,,0,0,0,0,,,6.49,15
+1212,Benjamin Asare,47,GK,3,2,224,0,0,,,0,0,0,0,1.0,5.0,7.2,16
+1213,Abdul Rahman Rahman,47,DEF,1,0,1,0,0,,,0,0,0,0,,,6.47,17
+1214,Jerome Opoku,47,DEF,3,3,270,0,0,,,0,0,0,0,,,7.13,18
+1215,Inaki Williams,47,FWD,2,2,128,0,0,,,0,0,0,0,,,6.55,19
+1216,Augustine Boakye,47,MID,0,0,0,0,0,,,0,0,0,0,,,6.43,20
+1217,Kojo Peprah Oppong,47,DEF,2,0,47,0,0,,,0,0,0,0,,,6.45,21
+1218,Kamal Deen Sulemana,47,FWD,2,2,129,0,0,,,0,0,0,0,,,6.54,22
+1219,Derrick Luckassen,47,DEF,2,2,180,1,0,,,0,0,0,0,,,7.25,23
+1220,Ernest Nuamah Nuamah,47,FWD,3,1,88,0,1,,,0,0,0,0,,,6.7,24
+1221,Prince Kwabena Adu,47,FWD,3,0,38,0,0,,,0,0,0,0,,,6.55,25
+1222,Marvin Elom Senaya,47,DEF,4,4,280,0,0,,,0,0,0,0,,,6.93,26
+1223,Luis Ricardo Mejia,48,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.52,1
+1224,Cesar Rodolfo Blackman,48,DEF,2,2,180,0,0,,,0,0,0,0,,,6.52,2
+1225,Jose Angel Cordoba,48,DEF,3,3,270,0,0,,,0,0,0,0,,,6.47,3
+1226,Fidel Escobar,48,DEF,1,1,90,0,0,,,0,0,0,0,,,6.8,4
+1227,Edgardo Issac Farina,48,DEF,0,0,0,0,0,,,0,0,0,0,,,6.51,5
+1228,Cristian Jesus Martinez,48,MID,3,3,243,0,0,,,0,0,0,0,,,6.63,6
+1229,Jose Luis Rodriguez,48,MID,3,3,235,0,0,,,0,0,0,0,,,6.53,7
+1230,Adalberto Eliecer Carrasquilla,48,MID,0,0,0,0,0,,,0,0,0,0,,,6.47,8
+1231,Tomas Abdiel Rodriguez,48,FWD,2,1,47,0,0,,,0,0,0,0,,,6.45,9
+1232,Ismael Diaz,48,MID,2,0,35,0,0,,,0,0,0,0,,,6.47,10
+1233,Edgar Yoel Barcenas,48,MID,3,3,251,0,0,,,0,0,0,0,,,6.9,11
+1234,Cesar Jair Samudio,48,GK,0,0,0,0,0,,,0,0,0,0,0.0,0.0,6.42,12
+1235,Jiovany Javier Ramos,48,DEF,2,2,167,0,0,,,0,0,0,0,,,7.1,13
+1236,Carlos Miguel Harvey,48,DEF,3,3,268,0,0,,,0,0,0,0,,,6.51,14
+1237,Eric Javier Davis,48,DEF,2,0,3,0,0,,,0,0,0,0,,,6.7,15
+1238,Andres Alberto Andrade,48,DEF,3,3,270,0,0,,,0,0,0,0,,,7.0,16
+1239,Jose Fajardo,48,FWD,3,1,154,0,0,,,0,0,0,0,,,6.46,17
+1240,Cecilio Alfonso Waterman,48,FWD,2,1,76,0,0,,,0,0,0,0,,,6.47,18
+1241,Alberto Abdiel Quintero,48,MID,1,0,2,0,0,,,0,0,0,0,,,6.42,19
+1242,Anibal Casis Godoy,48,MID,1,0,1,0,0,,,0,0,0,0,,,6.7,20
+1243,Cesar Augusto Yanis,48,MID,0,0,0,0,0,,,0,0,0,0,,,6.6,21
+1244,Orlando Mosquera,48,GK,3,3,270,0,0,,,0,0,0,0,0.0,8.0,6.8,22
+1245,Michael Amir Murillo,48,DEF,3,3,270,0,0,,,0,0,0,0,,,6.93,23
+1246,Azarías Emmanuel Londono,48,FWD,3,0,53,0,0,,,0,0,0,0,,,6.51,24
+1247,Roderick Alonso Miller,48,DEF,0,0,0,0,0,,,0,0,0,0,,,6.56,25
+1248,Jorge Abdiel Gutierrez,48,DEF,1,1,88,0,0,,,0,0,0,0,,,6.54,26

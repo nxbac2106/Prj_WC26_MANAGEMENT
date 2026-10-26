@@ -105,11 +105,11 @@ join teams on player_tournament_statistics.team_id = teams.team_id
 order by player_tournament_statistics.goals desc, player_tournament_statistics.assists desc
 
 -- 4.2 Cầu thủ đạt nhiều POM nhất
-select player_tournament_statistics.player_id, player_tournament_statistics.player_name, teams.team_name, player_tournament_statistics.position, count(matches.player_of_the_match_id) as total_POMs
+select player_tournament_statistics.player_id, player_tournament_statistics.player_name, teams.team_name, player_tournament_statistics.position, player_tournament_statistics.shirt_number, count(matches.player_of_the_match_id) as total_POMs
 from player_tournament_statistics
 join matches on player_tournament_statistics.player_id = matches.player_of_the_match_id
 join teams on player_tournament_statistics.team_id = teams.team_id
-group by player_tournament_statistics.player_id, player_tournament_statistics.player_name, teams.team_name, player_tournament_statistics.position
+group by player_tournament_statistics.player_id, player_tournament_statistics.player_name, teams.team_name, player_tournament_statistics.position, player_tournament_statistics.shirt_number
 order by total_POMs desc
 
 -- 4.3 Cầu thủ có số phút thi đấu lớn nhất
@@ -128,5 +128,4 @@ group by player_squads.player_name, teams.team_name, player_squads.position
 order by total_pen_goals desc
 
 go
-
 

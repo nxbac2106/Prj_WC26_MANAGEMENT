@@ -2,6 +2,7 @@ create database WorldCup26_db
 go
 
 use WorldCup26_db
+go
 
 -- 
 create table referees (
@@ -48,7 +49,7 @@ create table player_squads (
 	caps int,
 	birth date,
 	height_cm int,
-	goals_for_country int,
+	goals_for_country int
 
 	foreign key (team_id) references teams(team_id)
 )
@@ -72,6 +73,7 @@ create table player_tournament_statistics (
     clean_sheets float default 0,
     saves float default 0.0,
     avg_rating float,
+    shirt_number int, 
 
     foreign key (player_id) references player_squads(player_id),
     foreign key (team_id) references teams(team_id)
@@ -228,8 +230,9 @@ with (
     format = 'CSV',
     firstrow = 2,           
     fieldterminator = ',',  
-    rowterminator = '\n', 
-    codepage = '65001'
+    rowterminator = '0x0a', 
+    codepage = '65001',
+    tablock
 );
 
 bulk insert matches
@@ -319,3 +322,5 @@ select * from match_team_statistics
 --delete match_team_lineups
 --delete match_team_statistics
 --delete matches
+
+

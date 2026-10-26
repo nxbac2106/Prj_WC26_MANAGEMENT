@@ -41,3 +41,22 @@ go
 exec sp_get_matches_stage
     @stage_name = 'Final'
 go
+
+/* PROCEDURE2: THEM DOI TUYEN THAM GIA GIAI DAU*/
+--drop procedure sp_add_team
+--go
+create procedure sp_addd_team
+    @team_id int,
+    @team_name nvarchar(100),
+    @fifa_code_name nvarchar(10),
+    @conferderatin nvarchar(100),
+    @fifa_ranking_per_tournament int,
+    @elo_rating float,
+    @coach_name nvarchar(100)
+as
+begin
+
+end
+go
+
+select * from teams
