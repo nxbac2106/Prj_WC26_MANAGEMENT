@@ -104,14 +104,14 @@ function knockoutCard(m,n,w){
 function show(v){state.view=v;
   $$('.view-section').forEach(s=>s.classList.add('hidden'));$('#view-'+v).classList.remove('hidden');
   $$('.nav-btn').forEach(b=>{const on=b.dataset.view===(v==='player-detail'?'players':v);b.classList.toggle('active',on);b.classList.toggle('text-slate-600',!on)});
-  $('#topbar-title').textContent={matches:'Match Results',tournament:'Tournament',teams:'Team Stats',players:'Player Stats','player-detail':'Player Stats'}[v];
-  ({matches:loadMatches,tournament:loadTournament,teams:loadTeams,players:loadPlayers}[v==='player-detail'?'players':v])?.();
+  $('#topbar-title').textContent={matches:'Match Results',tournament:'Tournament',teams:'Team Stats',players:'Player Stats','player-detail':'Player Stats',manage:'Create data',delete:'Delete data',update:'Update data'}[v];
+  ({matches:loadMatches,tournament:loadTournament,teams:loadTeams,players:loadPlayers,manage:loadManage,delete:loadDelete,update:loadUpdate}[v==='player-detail'?'players':v])?.();
 }
 $$('.nav-btn').forEach(b=>b.onclick=()=>go(PATH[b.dataset.view]));
 document.addEventListener('click',e=>{const t=e.target.closest('.team-link');if(t)return openTeamByName(t.dataset.team);const c=e.target.closest('.match-card');if(c)openMatch(c.dataset.id)});
 async function openTeamByName(name){guard(async()=>{
   if(!state.teams.length)state.teams=await api('teams');
-  const t=state.teams.find(x=>x.team_name===name);if(!t)throw new Error('Không tìm thấy đội '+name);
+  const t=state.teams.find(x=>x.team_name===name);if(!t)throw new Error('Team not found: '+name);
   go('/teamstats/'+t.team_id)})}
 $('#btn-close-modal').onclick=()=>$('#match-modal').classList.add('hidden');
 $('#match-modal').onclick=e=>{if(e.target.id==='match-modal')e.target.classList.add('hidden')};
@@ -119,7 +119,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')$('#match-modal').classList.a
 $('#btn-back-leaderboard').onclick=()=>go('/playerstats');
 $('#btn-refresh-matches').onclick=loadMatches;
 $('#topbar-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-const guard=async(fn)=>{try{await fn()}catch(e){alert('Không tải được dữ liệu: '+e.message)}};
+const guard=async(fn)=>{try{await fn()}catch(e){alert('Failed to load data: '+e.message)}};
 
 // ---------- Match Results ----------
 async function loadMatches(){guard(async()=>{
@@ -142,7 +142,7 @@ async function openMatch(id){guard(async()=>{
    <div>${flag(m.away_team_name,'w-12 h-8 mx-auto')}<p class="font-bold mt-1">${m.away_team_name}</p></div></div>
    <p class="text-[11px] text-slate-400 text-center">${m.stadium_name}, ${m.city} · Referee: ${nz(m.referee_name)} · POM: ${nz(m.player_of_the_match_name)}</p>
    <div class="space-y-3">${bar('Possession %',h.possession_pct,a.possession_pct)}${bar('Shots',h.total_shots,a.total_shots)}${bar('On target',h.shots_on_target,a.shots_on_target)}${bar('Corners',h.corners,a.corners)}${bar('Fouls',h.fouls,a.fouls)}${bar('Offsides',h.offsides,a.offsides)}${bar('Saves',h.saves,a.saves)}${bar('xG',m.home_xg,m.away_xg)}</div>
-   <div><h4 class="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">EVENTS</h4><div class="space-y-1 text-xs">${events.map(e=>`<div class="flex gap-2"><span class="w-8 text-slate-400">${e.minutee}'</span><span>${icon(e.event_type)}</span><span class="font-semibold">${e.player_name}</span><span class="text-slate-400">${e.team_name} · ${e.event_type}</span></div>`).join('')||empty('Không có sự kiện.')}</div></div>`;
+   <div><h4 class="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">EVENTS</h4><div class="space-y-1 text-xs">${events.map(e=>`<div class="flex gap-2"><span class="w-8 text-slate-400">${e.minutee}'</span><span>${icon(e.event_type)}</span><span class="font-semibold">${e.player_name}</span><span class="text-slate-400">${e.team_name} · ${e.event_type}</span></div>`).join('')||empty('No events.')}</div></div>`;
   $('#match-modal').classList.remove('hidden');
 })}
 
@@ -297,7 +297,7 @@ async function openTop(i){guard(async()=>{
   const all=(await api('players?q=')).players||[];
   const top=all.filter(x=>x[k]!=null&&!isNaN(x[k])).sort((a,b)=>(b[k]-a[k])||((b.goals||0)-(a.goals||0))).slice(0,10);
   $('#modal-match-stage').textContent=head;
-  $('#modal-match-body').innerHTML=top.length?`<div class="divide-y divide-slate-100">${top.map((x,j)=>`<div class="clickable flex items-center gap-3 py-2.5 px-2 rounded-lg hover:bg-slate-50" data-pid="${x.player_id}"><span class="w-6 text-center text-sm font-bold text-slate-400">${j<3?['🥇','🥈','🥉'][j]:j+1}</span>${flag(x.team_name,'w-8 h-5')}<span class="flex-1 min-w-0"><b class="text-sm text-brand-navy">${x.player_name}</b> <span class="text-[10px] px-1.5 rounded bg-red-50 text-red-600 font-bold">${pos(x.position)}</span><br><span class="text-[11px] text-slate-400">${x.team_name}</span></span><span class="text-2xl font-extrabold tabular-nums ${col}">${fmt(x[k])}</span></div>`).join('')}</div>`:empty('Không có dữ liệu.');
+  $('#modal-match-body').innerHTML=top.length?`<div class="divide-y divide-slate-100">${top.map((x,j)=>`<div class="clickable flex items-center gap-3 py-2.5 px-2 rounded-lg hover:bg-slate-50" data-pid="${x.player_id}"><span class="w-6 text-center text-sm font-bold text-slate-400">${j<3?['🥇','🥈','🥉'][j]:j+1}</span>${flag(x.team_name,'w-8 h-5')}<span class="flex-1 min-w-0"><b class="text-sm text-brand-navy">${x.player_name}</b> <span class="text-[10px] px-1.5 rounded bg-red-50 text-red-600 font-bold">${pos(x.position)}</span><br><span class="text-[11px] text-slate-400">${x.team_name}</span></span><span class="text-2xl font-extrabold tabular-nums ${col}">${fmt(x[k])}</span></div>`).join('')}</div>`:empty('No data.');
   $('#match-modal').classList.remove('hidden');
 })}
 document.addEventListener('click',e=>{
@@ -328,11 +328,241 @@ async function openPlayer(id,push=true){guard(async()=>{
   $('#player-detail-kpis').innerHTML=[['GOALS',p.goals],['ASSISTS',p.assists],['MATCHES',p.matches_played],['MINUTES',p.minutes_played],['RATING',p.avg_rating]].map(([l,v])=>`<div class="${CARD} p-4"><p class="text-[10px] font-bold tracking-wider text-slate-400">${l}</p><p class="text-3xl font-extrabold text-brand-navy">${nz(v)}</p></div>`).join('');
   const b=(l,v,max,suf='')=>`<div><div class="flex justify-between text-xs"><span>${l}</span><b>${nz(v)}${suf}</b></div><div class="h-2 bg-slate-100 rounded mt-1"><i class="block h-full rounded bg-brand-navy" data-w="${Math.min(100,100*(v||0)/max)}" style="width:0"></i></div></div>`;
   $('#player-detail-bars').innerHTML=b('Shot accuracy',p.shots?Math.round(100*p.shots_on_target/p.shots):0,100,'%')+b('Starter rate',p.matches_played?Math.round(100*p.matches_started/p.matches_played):0,100,'%')+b('Goals per match',p.matches_played?+(p.goals/p.matches_played).toFixed(2):0,2)+b('Yellow / red cards',(p.yellow_cards||0)+(p.red_cards||0),10)+b('Avg rating',p.avg_rating,10);
-  $('#player-detail-footer-id').textContent=`Player ID #${p.player_id} · Dữ liệu từ SQL Server`;
+  $('#player-detail-footer-id').textContent=`Player ID #${p.player_id} · Data from SQL Server`;
+})}
+
+// ---------- Manage Data: them doi / them cau thu ----------
+const INP='w-full mt-1 px-3 py-2 rounded-lg bg-slate-50 border border-slate-200 text-xs focus:outline-none focus:border-blue-600';
+const fld=(id,l,type='text',ex='')=>`<label class="block"><span class="text-[11px] font-semibold text-slate-500">${l}</span><input id="${id}" type="${type}" ${ex} class="${INP}"></label>`;
+const sel=(id,l,opts)=>`<label class="block"><span class="text-[11px] font-semibold text-slate-500">${l}</span><select id="${id}" class="${INP}">${opts}</select></label>`;
+const opt=(a,ph)=>`<option value="">${ph}</option>`+a.map(x=>typeof x==='object'?`<option value="${x.v}">${x.l}</option>`:`<option>${x}</option>`).join('');
+const btn=(label,msgId)=>`<div class="col-span-2 flex items-center gap-3 pt-1"><button class="px-5 py-2 rounded-lg bg-brand-navy text-white text-xs font-bold hover:opacity-90 transition">${label}</button><span id="${msgId}" class="text-xs"></span></div>`;
+const say=(id,msg,ok)=>{const el=$('#'+id);el.textContent=msg;el.className='text-xs font-semibold '+(ok?'text-emerald-600':'text-red-600')};
+const post=async(u,body)=>{const r=await fetch('/api/'+u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
+const val=id=>$('#'+id).value.trim();
+const note=t=>`<p class="col-span-2 text-[11px] text-slate-400">${t}</p>`;
+
+const mbtn=(label,msgId)=>`<div class="mt-auto pt-5 flex items-center gap-3"><button class="px-5 py-2 rounded-lg bg-brand-navy text-white text-xs font-bold hover:opacity-90 transition">${label}</button><span id="${msgId}" class="text-xs"></span></div>`;
+const GRID2='grid grid-cols-2 gap-x-4 gap-y-3', full=h=>`<div class="col-span-2">${h}</div>`;
+const PLAYER_HINT='';
+
+function loadManage(){return guard(async()=>{
+  const [teams,groups,lk,nid]=await Promise.all([api('teams'),api('groups'),api('lookups'),api('next-ids')]);state.teams=teams;   // lam moi cache + ID ke tiep
+  const idx=v=>`min="1" step="1" value="${v}"`;
+  const teamOpts=opt(teams.map(t=>({v:t.team_id,l:`${t.team_name} (Group ${t.groupp})`})),'-- choose team --');
+
+  // --- Add Team: ID|Code, Name, Group|Conf, Rank|Elo, Coach ---
+  $('#form-add-team').innerHTML=`<div class="${GRID2}">`+
+    fld('mt-id','Team ID *','number',idx(nid.team_id))+fld('mt-code','FIFA code *','text','maxlength="3" style="text-transform:uppercase"')+
+    full(fld('mt-name','Team name *'))+
+    sel('mt-group','Group *',opt(groups,'-- choose group --'))+sel('mt-conf','Confederation *',opt(['AFC','CAF','CONCACAF','CONMEBOL','OFC','UEFA'],'-- choose confederation --'))+
+    fld('mt-rank','FIFA ranking','number','min="1"')+fld('mt-elo','Elo rating','number','step="0.1" min="0"')+
+    full(fld('mt-coach','Coach'))+
+    ``+`</div>`+mbtn('Add team','mt-msg');
+  $('#form-add-team').onsubmit=async e=>{e.preventDefault();
+    try{
+      const t=await post('teams',{team_id:val('mt-id'),team_name:val('mt-name'),fifa_code_name:val('mt-code'),groupp:val('mt-group'),confederation:val('mt-conf'),
+        fifa_ranking_per_tournament:val('mt-rank'),elo_rating:val('mt-elo'),coach_name:val('mt-coach')});
+      await loadManage();say('mt-msg',`Added ${t.team_name} (ID ${t.team_id})`,true);
+    }catch(err){say('mt-msg',err.message,false)}};
+
+  // --- Add Player: Team|ID, Name, Pos|Shirt, Club|Birth, Height|Caps, Goals|Value ---
+  $('#form-add-player').innerHTML=`<div class="${GRID2}">`+
+    sel('mp-team','Team *',teamOpts)+fld('mp-id','Player ID *','number',idx(nid.player_id))+
+    full(fld('mp-name','Player name *'))+
+    sel('mp-pos','Position *',opt(['Goalkeeper','Defender','Midfielder','Forward'],'-- choose position --'))+fld('mp-shirt','Shirt number','number','min="1" max="99"')+
+    fld('mp-club','Club')+fld('mp-birth','Birth date','date')+
+    fld('mp-height','Height (cm)','number','min="0"')+fld('mp-caps','Caps','number','min="0"')+
+    fld('mp-gfc','Goals for country','number','min="0"')+fld('mp-mv','Market value (EUR)','number','min="0"')+
+    `<p id="mp-hint" class="col-span-2 text-[11px] text-slate-400 empty:hidden">${PLAYER_HINT}</p>`+`</div>`+mbtn('Add player','mp-msg');
+  $('#mp-team').onchange=async()=>{const id=$('#mp-team').value,h=$('#mp-hint');
+    if(!id){h.textContent=PLAYER_HINT;return}
+    try{const d=await api('teams/'+id);h.textContent=`Squad currently has ${d.squad.length}/26 players`}catch(e){h.textContent=PLAYER_HINT}};
+  $('#form-add-player').onsubmit=async e=>{e.preventDefault();const tid=val('mp-team');
+    try{
+      const p=await post('players',{player_id:val('mp-id'),team_id:tid,player_name:val('mp-name'),position:val('mp-pos'),shirt_number:val('mp-shirt'),club_team:val('mp-club'),
+        birth:val('mp-birth'),height_cm:val('mp-height'),caps:val('mp-caps'),goals_for_country:val('mp-gfc'),market_eur:val('mp-mv')});
+      await loadManage();$('#mp-team').value=tid;await $('#mp-team').onchange();     // giu nguyen doi dang chon de nhap tiep
+      say('mp-msg',`Added ${p.player_name} to ${p.team_name} (ID ${p.player_id})`,true);
+    }catch(err){say('mp-msg',err.message,false)}};
+
+  // --- Add Match: day ngang, luoi 4 cot x 3 hang ---
+  $('#form-add-match').innerHTML=`<div class="grid grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-3">`+
+    fld('mm-id','Match ID *','number',idx(nid.match_id))+fld('mm-date','Date *','date')+fld('mm-time','Kickoff time (UTC) *','time')+
+    sel('mm-status','Status *',opt(['Scheduled','Live','Completed'],'-- choose status --'))+
+    sel('mm-stage','Stage *',opt(lk.stages.map(x=>({v:x.stage_id,l:x.stage_name})),'-- choose stage --'))+
+    `<div class="col-span-2">${sel('mm-stadium','Stadium *',opt(lk.stadiums.map(x=>({v:x.stadium_id,l:`${x.stadium_name} – ${x.city}`})),'-- choose stadium --'))}</div>`+
+    sel('mm-ref','Referee *',opt(lk.referees.map(x=>({v:x.referee_id,l:`${x.referee_name} (${x.country})`})),'-- choose referee --'))+
+    sel('mm-home','Home team *',teamOpts)+sel('mm-away','Away team *',teamOpts)+
+    fld('mm-hs','Home score','number','min="0"')+fld('mm-as','Away score','number','min="0"')+
+    ``+`</div>`+mbtn('Add match','mm-msg');
+  $('#mm-status').value='Scheduled';
+  $('#form-add-match').onsubmit=async e=>{e.preventDefault();
+    try{const m=await post('matches',{match_id:val('mm-id'),datee:val('mm-date'),kickoff_time_utc:val('mm-time'),stage_id:val('mm-stage'),stadium_id:val('mm-stadium'),
+        home_team_id:val('mm-home'),away_team_id:val('mm-away'),referee_id:val('mm-ref'),statuss:val('mm-status'),home_score:val('mm-hs'),away_score:val('mm-as')});
+      lastMatchesHash='';await loadManage();say('mm-msg',`Added match #${m.match_id}: ${m.home_team_name} vs ${m.away_team_name}`,true);
+    }catch(err){say('mm-msg',err.message,false)}};
+})}
+
+// ---------- Delete Data: xoa doi (kem ca cau thu) / xoa cau thu ----------
+const del=async u=>{const r=await fetch('/api/'+u,{method:'DELETE'});const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
+const chip=(l,v)=>`<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-semibold">${l} <b class="text-brand-navy">${v}</b></span>`;
+const forceBox=(id,text)=>`<label class="flex items-start gap-2 text-xs text-red-600 font-semibold"><input id="${id}" type="checkbox" class="mt-0.5"><span>${text}</span></label>`;
+
+const dbtn2=(label,id,msgId)=>`<div class="mt-auto pt-5 flex items-center gap-3"><button id="${id}" disabled class="px-5 py-2 rounded-lg bg-red-600 text-white text-xs font-bold hover:bg-red-700 transition disabled:opacity-40 disabled:cursor-not-allowed">${label}</button><span id="${msgId}" class="text-xs"></span></div>`;
+const infoBox=(id)=>`<div id="${id}-info" class="text-xs text-slate-500 space-y-1.5 mt-3"></div><div id="${id}-force-wrap" class="mt-3"></div>`;
+const matchLabel=m=>`#${m.match_id} · ${fmtD(m.datee)} · ${m.home_team_name} vs ${m.away_team_name} · ${m.stage_name||''}${m.statuss?' · '+m.statuss:''}`;
+
+function loadDelete(){return guard(async()=>{
+  const [teams,{matches}]=await Promise.all([api('teams'),api('matches')]);state.teams=teams;
+  const tOpts=opt(teams.map(t=>({v:t.team_id,l:`${t.team_name} (Group ${t.groupp})`})),'-- choose team --');
+  const ms=[...matches].sort((a,b)=>(iso(a.datee)+fmtT(a.kickoff_time_utc)).localeCompare(iso(b.datee)+fmtT(b.kickoff_time_utc)));
+
+  // --- 1) Xoa cau thu ---
+  $('#form-delete-player').innerHTML=`<div class="${GRID2}">`+sel('dp-team','Team *',tOpts)+sel('dp-player','Player *',opt([],'-- choose team first --'))+`</div>`+infoBox('dp')+dbtn2('Delete player','dp-btn','dp-msg');
+  $('#dp-team').onchange=async()=>{
+    const id=$('#dp-team').value;$('#dp-info').innerHTML='';$('#dp-force-wrap').innerHTML='';$('#dp-msg').textContent='';$('#dp-btn').disabled=true;
+    if(!id){$('#dp-player').innerHTML=opt([],'-- choose team first --');return}
+    try{const d=await api('teams/'+id),ps=[...d.squad].sort((a,b)=>a.player_name.localeCompare(b.player_name));
+      $('#dp-player').innerHTML=opt(ps.map(p=>({v:p.player_id,l:`${p.shirt_number!=null?'#'+p.shirt_number+' ':''}${cleanName(p.player_name)} (${p.position})`})),'-- choose player --');
+    }catch(err){$('#dp-info').textContent=err.message}};
+  $('#dp-player').onchange=async()=>{
+    const id=$('#dp-player').value;$('#dp-info').innerHTML='';$('#dp-force-wrap').innerHTML='';$('#dp-msg').textContent='';$('#dp-btn').disabled=!id;
+    if(!id)return;
+    try{const d=await api(`players/${id}/impact`);
+      $('#dp-info').innerHTML=`<p>Data that will be deleted with this player:</p><div class="flex flex-wrap gap-1.5">${chip('Events',d.events)}${chip('Lineups',d.lineups)}${chip('Man of the Match',d.pom)}</div>`;
+      if(d.events||d.lineups||d.pom)$('#dp-force-wrap').innerHTML=forceBox('dp-force','This player already has match data. Also delete the related events, appearances and Man of the Match awards');
+    }catch(err){$('#dp-info').textContent=err.message}};
+  $('#form-delete-player').onsubmit=async e=>{e.preventDefault();
+    const tid=val('dp-team'),id=val('dp-player');if(!id)return;
+    const name=$('#dp-player').selectedOptions[0].textContent,force=$('#dp-force')?.checked;
+    if(!confirm(`Delete player "${name}"?\nThis cannot be undone.`))return;
+    try{const r=await del(`players/${id}`+(force?'?force=1':''));
+      await loadDelete();$('#dp-team').value=tid;await $('#dp-team').onchange();     // giu doi dang chon de xoa tiep
+      say('dp-msg',`Deleted ${cleanName(r.player_name)}`,true);
+    }catch(err){say('dp-msg',err.message,false)}};
+
+  // --- 2) Xoa doi (kem ca cau thu) ---
+  $('#form-delete-team').innerHTML=sel('dt-team','Team *',tOpts)+infoBox('dt')+dbtn2('Delete team','dt-btn','dt-msg');
+  $('#dt-team').onchange=async()=>{
+    const id=$('#dt-team').value,info=$('#dt-info');$('#dt-force-wrap').innerHTML='';$('#dt-msg').textContent='';$('#dt-btn').disabled=!id;
+    if(!id){info.innerHTML='';return}
+    try{const d=await api(`teams/${id}/impact`);
+      info.innerHTML=`<p>Data that will be deleted with this team:</p><div class="flex flex-wrap gap-1.5">${chip('Players',d.players)}${chip('Matches',d.matches)}${chip('Events',d.events)}${chip('Lineups',d.lineups)}${chip('Match stats',d.stats)}</div>`;
+      if(d.matches||d.events||d.lineups||d.stats)$('#dt-force-wrap').innerHTML=forceBox('dt-force',`This team already has ${d.matches} matches. Also delete its matches and all related data (events, lineups, statistics)`);
+    }catch(err){info.textContent=err.message}};
+  $('#form-delete-team').onsubmit=async e=>{e.preventDefault();
+    const id=val('dt-team');if(!id)return;
+    const name=$('#dt-team').selectedOptions[0].textContent,force=$('#dt-force')?.checked;
+    if(!confirm(`Delete team "${name}" and ALL of its players?\nThis cannot be undone.`))return;
+    try{const r=await del(`teams/${id}`+(force?'?force=1':''));
+      if(state.teamId===+id)state.teamId=null;lastMatchesHash='';
+      await loadDelete();say('dt-msg',`Deleted ${r.team_name} and ${r.players} players`+(r.matches?` and ${r.matches} matches`:''),true);
+    }catch(err){say('dt-msg',err.message,false)}};
+
+  // --- 3) Xoa tran dau ---
+  $('#form-delete-match').innerHTML=`<div class="grid grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-3"><div class="col-span-full">${sel('dm-match','Match *',opt(ms.map(m=>({v:m.match_id,l:matchLabel(m)})),'-- choose match --'))}</div></div>`+infoBox('dm')+dbtn2('Delete match','dm-btn','dm-msg');
+  $('#dm-match').onchange=async()=>{
+    const id=$('#dm-match').value,info=$('#dm-info');$('#dm-force-wrap').innerHTML='';$('#dm-msg').textContent='';$('#dm-btn').disabled=!id;
+    if(!id){info.innerHTML='';return}
+    try{const d=await api(`matches/${id}/impact`);
+      info.innerHTML=`<p>Data that will be deleted with this match:</p><div class="flex flex-wrap gap-1.5">${chip('Events',d.events)}${chip('Lineups',d.lineups)}${chip('Team stats',d.stats)}</div>`;
+      if(d.events||d.lineups||d.stats)$('#dm-force-wrap').innerHTML=forceBox('dm-force','This match already has events, lineups or statistics. Also delete all of that related data');
+    }catch(err){info.textContent=err.message}};
+  $('#form-delete-match').onsubmit=async e=>{e.preventDefault();
+    const id=val('dm-match');if(!id)return;
+    const name=$('#dm-match').selectedOptions[0].textContent,force=$('#dm-force')?.checked;
+    if(!confirm(`Delete match "${name}"?\nThis cannot be undone.`))return;
+    try{const r=await del(`matches/${id}`+(force?'?force=1':''));
+      lastMatchesHash='';
+      await loadDelete();say('dm-msg',`Deleted match #${r.match_id}: ${r.home_team_name} vs ${r.away_team_name}`,true);
+    }catch(err){say('dm-msg',err.message,false)}};
+})}
+
+// ---------- Update Data: sua ket qua tran / doi / cau thu ----------
+const put=async(u,body)=>{const r=await fetch('/api/'+u,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
+const setVal=(id,v)=>{$('#'+id).value=v==null?'':v};
+const setSelVal=(id,v)=>{const el=$('#'+id);v=v==null?'':String(v);if(v&&![...el.options].some(o=>o.value===v))el.add(new Option(v,v));el.value=v};  // gia tri cu khong co trong danh sach -> them vao
+
+const ubtn2=(label,id,msgId)=>`<div class="mt-auto pt-5 flex items-center gap-3"><button id="${id}" disabled class="px-5 py-2 rounded-lg bg-brand-navy text-white text-xs font-bold hover:opacity-90 transition disabled:opacity-40 disabled:cursor-not-allowed">${label}</button><span id="${msgId}" class="text-xs"></span></div>`;
+
+function loadUpdate(){return guard(async()=>{
+  const [teams,groups,{matches}]=await Promise.all([api('teams'),api('groups'),api('matches')]);state.teams=teams;
+  const tOpts=opt(teams.map(t=>({v:t.team_id,l:`${t.team_name} (Group ${t.groupp})`})),'-- choose team --');
+  const CONF=['AFC','CAF','CONCACAF','CONMEBOL','OFC','UEFA'];
+
+  // --- 1) Cap nhat doi ---
+  $('#form-update-team').innerHTML=`<div class="${GRID2}">`+full(sel('ut-team','Team *',tOpts))+
+    sel('ut-group','Group *',opt(groups,'-- choose group --'))+sel('ut-conf','Confederation *',opt(CONF,'-- choose confederation --'))+
+    fld('ut-rank','FIFA ranking','number','min="1"')+fld('ut-elo','Elo rating','number','step="0.1" min="0"')+
+    full(fld('ut-coach','Coach'))+``+`</div>`+ubtn2('Save team','ut-btn','ut-msg');
+  $('#ut-team').onchange=async()=>{
+    const id=$('#ut-team').value;$('#ut-msg').textContent='';$('#ut-btn').disabled=!id;if(!id)return;
+    try{const i=(await api('teams/'+id)).info;
+      setSelVal('ut-group',i.groupp);setSelVal('ut-conf',i.confederation);setVal('ut-rank',i.fifa_ranking_per_tournament);setVal('ut-elo',i.elo_rating);setVal('ut-coach',i.coach_name);
+    }catch(err){say('ut-msg',err.message,false)}};
+  $('#form-update-team').onsubmit=async e=>{e.preventDefault();const id=val('ut-team');if(!id)return;
+    try{const t=await put('teams/'+id,{groupp:val('ut-group'),confederation:val('ut-conf'),fifa_ranking_per_tournament:val('ut-rank'),elo_rating:val('ut-elo'),coach_name:val('ut-coach')});
+      await loadUpdate();$('#ut-team').value=id;await $('#ut-team').onchange();say('ut-msg','Updated '+t.team_name,true);
+    }catch(err){say('ut-msg',err.message,false)}};
+
+  // --- 2) Cap nhat cau thu ---
+  $('#form-update-player').innerHTML=`<div class="${GRID2}">`+sel('up-team','Team *',tOpts)+sel('up-player','Player *',opt([],'-- choose team first --'))+
+    sel('up-pos','Position *',opt(['Goalkeeper','Defender','Midfielder','Forward'],'-- choose position --'))+fld('up-shirt','Shirt number','number','min="1" max="99"')+
+    fld('up-club','Club')+fld('up-height','Height (cm)','number','min="0"')+
+    fld('up-caps','Caps','number','min="0"')+fld('up-gfc','Goals for country','number','min="0"')+
+    full(fld('up-mv','Market value (EUR)','number','min="0"'))+``+`</div>`+ubtn2('Save player','up-btn','up-msg');
+  $('#up-team').onchange=async()=>{
+    const id=$('#up-team').value;$('#up-msg').textContent='';$('#up-btn').disabled=true;
+    if(!id){$('#up-player').innerHTML=opt([],'-- choose team first --');return}
+    try{const d=await api('teams/'+id),ps=[...d.squad].sort((a,b)=>a.player_name.localeCompare(b.player_name));
+      $('#up-player').innerHTML=opt(ps.map(p=>({v:p.player_id,l:`${p.shirt_number!=null?'#'+p.shirt_number+' ':''}${cleanName(p.player_name)} (${p.position})`})),'-- choose player --');
+    }catch(err){say('up-msg',err.message,false)}};
+  $('#up-player').onchange=async()=>{
+    const id=$('#up-player').value;$('#up-msg').textContent='';$('#up-btn').disabled=!id;if(!id)return;
+    try{const p=await api('players/'+id);
+      setSelVal('up-pos',p.position);setVal('up-shirt',p.shirt_number);setVal('up-club',p.club_team);setVal('up-height',p.height_cm);
+      setVal('up-caps',p.caps);setVal('up-gfc',p.goals_for_country);setVal('up-mv',p.market_eur);
+    }catch(err){say('up-msg',err.message,false)}};
+  $('#form-update-player').onsubmit=async e=>{e.preventDefault();const tid=val('up-team'),id=val('up-player');if(!id)return;
+    try{const r=await put('players/'+id,{position:val('up-pos'),shirt_number:val('up-shirt'),club_team:val('up-club'),height_cm:val('up-height'),
+        caps:val('up-caps'),goals_for_country:val('up-gfc'),market_eur:val('up-mv')});
+      await loadUpdate();$('#up-team').value=tid;await $('#up-team').onchange();$('#up-player').value=id;await $('#up-player').onchange();
+      say('up-msg','Updated '+cleanName(r.player_name),true);
+    }catch(err){say('up-msg',err.message,false)}};
+
+  // --- 3) Cap nhat ket qua tran (day ngang, luoi 4 cot) ---
+  const key=m=>iso(m.datee)+' '+fmtT(m.kickoff_time_utc)+' '+String(m.match_id).padStart(6,'0');
+  const ms=[...matches].sort((a,b)=>key(a).localeCompare(key(b)));
+  const fillMatches=()=>{const only=$('#um-open').checked,cur=$('#um-match').value;
+    $('#um-match').innerHTML=opt(ms.filter(m=>!only||!isFinished(m)).map(m=>({v:m.match_id,l:matchLabel(m)})),'-- choose match --');
+    $('#um-match').value=cur};
+  $('#form-update-match').innerHTML=`<div class="grid grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-3">`+
+    `<label class="col-span-full flex items-center gap-2 text-xs text-slate-500"><input id="um-open" type="checkbox">Only show matches that are not completed yet</label>`+
+    `<div class="col-span-full">${sel('um-match','Match *','')}<p id="um-title" class="text-xs font-bold text-brand-navy mt-1"></p></div>`+
+    fld('um-hs','Home score','number','min="0"')+fld('um-as','Away score','number','min="0"')+
+    sel('um-status','Status *',opt(['Scheduled','Live','Completed'],'-- choose status --'))+sel('um-rt','Result type',opt(['FT','AET','PEN'],'-- none --'))+
+    fld('um-hxg','Home xG','number','step="0.01" min="0"')+fld('um-axg','Away xG','number','step="0.01" min="0"')+
+    ``+`</div>`+ubtn2('Save match','um-btn','um-msg');
+  fillMatches();$('#um-open').onchange=fillMatches;
+  $('#um-match').onchange=async()=>{
+    const id=$('#um-match').value;$('#um-msg').textContent='';$('#um-btn').disabled=!id;
+    if(!id){$('#um-title').textContent='';return}
+    try{const {match:m}=await api('matches/'+id);
+      $('#um-title').textContent=`${m.home_team_name} vs ${m.away_team_name} · ${m.stage_name} · ${nz(m.stadium_name)}`;
+      setVal('um-hs',m.home_score);setVal('um-as',m.away_score);setSelVal('um-status',m.statuss);setSelVal('um-rt',m.result_type);
+      setVal('um-hxg',m.home_xg);setVal('um-axg',m.away_xg);
+    }catch(err){say('um-msg',err.message,false)}};
+  $('#form-update-match').onsubmit=async e=>{e.preventDefault();const id=val('um-match');if(!id)return;
+    try{await put('matches/'+id,{home_score:val('um-hs'),away_score:val('um-as'),statuss:val('um-status'),result_type:val('um-rt'),home_xg:val('um-hxg'),away_xg:val('um-axg')});
+      lastMatchesHash='';                                   // lan sau vao Match Results se ve lai
+      await loadUpdate();$('#um-match').value=id;await $('#um-match').onchange();say('um-msg','Updated match #'+id,true);
+    }catch(err){say('um-msg',err.message,false)}};
 })}
 
 // ---------- Router: moi trang mot duong dan rieng ----------
-const PATH={matches:'/matches',tournament:'/standings',teams:'/teamstats',players:'/playerstats'};
+const PATH={matches:'/matches',tournament:'/standings',teams:'/teamstats',players:'/playerstats',manage:'/manage',delete:'/delete',update:'/update'};
 const VIEW=Object.fromEntries(Object.entries(PATH).map(([v,u])=>[u.slice(1),v]));
 function go(url,replace){history[replace?'replaceState':'pushState'](null,'',url);route()}
 function route(){

@@ -1,11 +1,11 @@
 <!-- Đường dẫn file: public/index.html -->
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WC 2026 — Data Hub & Insights</title>
-  <meta name="description" content="Hệ thống Quản lý, Tra cứu và Thống kê Giải đấu FIFA World Cup 2026 tích hợp SQL Server." />
+  <meta name="description" content="Management, lookup and statistics system for the FIFA World Cup 2026, integrated with SQL Server." />
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,7 @@
           <nav class="space-y-1" aria-label="Main Navigation">
             <button data-view="matches" class="nav-btn active w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold transition-all">
               <span>⚽</span>
-              <span>Match Results</span>
+              <span>Match results</span>
             </button>
             <button data-view="tournament" class="nav-btn w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-50 transition-all">
               <span>🏆</span>
@@ -65,11 +65,28 @@
             </button>
             <button data-view="teams" class="nav-btn w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-50 transition-all">
               <span>🌍</span>
-              <span>Team Stats</span>
+              <span>Team stats</span>
             </button>
             <button data-view="players" class="nav-btn w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-50 transition-all">
               <span>👟</span>
-              <span>Player Stats</span>
+              <span>Player stats</span>
+            </button>
+          </nav>
+
+          <!-- Nhóm MANAGE (cùng kiểu với MAIN) -->
+          <p class="px-3 text-[10px] font-bold uppercase tracking-wider text-slate-400 mt-6 mb-2">MANAGE</p>
+          <nav class="space-y-1" aria-label="Manage Navigation">
+            <button data-view="manage" class="nav-btn w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-50 transition-all">
+              <span>➕</span>
+              <span>Create data</span>
+            </button>
+            <button data-view="update" class="nav-btn w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-50 transition-all">
+              <span>✏️</span>
+              <span>Update data</span>
+            </button>
+            <button data-view="delete" class="nav-btn w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-50 transition-all">
+              <span>🗑️</span>
+              <span>Delete data</span>
             </button>
           </nav>
         </div>
@@ -92,7 +109,7 @@
     <div class="flex-1 pl-56 flex flex-col min-h-screen">
       <!-- Topbar -->
       <header class="h-14 bg-white border-b border-slate-200 px-8 flex items-center justify-between sticky top-0 z-20">
-        <h2 id="topbar-title" class="text-xs font-bold text-slate-800">Match Results</h2>
+        <h2 id="topbar-title" class="text-xs font-bold text-slate-800">Match results</h2>
         <div class="flex items-center gap-4">
           <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-red-50 text-red-600 border border-red-100">
             <span class="w-1.5 h-1.5 rounded-full bg-red-500"></span>
@@ -109,7 +126,7 @@
         <section id="view-matches" class="view-section space-y-6">
           <div class="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h1 class="text-xl font-extrabold text-brand-navy">Match Results</h1>
+              <h1 class="text-xl font-extrabold text-brand-navy">Match results</h1>
               <div class="flex items-center gap-3 mt-1">
                 <span id="matches-last-updated" class="text-xs text-slate-400">Last updated: --:--:--</span>
                 <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-600 border border-emerald-200">
@@ -225,7 +242,7 @@
         <section id="view-teams" class="view-section hidden space-y-5">
           <div class="flex flex-wrap items-center justify-between gap-4">
             <div class="flex items-center gap-2.5">
-              <h1 class="text-xl font-extrabold text-brand-navy">Team Stats</h1>
+              <h1 class="text-xl font-extrabold text-brand-navy">Team stats</h1>
               <span id="teams-count-badge" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-50 text-blue-700 border border-blue-200">48 teams</span>
             </div>
             <span class="text-[11px] text-slate-400">Last synced: SQL Server Live</span>
@@ -301,7 +318,7 @@
         <section id="view-players" class="view-section hidden space-y-5">
           <div class="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h1 class="text-xl font-extrabold text-brand-navy">Player Stats</h1>
+              <h1 class="text-xl font-extrabold text-brand-navy">Player stats</h1>
               <p id="players-subtitle" class="text-xs text-slate-400 mt-0.5">Golden Boot leaderboard · Top players</p>
             </div>
             <span class="text-[11px] text-slate-400">Last synced: SQL Server Live</span>
@@ -364,7 +381,71 @@
           <p id="player-detail-footer-id" class="text-center text-[11px] text-slate-400 pt-2"></p>
         </section>
 
-      </main>
+        <!-- ================= VIEW 6: MANAGE DATA (THÊM ĐỘI / THÊM CẦU THỦ) ================= -->
+        <section id="view-manage" class="view-section hidden space-y-5">
+          <div>
+            <h1 class="text-xl font-extrabold text-brand-navy">Create data</h1>
+          </div>
+          <div class="grid grid-cols-1 xl:grid-cols-2 gap-5 items-stretch">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-brand-navy">➕ Add team</h3>
+              <form id="form-add-team" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+            <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-brand-navy">➕ Add player to team</h3>
+              <form id="form-add-player" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+            <div class="xl:col-span-2 bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-brand-navy">➕ Add match</h3>
+              <form id="form-add-match" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 7: DELETE DATA (CAU THU -> DOI -> TRAN) ================= -->
+        <section id="view-delete" class="view-section hidden space-y-5">
+          <div>
+            <h1 class="text-xl font-extrabold text-brand-navy">Delete data</h1>
+          </div>
+          <div class="grid grid-cols-1 xl:grid-cols-2 gap-5 items-stretch">
+            <div class="bg-white rounded-xl border border-red-100 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-red-600">🗑️ Delete player</h3>
+              <form id="form-delete-player" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+            <div class="bg-white rounded-xl border border-red-100 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-red-600">🗑️ Delete team <span class="text-[11px] font-medium text-slate-400"></span></h3>
+              <form id="form-delete-team" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+            <div class="xl:col-span-2 bg-white rounded-xl border border-red-100 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-red-600">🗑️ Delete match <span class="text-[11px] font-medium text-slate-400"></span></h3>
+              <form id="form-delete-match" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 8: UPDATE DATA (DOI -> CAU THU -> TRAN) ================= -->
+        <section id="view-update" class="view-section hidden space-y-5">
+          <div>
+            <h1 class="text-xl font-extrabold text-brand-navy">Update data</h1>
+          </div>
+          <div class="grid grid-cols-1 xl:grid-cols-2 gap-5 items-stretch">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-brand-navy">🌍 Update team</h3>
+              <form id="form-update-team" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+            <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-brand-navy">👟 Update player</h3>
+              <form id="form-update-player" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+            <div class="xl:col-span-2 bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col gap-5">
+              <h3 class="text-sm font-extrabold text-brand-navy">⚽ Update match result <span class="text-[11px] font-medium text-slate-400"></span></h3>
+              <form id="form-update-match" class="flex flex-col flex-1" autocomplete="off"></form>
+            </div>
+          </div>
+        </section>
+
+      
+</main>
     </div>
   </div>
 
