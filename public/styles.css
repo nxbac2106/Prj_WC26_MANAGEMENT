@@ -161,3 +161,24 @@ i[data-w]{transition:width .8s cubic-bezier(.2,.8,.2,1)}
   border-color:#6b84c9;
   box-shadow:0 0 0 1px #6b84c9,0 10px 20px rgba(15,23,42,.14);
 }
+
+/* ---- Thong bao thanh cong (Add / Update / Delete) ---- */
+#toast-box{position:fixed;top:18px;right:18px;z-index:100;display:flex;flex-direction:column;gap:10px;pointer-events:none}
+.toast{position:relative;overflow:hidden;display:flex;align-items:center;gap:12px;min-width:270px;max-width:380px;padding:12px 16px;
+  background:#fff;border:1px solid #dbe3f0;border-left:4px solid var(--tc);border-radius:12px;
+  box-shadow:0 10px 24px rgba(15,23,42,.16);animation:toastIn .35s cubic-bezier(.2,.8,.2,1)}
+.toast.out{animation:toastOut .3s ease forwards}
+.toast-ico{width:34px;height:34px;padding:7px;flex:none;border-radius:9999px;background:var(--tc);color:#fff;
+  animation:icoPop .4s cubic-bezier(.3,1.6,.5,1)}
+.toast-ico *{stroke-dasharray:1;stroke-dashoffset:1;animation:draw .45s .2s ease forwards}
+.toast-title{font-size:12px;font-weight:800;color:var(--tc)}
+.toast-msg{font-size:12px;color:#475569;overflow-wrap:anywhere}
+.toast-bar{position:absolute;left:0;bottom:0;height:3px;width:100%;background:var(--tc);opacity:.5;transform-origin:left;animation:toastBar 2.5s linear forwards}
+@keyframes toastIn{from{opacity:0;transform:translateX(24px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes toastOut{to{opacity:0;transform:translateX(24px)}}
+@keyframes icoPop{from{transform:scale(0)}to{transform:scale(1)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes toastBar{to{transform:scaleX(0)}}
+.card-success{animation:cardRing 1s ease-out}
+@keyframes cardRing{0%{box-shadow:0 0 0 0 var(--tc,#059669)}100%{box-shadow:0 0 0 14px transparent}}
+@media (prefers-reduced-motion:reduce){.toast-ico *{stroke-dashoffset:0!important}}

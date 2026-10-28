@@ -121,4 +121,4 @@ go
 select * from vw_tournament_player_stats
 order by avg_rating desc
 go
- 
+

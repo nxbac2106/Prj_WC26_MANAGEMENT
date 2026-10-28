@@ -337,7 +337,25 @@ const fld=(id,l,type='text',ex='')=>`<label class="block"><span class="text-[11p
 const sel=(id,l,opts)=>`<label class="block"><span class="text-[11px] font-semibold text-slate-500">${l}</span><select id="${id}" class="${INP}">${opts}</select></label>`;
 const opt=(a,ph)=>`<option value="">${ph}</option>`+a.map(x=>typeof x==='object'?`<option value="${x.v}">${x.l}</option>`:`<option>${x}</option>`).join('');
 const btn=(label,msgId)=>`<div class="col-span-2 flex items-center gap-3 pt-1"><button class="px-5 py-2 rounded-lg bg-brand-navy text-white text-xs font-bold hover:opacity-90 transition">${label}</button><span id="${msgId}" class="text-xs"></span></div>`;
-const say=(id,msg,ok)=>{const el=$('#'+id);el.textContent=msg;el.className='text-xs font-semibold '+(ok?'text-emerald-600':'text-red-600')};
+// ---- Thong bao thanh cong: toast co icon ve dan + vien sang quanh card. Loai theo chu cai dau cua id: m=Add, u=Update, d=Delete ----
+const TOAST={
+  a:{label:'Added successfully',c:'#059669',icon:'<path pathLength="1" d="M5 12.5l4.5 4.5L19 7.5"/>'},
+  u:{label:'Updated successfully',c:'#1E40AF',icon:'<path pathLength="1" d="M20 11a8 8 0 0 0-14.5-3.5M4 4v4h4"/><path pathLength="1" d="M4 13a8 8 0 0 0 14.5 3.5M20 20v-4h-4"/>'},
+  d:{label:'Deleted successfully',c:'#dc2626',icon:'<path pathLength="1" d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4h6v3"/>'}};
+function toast(msg,kind){
+  let box=$('#toast-box');if(!box){box=document.createElement('div');box.id='toast-box';document.body.appendChild(box)}
+  const t=TOAST[kind]||TOAST.a,el=document.createElement('div');
+  el.className='toast';el.style.setProperty('--tc',t.c);
+  el.innerHTML=`<svg class="toast-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${t.icon}</svg><div class="min-w-0"><p class="toast-title">${t.label}</p><p class="toast-msg"></p></div><i class="toast-bar"></i>`;
+  el.querySelector('.toast-msg').textContent=msg;
+  box.appendChild(el);
+  setTimeout(()=>{el.classList.add('out');setTimeout(()=>el.remove(),300)},3200);
+}
+const say=(id,msg,ok)=>{const el=$('#'+id);el.textContent=msg;el.className='text-xs font-semibold '+(ok?'text-emerald-600':'text-red-600');
+  if(!ok)return;
+  const k=({m:'a',u:'u',d:'d'})[id[0]]||'a';toast(msg,k);
+  const card=el.closest('.rounded-xl');                       // card chop vien sang mau tuong ung
+  if(card){card.style.setProperty('--tc',TOAST[k].c);card.classList.remove('card-success');void card.offsetWidth;card.classList.add('card-success')}};
 const post=async(u,body)=>{const r=await fetch('/api/'+u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
   const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
 const val=id=>$('#'+id).value.trim();

@@ -126,6 +126,5 @@ join match_events on player_squads.player_id = match_events.player_id
 where match_events.event_type = 'Penalty Shootout Goal'
 group by player_squads.player_name, teams.team_name, player_squads.position
 order by total_pen_goals desc
-
 go
 
