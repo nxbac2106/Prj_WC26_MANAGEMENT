@@ -35,8 +35,7 @@ wc26_management/
 │   ├── server.js                     # REST API, kết nối SQL Server
 │   ├── package.json
 │   ├── package-lock.json
-│   ├── .env.example                  
-│   └── .env                          
+│   ├── .env.example                                          
 │
 ├── public/                           # Giao diện web (server phục vụ thư mục này)
 │   ├── index.html                    
@@ -44,12 +43,14 @@ wc26_management/
 │   ├── styles.css                   
 │   ├── wc2026-logo.png
 │   └── logo-ptit.png
-│
-├── init.sql                          # Tạo database, 11 bảng, nạp dữ liệu từ CSV
-├── view.sql                         
-├── function.sql                      
-├── procedure.sql                     
-├── query.sql                         
+│   
+├── sql/                          # Tạo database, 11 bảng, nạp dữ liệu từ CSV
+│   ├── init.sql                    
+│   ├── view.sql                        
+│   ├── function.sql                   
+│   ├── procedure.sql
+│   └── query.sql
+│                       
 ├── prepare_data.py                   
 ├── update_data.py                    
 ├── BaoCao.docx                       
