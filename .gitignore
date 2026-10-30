@@ -1,0 +1,4 @@
+server/.env
+server/node_modules/
+server/import_csv.js
+.vscode/
