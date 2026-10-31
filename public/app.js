@@ -1,5 +1,18 @@
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
-const api=u=>fetch('/api/'+u).then(async r=>{const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d});
+// Ham boc chung moi method: loi tu server { error } -> Error; 401 -> ve /login, 403 -> toast khong du quyen.
+// Bo qua tu dong xu ly voi route auth/* (trang login tu hien loi, /me tra 401 la tinh huong binh thuong khi chua dang nhap).
+const req=async(u,init)=>{const r=await fetch('/api/'+u,init),d=await r.json().catch(()=>({}));
+  if(!r.ok){const e=new Error(d.error||r.status);
+    if(!u.startsWith('auth/')){
+      if(r.status===401){setAuth(null);go('/login');toast('Session expired, please sign in again','e')}
+      else if(r.status===403)toast('Admin permission required','e');
+      e.authHandled=true}
+    throw e}
+  return d};
+const api=u=>req(u),
+      post=(u,b)=>req(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}),
+      put=(u,b)=>req(u,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}),
+      del=u=>req(u,{method:'DELETE'});
 const ISO={'Mexico':'mx','South Africa':'za','South Korea':'kr','Korea Republic':'kr','Czechia':'cz','Czech Republic':'cz','Canada':'ca','Bosnia and Herzegovina':'ba','Qatar':'qa','Switzerland':'ch','Brazil':'br','Morocco':'ma','Haiti':'ht','Scotland':'gb-sct','USA':'us','United States':'us','Paraguay':'py','Australia':'au','Turkey':'tr','Türkiye':'tr','Germany':'de','Curaçao':'cw','Curacao':'cw','Ivory Coast':'ci',"Côte d'Ivoire":'ci','Ecuador':'ec','Netherlands':'nl','Japan':'jp','Sweden':'se','Tunisia':'tn','Belgium':'be','Egypt':'eg','Iran':'ir','IR Iran':'ir','New Zealand':'nz','Spain':'es','Cabo Verde':'cv','Saudi Arabia':'sa','Uruguay':'uy','France':'fr','Senegal':'sn','Iraq':'iq','Norway':'no','Argentina':'ar','Algeria':'dz','Austria':'at','Jordan':'jo','Portugal':'pt','Congo DR':'cd','Uzbekistan':'uz','Colombia':'co','England':'gb-eng','Croatia':'hr','Ghana':'gh','Panama':'pa'};
 // const flag=(n,c='w-6 h-4')=>ISO[n]?`<img class="${c} object-cover rounded-sm shadow-sm" src="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/flags/4x3/${ISO[n]}.svg" alt="">`:`<span class="${c} inline-flex items-center justify-center bg-slate-200 rounded-sm text-[8px] font-bold text-slate-500">${(n||'?').slice(0,3).toUpperCase()}</span>`;
 const PODIUM={'Spain':['👑','Champion'],'Argentina':['🥈','Runner-up'],'England':['🥉','Third place']};
@@ -47,7 +60,7 @@ const empty=t=>`<p class="text-xs text-slate-400">${t}</p>`;
 // Cap nhat dong "Last synced: ..." cua mot view (teams / players) bang gio hien tai, giong tab Tournament
 const syncStamp=v=>{const el=[...$$('#view-'+v+' *')].find(e=>!e.children.length&&/^Last synced/.test(e.textContent.trim()));if(el)el.textContent='Last synced: '+new Date().toLocaleTimeString()};
 const CARD='bg-white rounded-xl border border-slate-200 shadow-sm';
-const state={view:'matches',stage:null,group:null,teams:[],teamId:null};
+const state={view:'matches',stage:null,group:null,teams:[],teamId:null,auth:{role:null,username:null}};   // auth.role: 'admin' | 'guest' | null
 
 
 let lastMatchesHash = '';
@@ -104,7 +117,12 @@ function knockoutCard(m,n,w){
 function show(v){state.view=v;
   $$('.view-section').forEach(s=>s.classList.add('hidden'));$('#view-'+v).classList.remove('hidden');
   $$('.nav-btn').forEach(b=>{const on=b.dataset.view===(v==='player-detail'?'players':v);b.classList.toggle('active',on);b.classList.toggle('text-slate-600',!on)});
-  $('#topbar-title').textContent={matches:'Match Results',tournament:'Tournament',teams:'Team Stats',players:'Player Stats','player-detail':'Player Stats',manage:'Create data',delete:'Delete data',update:'Update data'}[v];
+  // Trang /login: an sidebar + topbar, bo padding ben trai de form nam giua man hinh
+  const onLogin=v==='login';
+  $('#sidebar').classList.toggle('hidden',onLogin);
+  $('#topbar').classList.toggle('hidden',onLogin);
+  $('#main-frame').classList.toggle('pl-56',!onLogin);
+  $('#topbar-title').textContent={matches:'Match Results',tournament:'Tournament',teams:'Team Stats',players:'Player Stats','player-detail':'Player Stats',manage:'Create data',delete:'Delete data',update:'Update data',login:'Sign in'}[v];
   ({matches:loadMatches,tournament:loadTournament,teams:loadTeams,players:loadPlayers,manage:loadManage,delete:loadDelete,update:loadUpdate}[v==='player-detail'?'players':v])?.();
 }
 $$('.nav-btn').forEach(b=>b.onclick=()=>go(PATH[b.dataset.view]));
@@ -119,7 +137,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')$('#match-modal').classList.a
 $('#btn-back-leaderboard').onclick=()=>go('/playerstats');
 $('#btn-refresh-matches').onclick=loadMatches;
 $('#topbar-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-const guard=async(fn)=>{try{await fn()}catch(e){alert('Failed to load data: '+e.message)}};
+const guard=async(fn)=>{try{await fn()}catch(e){if(!e.authHandled)alert('Failed to load data: '+e.message)}};   // loi 401/403 da duoc req() xu ly
 
 // ---------- Match Results ----------
 async function loadMatches(){guard(async()=>{
@@ -341,7 +359,9 @@ const btn=(label,msgId)=>`<div class="col-span-2 flex items-center gap-3 pt-1"><
 const TOAST={
   a:{label:'Added successfully',c:'#059669',icon:'<path pathLength="1" d="M5 12.5l4.5 4.5L19 7.5"/>'},
   u:{label:'Updated successfully',c:'#1E40AF',icon:'<path pathLength="1" d="M20 11a8 8 0 0 0-14.5-3.5M4 4v4h4"/><path pathLength="1" d="M4 13a8 8 0 0 0 14.5 3.5M20 20v-4h-4"/>'},
-  d:{label:'Deleted successfully',c:'#dc2626',icon:'<path pathLength="1" d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4h6v3"/>'}};
+  d:{label:'Deleted successfully',c:'#dc2626',icon:'<path pathLength="1" d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4h6v3"/>'},
+  s:{label:'Signed in',c:'#059669',icon:'<path pathLength="1" d="M5 12.5l4.5 4.5L19 7.5"/>'},
+  e:{label:'Notice',c:'#dc2626',icon:'<circle cx="12" cy="12" r="9"/><path pathLength="1" d="M12 8v.01M12 11v5"/>'}};
 function toast(msg,kind){
   let box=$('#toast-box');if(!box){box=document.createElement('div');box.id='toast-box';document.body.appendChild(box)}
   const t=TOAST[kind]||TOAST.a,el=document.createElement('div');
@@ -356,8 +376,6 @@ const say=(id,msg,ok)=>{const el=$('#'+id);el.textContent=msg;el.className='text
   const k=({m:'a',u:'u',d:'d'})[id[0]]||'a';toast(msg,k);
   const card=el.closest('.rounded-xl');                       // card chop vien sang mau tuong ung
   if(card){card.style.setProperty('--tc',TOAST[k].c);card.classList.remove('card-success');void card.offsetWidth;card.classList.add('card-success')}};
-const post=async(u,body)=>{const r=await fetch('/api/'+u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
-  const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
 const val=id=>$('#'+id).value.trim();
 const note=t=>`<p class="col-span-2 text-[11px] text-slate-400">${t}</p>`;
 
@@ -424,7 +442,6 @@ function loadManage(){return guard(async()=>{
 })}
 
 // ---------- Delete Data: xoa doi (kem ca cau thu) / xoa cau thu ----------
-const del=async u=>{const r=await fetch('/api/'+u,{method:'DELETE'});const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
 const chip=(l,v)=>`<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-semibold">${l} <b class="text-brand-navy">${v}</b></span>`;
 const forceBox=(id,text)=>`<label class="flex items-start gap-2 text-xs text-red-600 font-semibold"><input id="${id}" type="checkbox" class="mt-0.5"><span>${text}</span></label>`;
 
@@ -499,7 +516,6 @@ function loadDelete(){return guard(async()=>{
 })}
 
 // ---------- Update Data: sua ket qua tran / doi / cau thu ----------
-const put=async(u,body)=>{const r=await fetch('/api/'+u,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error||r.status);return d};
 const setVal=(id,v)=>{$('#'+id).value=v==null?'':v};
 const setSelVal=(id,v)=>{const el=$('#'+id);v=v==null?'':String(v);if(v&&![...el.options].some(o=>o.value===v))el.add(new Option(v,v));el.value=v};  // gia tri cu khong co trong danh sach -> them vao
 
@@ -579,19 +595,61 @@ function loadUpdate(){return guard(async()=>{
     }catch(err){say('um-msg',err.message,false)}};
 })}
 
+// ---------- Auth: trang thai dang nhap, khu vuc sidebar, trang /login ----------
+const MANAGE_VIEWS=new Set(['manage','update','delete']);
+// Cap nhat state.auth tu ket qua /api/auth/me (hoac null) va ve lai khu vuc dang nhap tren sidebar
+function setAuth(me){state.auth=me?{role:me.role==='admin'?'admin':'guest',username:me.username||null}:{role:null,username:null};renderSidebarAuth()}
+// Sidebar: admin -> hien MANAGE + Logout; guest -> an MANAGE, nhan "Guest" + nut Sign in as admin
+function renderSidebarAuth(){
+  const el=$('#sidebar-auth');if(!el)return;
+  const mg=$('#manage-group');if(mg)mg.style.display=state.auth.role==='admin'?'':'none';
+  if(state.auth.role==='admin'){
+    el.innerHTML=`<div class="flex items-center justify-between gap-2 min-w-0">
+      <span class="text-[11px] font-bold text-brand-navy truncate">Admin: ${state.auth.username||''}</span>
+      <button id="btn-logout" class="shrink-0 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-[11px] font-semibold text-slate-700 transition">Logout</button></div>`;
+    $('#btn-logout').onclick=async()=>{try{await post('auth/logout')}catch(e){}
+      sessionStorage.removeItem('wc_guest');setAuth(null);go('/login')};
+  }else{
+    const guest=state.auth.role==='guest';
+    el.innerHTML=`<div class="flex items-center justify-between gap-2 min-w-0">
+      <span class="text-[11px] font-bold ${guest?'text-slate-500':'text-slate-400'}">${guest?'Guest':'Not signed in'}</span>
+      <button id="btn-signin" class="shrink-0 px-2.5 py-1 rounded-lg bg-brand-navy text-white text-[11px] font-semibold hover:opacity-90 transition">${guest?'Sign in as admin':'Sign in'}</button></div>`;
+    $('#btn-signin').onclick=()=>go('/login');
+  }
+}
+// Trang /login: nut hien/an mat khau
+$('#btn-toggle-pass').onclick=()=>{const i=$('#login-password');i.type=i.type==='password'?'text':'password';
+  $('#btn-toggle-pass').textContent=i.type==='password'?'👁':'🙈'};
+// Dang nhap: thanh cong -> xoa co guest, luu role admin, ve /matches; that bai -> hien loi ngay duoi form
+$('#form-login').onsubmit=async e=>{e.preventDefault();$('#login-error').classList.add('hidden');
+  try{const me=await post('auth/login',{username:val('login-username'),password:$('#login-password').value});
+    sessionStorage.removeItem('wc_guest');setAuth(me);toast('Signed in as '+me.username,'s');go('/matches')}
+  catch(err){const el=$('#login-error');el.textContent=err.message;el.classList.remove('hidden')}};
+// Visit as guest: khong goi API — quyen chi xem nam o phia server (moi thao tac ghi deu tra 401)
+$('#btn-guest').onclick=()=>{sessionStorage.setItem('wc_guest','1');setAuth({role:'guest',username:null});go('/matches')};
+
 // ---------- Router: moi trang mot duong dan rieng ----------
-const PATH={matches:'/matches',tournament:'/standings',teams:'/teamstats',players:'/playerstats',manage:'/manage',delete:'/delete',update:'/update'};
+const PATH={login:'/login',matches:'/matches',tournament:'/standings',teams:'/teamstats',players:'/playerstats',manage:'/manage',delete:'/delete',update:'/update'};
 const VIEW=Object.fromEntries(Object.entries(PATH).map(([v,u])=>[u.slice(1),v]));
 function go(url,replace){history[replace?'replaceState':'pushState'](null,'',url);route()}
 function route(){
   const [seg,id]=location.pathname.split('/').filter(Boolean),v=VIEW[seg];
+  // Phan quyen phia client (bao mat that nam o middleware server):
+  if(!state.auth.role&&v!=='login')return go('/login',true);                              // chua xac dinh quyen / chua dang nhap -> /login
+  if(state.auth.role==='admin'&&v==='login')return go('/matches',true);                   // da la admin thi khong can trang login
+  if(state.auth.role==='guest'&&MANAGE_VIEWS.has(v)){toast('Admin login required','e');return go('/matches',true)}
   if(!v)return go('/matches',true);
   if(v==='players'&&id)return openPlayer(+id,false);
   if(v==='teams'&&id)state.teamId=+id;
   show(v);
 }
 addEventListener('popstate',route);
-route();
+// Khoi dong: hoi server phien con han khong (cookie wc_token). 401 -> co 'wc_guest' trong sessionStorage
+// thi vao voi role guest, khong thi ve /login
+(async()=>{try{setAuth(await api('auth/me'))}
+  catch(e){setAuth(null);
+    if(sessionStorage.getItem('wc_guest')==='1')setAuth({role:'guest',username:null})}
+  route();})();
 
 // ---------- Thanh thong so: chay tu 0 -> gia tri khi vua hien ra ----------
 new MutationObserver(()=>{

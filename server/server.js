@@ -1,6 +1,14 @@
 require('dotenv').config();
-const express = require('express'), cors = require('cors'), sql = require('mssql'), path = require('path');
-const app = express(); app.use(cors()); app.use(express.json());
+// JWT_SECRET bat buoc (toi thieu 32 ky tu) de token khong the doan — thieu thi thoat ngay
+if (!process.env.JWT_SECRET || process.env.JWT_SECRET.length < 32) {
+  console.error('Loi cau hinh: JWT_SECRET thieu hoac ngan hon 32 ky tu. Them JWT_SECRET=<chuoi ngau nhien> vao server/.env');
+  process.exit(1);
+}
+const express = require('express'), sql = require('mssql'), path = require('path'),
+      jwt = require('jsonwebtoken'), bcrypt = require('bcryptjs'), cookieParser = require('cookie-parser');
+const app = express(); app.set('trust proxy', 1);   // lay dung IP client khi server nam sau Nginx
+// Bo cors(): frontend duoc phuc vu cung server nen khong can CORS; tat di de cookie dang nhap khong bi site khac loi dung
+app.use(express.json()); app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 const cfg = { server: process.env.DB_SERVER, database: process.env.DB_NAME || 'WorldCup26_db',
@@ -28,6 +36,53 @@ const spError = e => {
 };
 const wrap = fn => (req, res) => fn(req, res).catch(e => { e = spError(e); res.status(e.status || 500).json({ error: e.message }); });
 const bad = m => Object.assign(new Error(m), { status: 400 });   // loi do nguoi dung nhap sai -> HTTP 400
+
+// ---------- AUTH: JWT trong cookie httpOnly, chi admin moi duoc ghi du lieu ----------
+const JWT_COOKIE = 'wc_token',
+      COOKIE_OPTS = { httpOnly: true, sameSite: 'lax', secure: process.env.COOKIE_SECURE === 'true',
+        maxAge: (+(process.env.JWT_EXPIRES_HOURS || 8)) * 3600000 };
+const jwtSign = u => jwt.sign({ id: u.user_id, username: u.username, role: u.role }, process.env.JWT_SECRET,
+  { expiresIn: (+(process.env.JWT_EXPIRES_HOURS || 8)) + 'h' });
+const jwtVerify = t => { try { return jwt.verify(t || '', process.env.JWT_SECRET); } catch { return null; } };
+
+// Gioi han dang nhap sai theo IP (bo dem trong bo nho): sai du 5 lan trong cua so 10 phut -> chan den het cua so
+const FAIL_WINDOW = 10 * 60 * 1000, FAIL_MAX = 5, loginFails = new Map();
+const loginBlocked = ip => { const f = loginFails.get(ip); return f && f.lockUntil > Date.now(); };
+const noteFail = ip => { const now = Date.now(); let f = loginFails.get(ip);
+  if (!f || now - f.t0 > FAIL_WINDOW) f = { n: 0, t0: now };
+  if (++f.n >= FAIL_MAX) f.lockUntil = f.t0 + FAIL_WINDOW;
+  loginFails.set(ip, f); };
+
+// Chi admin duoc di qua; khong co/sai token -> 401, token hop le nhung khong phai admin -> 403
+const requireAdmin = (req, res, next) => { const p = jwtVerify(req.cookies[JWT_COOKIE]);
+  if (!p) return res.status(401).json({ error: 'Login required' });
+  if (p.role !== 'admin') return res.status(403).json({ error: 'Admin role required' });
+  req.user = p; next(); };
+
+// Chan TAT CA method ghi (POST/PUT/PATCH/DELETE) duoi /api, tru /api/auth/* -> khong the sot route ghi nao
+app.use('/api', (req, res, next) => (req.method !== 'GET' && req.method !== 'HEAD' && !req.path.startsWith('/auth/')
+  ? requireAdmin(req, res, next) : next()));
+
+// Hash gia de luon bcrypt.compare 1 lan ca khi khong tim thay user -> thoi gian phan hoi khong lo username co ton tai
+const FAKE_HASH = bcrypt.hashSync('wc26-timing-equalizer', 12);
+
+app.post('/api/auth/login', wrap(async (req, res) => {
+  const ip = req.ip;
+  if (loginBlocked(ip)) throw Object.assign(new Error('Too many attempts, try again later'), { status: 429 });
+  const username = str(req.body && req.body.username), password = String((req.body || {}).password ?? '');
+  if (!username || !password) throw bad('Username and password are required');
+  const [user] = await q('SELECT user_id, username, password_hash, role FROM users WHERE username = @u', { u: username });
+  const ok = await bcrypt.compare(password, user ? user.password_hash : FAKE_HASH);
+  if (!user || !ok) { noteFail(ip); throw Object.assign(new Error('Invalid username or password'), { status: 401 }); }
+  loginFails.delete(ip);
+  res.cookie(JWT_COOKIE, jwtSign(user), COOKIE_OPTS);
+  res.json({ username: user.username, role: user.role });
+}));
+
+app.post('/api/auth/logout', (req, res) => { res.clearCookie(JWT_COOKIE); res.json({ ok: true }); });
+
+app.get('/api/auth/me', (req, res) => { const p = jwtVerify(req.cookies[JWT_COOKIE]);
+  p ? res.json({ username: p.username, role: p.role }) : res.status(401).json({ error: 'Login required' }); });
 
 app.get('/api/stages', wrap(async (req, res) =>
   res.json((await q('SELECT stage_name FROM tournament_stages ORDER BY stage_id')).map(r => r.stage_name))));
@@ -93,8 +148,8 @@ app.get('/api/players/:id', wrap(async (req, res) => {
   p ? res.json(p) : res.status(404).json({ error: 'Not found' });
 }));
 
-// GET /api/next-ids : ID ke tiep (MAX+1) de dien san vao form Create Data
-app.get('/api/next-ids', wrap(async (req, res) => res.json((await q(`SELECT
+// GET /api/next-ids : ID ke tiep (MAX+1) de dien san vao form Create Data (chi admin)
+app.get('/api/next-ids', requireAdmin, wrap(async (req, res) => res.json((await q(`SELECT
   (SELECT ISNULL(MAX(team_id), 0) + 1 FROM teams) team_id,
   (SELECT ISNULL(MAX(player_id), 0) + 1 FROM player_squads) player_id,
   (SELECT ISNULL(MAX(match_id), 0) + 1 FROM matches) match_id`))[0])));
@@ -148,8 +203,8 @@ const playerImpact = async id => (await q(`SELECT
   (SELECT COUNT(*) FROM match_team_lineups WHERE player_id=@id) lineups,
   (SELECT COUNT(*) FROM matches WHERE player_of_the_match_id=@id) pom`, { id }))[0];
 
-// GET /api/teams/:id/impact : xem truoc se xoa bao nhieu du lieu
-app.get('/api/teams/:id/impact', wrap(async (req, res) => {
+// GET /api/teams/:id/impact : xem truoc se xoa bao nhieu du lieu (chi admin)
+app.get('/api/teams/:id/impact', requireAdmin, wrap(async (req, res) => {
   const id = +req.params.id;
   if (!(await q('SELECT 1 x FROM teams WHERE team_id=@id', { id })).length) return res.status(404).json({ error: 'Team not found' });
   res.json(await teamImpact(id));
@@ -161,8 +216,8 @@ app.delete('/api/teams/:id', wrap(async (req, res) => {
   res.json({ team_name: r.team_name, players: r.players_deleted, matches: r.matches_deleted });
 }));
 
-// GET /api/players/:id/impact
-app.get('/api/players/:id/impact', wrap(async (req, res) => {
+// GET /api/players/:id/impact (chi admin)
+app.get('/api/players/:id/impact', requireAdmin, wrap(async (req, res) => {
   const id = +req.params.id;
   if (!(await q('SELECT 1 x FROM player_squads WHERE player_id=@id', { id })).length) return res.status(404).json({ error: 'Player not found' });
   res.json(await playerImpact(id));
@@ -180,8 +235,8 @@ const matchImpact = async id => (await q(`SELECT
   (SELECT COUNT(*) FROM match_team_lineups WHERE match_id=@id) lineups,
   (SELECT COUNT(*) FROM match_team_statistics WHERE match_id=@id) stats`, { id }))[0];
 
-// GET /api/matches/:id/impact : xem truoc se xoa bao nhieu du lieu lien quan
-app.get('/api/matches/:id/impact', wrap(async (req, res) => {
+// GET /api/matches/:id/impact : xem truoc se xoa bao nhieu du lieu lien quan (chi admin)
+app.get('/api/matches/:id/impact', requireAdmin, wrap(async (req, res) => {
   const id = +req.params.id;
   if (!(await q('SELECT 1 x FROM matches WHERE match_id=@id', { id })).length) return res.status(404).json({ error: 'Match not found' });
   res.json(await matchImpact(id));
@@ -194,8 +249,8 @@ app.delete('/api/matches/:id', wrap(async (req, res) => {
 }));
 
 // ---------- CREATE MATCH ----------
-// GET /api/lookups : du lieu cho cac dropdown (stage, stadium, referee)
-app.get('/api/lookups', wrap(async (req, res) => res.json({
+// GET /api/lookups : du lieu cho cac dropdown (stage, stadium, referee) — chi admin
+app.get('/api/lookups', requireAdmin, wrap(async (req, res) => res.json({
   stages: await q('SELECT stage_id, stage_name FROM tournament_stages ORDER BY stage_id'),
   stadiums: await q('SELECT stadium_id, stadium_name, city FROM stadiums ORDER BY stadium_name'),
   referees: await q('SELECT referee_id, referee_name, country FROM referees ORDER BY referee_name') })));
@@ -241,8 +296,8 @@ app.put('/api/players/:id', wrap(async (req, res) => {
   res.json({ player_id: p.player_id, player_name: p.player_name });
 }));
 
-// SPA: cac duong dan sach cung tra ve index.html (dat SAU cac route /api)
-const PAGES=['matches','standings','teamstats','playerstats','manage','delete','update'];
+// SPA: cac duong dan sach cung tra ve index.html (dat SAU cac route /api); 'login' la trang dang nhap
+const PAGES=['login','matches','standings','teamstats','playerstats','manage','delete','update'];
 app.get([...PAGES.map(p=>'/'+p),...PAGES.map(p=>`/${p}/:id`)],(req,res)=>res.sendFile(path.join(__dirname,'..','public','index.html')));
 
 const port = process.env.PORT || 3000;
