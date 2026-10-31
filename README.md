@@ -32,7 +32,8 @@ wc26_management/
 │   └── match_team_statistics.csv
 │
 ├── server/                           
-│   ├── server.js                     # REST API, kết nối SQL Server
+│   ├── server.js                     # REST API, JWT auth, kết nối SQL Server
+│   ├── create_admin.js               # Tạo bảng users + tài khoản admin (bcrypt)
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── .env.example                                          
@@ -44,12 +45,13 @@ wc26_management/
 │   ├── wc2026-logo.png
 │   └── logo-ptit.png
 │   
-├── sql/                          # Tạo database, 11 bảng, nạp dữ liệu từ CSV
+├── sql/                          # Tạo database, các bảng (kèm users), nạp dữ liệu từ CSV
 │   ├── init.sql                    
 │   ├── view.sql                        
 │   ├── function.sql                   
 │   ├── procedure.sql
-│   └── query.sql
+│   ├── query.sql
+│   └── auth.sql                      # Bảng users cho đăng nhập (admin)
 │                       
 ├── prepare_data.py                   
 ├── update_data.py                    
@@ -71,6 +73,13 @@ config:
   theme: forest
 ---
 erDiagram
+	users {
+		int user_id PK
+		string username
+		string password_hash
+		string role
+		datetime created_at
+	}
 	referees {
 		int referee_id PK   
 		string referee_name 
@@ -458,6 +467,18 @@ Mỗi thực thể (bảng) được mô tả bằng một bảng thuộc tính.
 | `saves` | int |  | DEFAULT 0 |
 | `player_of_the_match` | nvarchar(100) |  |  |
 
+#### `12. users`
+
+📄 Tạo bởi `sql/auth.sql` — Tài khoản đăng nhập admin. Bảng độc lập, không có khóa ngoại liên quan đến dữ liệu giải đấu; mật khẩu chỉ lưu dạng **bcrypt hash**.
+
+| Thuộc tính | Kiểu dữ liệu | Khóa | Ràng buộc / Ghi chú |
+|---|---|:---:|---|
+| `user_id` | int | **PK** | IDENTITY(1,1) |
+| `username` | nvarchar(50) |  | NOT NULL · UNIQUE |
+| `password_hash` | nvarchar(100) |  | NOT NULL · bcrypt cost 12 |
+| `role` | nvarchar(20) |  | NOT NULL · DEFAULT 'admin' |
+| `created_at` | datetime2 |  | DEFAULT sysutcdatetime() |
+
 
 ### 🛠️ Các đối tượng trong CSDL
 
@@ -500,6 +521,7 @@ Mỗi thực thể (bảng) được mô tả bằng một bảng thuộc tính.
 | 3 | `view.sql` | Tạo View |
 | 4 | `function.sql` | Tạo Function |
 | 5 | `procedure.sql` | Tạo Stored - Procedure |
+| 6 | `auth.sql` | Tạo bảng `users` cho đăng nhập — hoặc để `create_admin.js` tự tạo khi chạy |
 
 ### 🚀 4.3 Chạy ứng dụng web
 
@@ -507,7 +529,7 @@ Mỗi thực thể (bảng) được mô tả bằng một bảng thuộc tính.
 
 ```bash
 cd D:\wc26_management\server
-npm install express cors mssql dotenv
+npm install express mssql dotenv bcryptjs jsonwebtoken cookie-parser
 ```
 
 **2️⃣ Bước 2. Tạo file `.env`**
@@ -517,24 +539,41 @@ DB_SERVER=localhost
 DB_NAME=WorldCup26_db
 DB_USER= sa
 DB_PASSWORD= your_password
+JWT_SECRET= chuoi_ngau_nhien_it_nhat_32_ky_tu
+JWT_EXPIRES_HOURS= 8
+COOKIE_SECURE= false
 # DB_PORT=1433        
 # PORT=3000           
 ```
 
 Nếu dùng named instance (ví dụ `localhost\SQLEXPRESS`), điền vào `DB_SERVER` đúng tên instance đó.
 
-**3️⃣ Bước 3. Khởi động server**
+Server sẽ **từ chối khởi động** nếu thiếu `JWT_SECRET` hoặc `JWT_SECRET` ngắn hơn 32 ký tự — hãy tạo một chuỗi ngẫu nhiên và chỉ đặt trong `.env` (đã bị gitignore, không ghi vào `.env.example`). Khi triển khai sau Nginx với HTTPS, đặt `COOKIE_SECURE=true`.
+
+**3️⃣ Bước 3. Tạo tài khoản admin**
+
+```powershell
+# PowerShell — trong thư mục server
+$env:ADMIN_USER = "admin"
+$env:ADMIN_PASSWORD = "mat_khau_it_nhat_8_ky_tu"
+node create_admin.js
+```
+
+Tự tạo bảng `users` nếu chưa có; username đã tồn tại thì cập nhật mật khẩu (chạy lại để đổi mật khẩu). Mật khẩu được băm bcrypt cost 12, đọc từ biến môi trường và không in ra log.
+
+**4️⃣ Bước 4. Khởi động server**
 
 ```bash
 node server.js
 ```
 
-**4️⃣ Bước 4. Mở trình duyệt:** 
+**5️⃣ Bước 5. Mở trình duyệt:** 
 
 ### 🖥️ 4.4 Cách sử dụng
 
 | Màn hình | Chức năng |
 |---|---|
+| 🔐 Sign in | Đăng nhập admin bằng username + mật khẩu, hoặc **Visit as guest** để chỉ xem dữ liệu |
 | 📅 Match Results | Xem lịch thi đấu và kết quả theo vòng đấu / bảng đấu, mở Match Center của từng trận |
 | 🏆 Standings | Bảng xếp hạng từng bảng vòng bảng |
 | 📊 Team Stats | Thống kê đội, đội hình, phong độ gần đây |
@@ -545,6 +584,8 @@ node server.js
 
 Thứ tự thao tác nên theo khóa ngoại: **Create / Update:** đội → cầu thủ → trận. **Delete:** cầu thủ → đội → trận.
 
+Chỉ admin đăng nhập mới thấy nhóm **MANAGE** (Create / Update / Delete); guest và khách truy cập chỉ xem được các màn hình tra cứu. Nút **Logout** nằm ngay trên footer của sidebar.
+
 ### 🔌 4.5 Một số API chính
 
 | Method | Đường dẫn | Procedure / đối tượng dùng |
@@ -554,12 +595,17 @@ Thứ tự thao tác nên theo khóa ngoại: **Create / Update:** đội → c�
 | `DELETE` | `/api/players/:id`, `/api/teams/:id`, `/api/matches/:id` (`?force=1`) | `sp_delete_player`, `sp_delete_team`, `sp_delete_match` |
 | `GET` | `/api/standings/:group` | `fn_group_standings` |
 | `GET` | `/api/next-ids` | ID kế tiếp cho form Create Data |
+| `POST` | `/api/auth/login`, `/api/auth/logout` | Đăng nhập / đăng xuất — bcrypt + JWT trong cookie httpOnly `wc_token` |
+| `GET` | `/api/auth/me` | Thông tin phiên đăng nhập hiện tại |
+
+> 🔐 **Phân quyền:** mọi route ghi (POST / PUT / DELETE) và các GET quản trị (`/api/next-ids`, `/api/lookups`, `/api/*/impact`) yêu cầu đã đăng nhập admin; các route đọc còn lại công khai. Sai mật khẩu 5 lần trong 10 phút sẽ bị tạm khóa (HTTP 429).
 
 ---
 
 ## 🌐 Tính năng chính
 
 - 📅 Xem lịch thi đấu, kết quả, bảng xếp hạng, thống kê đội và cầu thủ.
+- 🔐 Đăng nhập admin: bcrypt + JWT trong cookie httpOnly, khóa tạm sau 5 lần sai trong 10 phút; khách chọn "Visit as guest" chỉ được xem, mọi thao tác thêm/sửa/xóa bị chặn ở API.
 - ➕ Thêm / ✏️ sửa / 🗑️ xóa đội, cầu thủ, trận đấu qua stored procedure, có kiểm tra ràng buộc nghiệp vụ và transaction.
 - 🗑️ Xóa có kiểm soát: báo trước số dữ liệu liên quan, chỉ xóa kèm khi người dùng xác nhận (`@force`).
 - ✨ Thông báo thành công bằng animation (toast + viền sáng quanh card).
